@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Mp2451") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Mp2451.pretty") (options "") (descr ""))
+)
