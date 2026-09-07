@@ -1,0 +1,19 @@
+2026-09-06 22:30:26,643 - root - INFO - Running CAMmer
+2026-09-06 22:30:26,644 - root - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2026-09-06 22:30:26,645 - root - INFO - CAMMER START: 2026-09-06T22:30:26.645260
+2026-09-06 22:30:28,664 - root - INFO - 
+START: 2026-09-06T22:30:26.645253
+Board saved by user.
+Zones filled by CAMmer.
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-F_Cu.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GTL
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-B_Cu.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GBL
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-F_Paste.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GTP
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-B_Paste.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GBP
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-F_Silkscreen.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GTO
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-B_Silkscreen.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GBO
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-F_Mask.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GTS
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-B_Mask.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GBS
+Renaming /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072-Edge_Cuts.gbr to /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Stm32f072.GKO
+Drill report: /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/drill_report.rpt
+
+2026-09-06 22:30:31,400 - root - INFO - CAMmer complete

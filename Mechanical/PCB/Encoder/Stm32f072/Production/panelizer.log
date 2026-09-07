@@ -1,0 +1,13 @@
+2026-09-06 22:30:55,295 - root - INFO - Running Panelizer
+2026-09-06 22:30:55,296 - root - INFO - ['--panelx', '5.500000', '--panely', '7.500000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000']
+2026-09-06 22:30:55,297 - root - INFO - PANELIZER START: 2026-09-06T22:30:55.297012
+2026-09-06 22:30:56,669 - root - ERROR - 
+START: 2026-09-06T22:30:55.297004
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: /home/tuan/Robot-6-DOF/Mechanical/PCB/Encoder/Stm32f072/Production/Stm32f072_panelized.kicad_pcb
+Board dimensions: 42.00 x 42.00 mm.
+Panel size is too small for board. Quitting.
+
+2026-09-06 22:31:05,500 - root - INFO - Panelizer complete
