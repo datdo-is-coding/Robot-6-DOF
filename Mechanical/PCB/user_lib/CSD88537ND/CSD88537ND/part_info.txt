@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=CSD88537ND
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2018-08-26 18:52:18
+Downloaded=2026-09-09 03:49:13
+3D=Y
