@@ -1,11 +1,15 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
+<<<<<<< HEAD
     "high_contrast_mode": 0,
+=======
+    "high_contrast_mode": 1,
+>>>>>>> 28003b371906512bfa0c9946768e73609c8b58fb
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -33,6 +37,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",

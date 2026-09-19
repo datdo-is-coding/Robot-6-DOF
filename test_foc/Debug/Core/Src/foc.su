@@ -1,0 +1,17 @@
+../Core/Src/foc.c:31:21:_constrainf	24	static
+../Core/Src/foc.c:41:21:_normalizeAngle	24	static
+../Core/Src/foc.c:53:10:MT6701_SPI_ReadRaw	40	static
+../Core/Src/foc.c:103:13:_FOC_WritePWM	64	static
+../Core/Src/foc.c:131:6:PID_Init	32	static
+../Core/Src/foc.c:142:7:PID_Update	40	static
+../Core/Src/foc.c:162:6:PID_Reset	16	static
+../Core/Src/foc.c:171:6:Encoder_Update	48	static
+../Core/Src/foc.c:225:6:FOC_Init	24	static
+../Core/Src/foc.c:269:14:_averageAngle10	32	static
+../Core/Src/foc.c:291:6:FOC_Calibrate	80	static
+../Core/Src/foc.c:419:6:FOC_SetVelocity	16	static
+../Core/Src/foc.c:432:6:FOC_SetTorque	16	static
+../Core/Src/foc.c:441:6:FOC_RunOpenLoop	24	static
+../Core/Src/foc.c:451:6:FOC_Loop	40	static
+../Core/Src/foc.c:522:6:FOC_Disable	16	static
+../Core/Src/foc.c:538:6:FOC_SetVelocityPID	24	static

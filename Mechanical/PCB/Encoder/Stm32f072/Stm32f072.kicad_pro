@@ -680,7 +680,7 @@
         "uuid": "26f98233-16b7-49a3-9e43-8536ae596574"
       }
     ],
-    "used_designators": "24VIN1,D_TVS1,Debug1,CAN1-2,L1,SW1-2,IC1,JP1-3,TP1,R1-12,J1-16,10K1,C1-23,PTC1,Y1-2,#PWR1-57,D1-6,U1-9",
+    "used_designators": "C1-23,10K1,J1-16,IC1,SW1-2,24VIN1,U1-9,D1-6,CAN1-2,#PWR1-57,Y1-2,PTC1,JP1-3,TP1,R1-12,D_TVS1,Debug1,L1",
     "variants": []
   },
   "sheets": [
