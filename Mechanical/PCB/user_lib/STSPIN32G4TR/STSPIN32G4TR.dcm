@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STSPIN32G4TR
+D High performance 3-phase motor controller with embedded STM32G4 MCU
+K
+F https://www.st.com/resource/en/datasheet/stspin32g4.pdf
+$ENDCMP
+#
+#End Doc Library

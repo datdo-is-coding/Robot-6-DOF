@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "31cc1874-acb2-479d-a8f8-086af5383f37")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 123.19 69.85)
+		(size 57.15 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5e4c0d03-4328-4b3e-8218-fd1c5756874d")
+		(property "Sheetname" "Three_phase"
+			(at 123.19 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "threephase.kicad_sch"
+			(at 123.19 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_Board"
+				(path "/31cc1874-acb2-479d-a8f8-086af5383f37"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 69.85)
+		(size 41.91 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f8fb0bd9-dd2c-48ca-94a6-e0782b4e0f52")
+		(property "Sheetname" "MCU"
+			(at 62.23 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 62.23 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_Board"
+				(path "/31cc1874-acb2-479d-a8f8-086af5383f37"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

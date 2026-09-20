@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD88537ND
+D 60-V Dual N-Channel NexFET Power MOSFET, CSD88537ND
+K
+F http://www.ti.com/lit/gpn/csd88537nd
+$ENDCMP
+#
+#End Doc Library

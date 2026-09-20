@@ -20,6 +20,7 @@
       "dimensions": true,
       "footprints": true,
       "graphics": true,
+<<<<<<< HEAD
       "keepouts": true,
       "lockedItems": true,
       "otherItems": true,
@@ -28,6 +29,16 @@
       "tracks": true,
       "vias": true,
       "zones": true
+=======
+      "keepouts": false,
+      "lockedItems": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
+      "tracks": false,
+      "vias": false,
+      "zones": false
+>>>>>>> 38348938eda58a5942651798f6fdf4f8410f8e4c
     },
     "visible_items": [
       "vias",

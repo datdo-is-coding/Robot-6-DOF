@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CSD88537ND"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-08-02-10:06:46)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)
