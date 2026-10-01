@@ -59,12 +59,16 @@ static void _SinCos_Init(void)
 static float _fast_sin(float angle)
 {
     float idx_f = angle * SINCOS_RAD_TO_IDX;
-    int idx = (int)idx_f;
-    float frac = idx_f - (float)idx;
+    /* FIX: Dung floorf thay vi (int) de xu ly goc am dung.
+     * (int) truncate ve 0 (vd: (int)(-0.3) = 0), con floorf lam tron xuong (vd: floorf(-0.3) = -1).
+     * Khi dung (int), frac co the AM -> noi suy sai -> sin/cos sai -> motor bi ghim dien.
+     */
+    int idx = (int)floorf(idx_f);
+    float frac = idx_f - (float)idx;   /* Luon >= 0 nho floorf */
 
-    /* Wrap index ve [0, 511] */
-    int i0 = idx & SINCOS_INDEX_MASK;
-    int i1 = (idx + 1) & SINCOS_INDEX_MASK;
+    /* Wrap index ve [0, 511] - dung modulo an toan cho so am */
+    int i0 = ((idx % SINCOS_TABLE_SIZE) + SINCOS_TABLE_SIZE) % SINCOS_TABLE_SIZE;
+    int i1 = (i0 + 1) & SINCOS_INDEX_MASK;
 
     /* Noi suy tuyen tinh */
     return _sin_table[i0] + frac * (_sin_table[i1] - _sin_table[i0]);
@@ -185,6 +189,10 @@ uint16_t MT6701_SPI_ReadRaw(Encoder_MT6701_t *enc)
  * ================================================================ */
 static void _FOC_WritePWM(float Uq, float Ud, float angle_el, float v_supply)
 {
+    /* FIX: Dam bao angle_el luon trong [0, 2*PI) truoc khi tinh sin/cos
+     * Tranh truong hop goc am lot vao _fast_sin/_fast_cos */
+    angle_el = _normalizeAngle(angle_el);
+
     /* Su dung fast lookup table thay vi cosf/sinf */
     float cos_a = _fast_cos(angle_el);
     float sin_a = _fast_sin(angle_el);
