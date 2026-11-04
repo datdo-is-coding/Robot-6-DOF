@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1ec92d8c-fa9c-4b6c-825b-09cf774a7d38")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 96.52 71.12)
+		(size 15.24 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2306c1c5-36a0-469b-9943-a10ae4adebec")
+		(property "Sheetname" "Power"
+			(at 96.52 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr.kicad_sch"
+			(at 96.52 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_v3_405_8323"
+				(path "/1ec92d8c-fa9c-4b6c-825b-09cf774a7d38"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 71.12)
+		(size 15.24 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e8e6ea04-1baa-437b-8efc-b239bffcb6cc")
+		(property "Sheetname" "Communication"
+			(at 147.32 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comm.kicad_sch"
+			(at 147.32 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_v3_405_8323"
+				(path "/1ec92d8c-fa9c-4b6c-825b-09cf774a7d38"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 71.12)
+		(size 15.24 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f3704bc2-ab00-449c-9085-51489be9797e")
+		(property "Sheetname" "f405"
+			(at 73.66 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "f405.kicad_sch"
+			(at 73.66 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_v3_405_8323"
+				(path "/1ec92d8c-fa9c-4b6c-825b-09cf774a7d38"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 71.12)
+		(size 17.78 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fce94c78-5c13-435b-bd38-2dfcfe13badf")
+		(property "Sheetname" "GateDrv"
+			(at 119.38 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gatedr.kicad_sch"
+			(at 119.38 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_v3_405_8323"
+				(path "/1ec92d8c-fa9c-4b6c-825b-09cf774a7d38"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

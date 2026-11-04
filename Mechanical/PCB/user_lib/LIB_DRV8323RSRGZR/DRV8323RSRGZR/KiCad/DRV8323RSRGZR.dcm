@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8323RSRGZR
+D 60V Three-Phase Smart Gate Driver With Buck Regulator and Three Current Shunt Amplifiers
+K
+F http://www.ti.com/lit/gpn/drv8323r
+$ENDCMP
+#
+#End Doc Library
