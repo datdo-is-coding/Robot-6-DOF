@@ -65,26 +65,25 @@
 /* USER CODE BEGIN PV */
 
 /* ===========================================================
- *  CHE DO HOAT DONG - Mac dinh khi reset chip: MODE 1 (FOC VELOCITY)
+ *  CHE DO HOAT DONG - Mac dinh khi reset chip: MODE 0 (OPEN-LOOP)
  *  Co the thay doi qua Live Expressions / Debugger bat cu luc nao.
  *
- *  cmd_mode = 1 : FOC VELOCITY (Closed-Loop toc do) - [MAC DINH]
- *                 Reset chip -> doi 1s -> tu calibrate -> quay FOC toc do cmd_target_velocity
- *  cmd_mode = 0 : OPEN-LOOP (khong can encoder)
- *                 Dung de test phan cung cong suat
+ *  cmd_mode = 0 : OPEN-LOOP (khong can encoder / khong can calibrate) - [MAC DINH]
+ *                 Reset chip -> chay ngay Open-Loop mượt mà
+ *  cmd_mode = 1 : FOC VELOCITY (Closed-Loop toc do)
  * =========================================================== */
-volatile uint8_t cmd_mode = 1;              /* 0 = Open-Loop, 1 = FOC Velocity [MAC DINH], 2 = FOC Torque/Voltage */
+volatile uint8_t cmd_mode = 0;              /* 0 = Open-Loop [MAC DINH], 1 = FOC Velocity, 2 = FOC Torque/Voltage */
 volatile uint8_t cmd_recalibrate = 0;       /* Dat = 1 trong Live Expressions de calibrate lai */
 
 /* VELOCITY CONTROL (mode 1) */
 volatile float cmd_target_velocity = 5.0f;  /* Van toc muc tieu (rad/s). 5 rad/s ~ 48 RPM */
 
-/* TORQUE / VOLTAGE CONTROL (mode 2 - Test FOC truc tiep khong qua PID) */
-volatile float cmd_target_Uq = 1.5f;        /* Dien ap Uq (V) - dat 1.5V dong co se quay tron em */
+/* TORQUE / VOLTAGE CONTROL (mode 2) */
+volatile float cmd_target_Uq = 1.5f;        /* Dien ap Uq (V) */
 
-/* OPEN-LOOP (mode 0) */
-volatile float cmd_openloop_voltage  = 2.0f;  /* Dien ap Uq (V) */
-volatile float cmd_openloop_velocity = 3.0f;  /* Toc do quay (rad/s) */
+/* OPEN-LOOP (mode 0 - MAC DINH) */
+volatile float cmd_openloop_voltage  = 3.0f;  /* Dien ap Uq (3.0V chay khoe va em) */
+volatile float cmd_openloop_velocity = 100.0f;  /* Toc do quay (5.0 rad/s ~ 48 RPM) */
 
 /* Ghi de chieu quay thu cong neu can (0 = auto theo calib, 1 = CW, -1 = CCW) */
 volatile int8_t cmd_direction_override = 0;
