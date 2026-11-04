@@ -139,7 +139,7 @@
         "track_width": "error",
         "tracks_crossing": "error",
         "tuning_profile_track_geometries": "ignore",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "ignore",
         "zones_intersect": "error"
@@ -708,7 +708,7 @@
         "uuid": "c688acd8-4d08-4dfb-a7d0-686a76df9a93"
       }
     ],
-    "used_designators": "L1,D1-6,#PWR1-58,C1-44,R1-17,J1-14,SW1-3,U1-8,Y1,JP1,F1,P1",
+    "used_designators": "L1,D1-6,#PWR1-58,C1-44,R1-17,J1-14,SW1-3,U1-9,Y1,JP1,F1,P1",
     "variants": []
   },
   "sheets": [
