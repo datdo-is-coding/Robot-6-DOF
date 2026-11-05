@@ -1,0 +1,6 @@
+/home/tuan/STM32CubeIDE/workspace_1.19.0/FOC_PMSM_G473/App_User/MotorControl/foc_math.h:28:20:InvPark_Transform	32	static
+../App_User/MotorControl/foc_core.c:7:6:FOC_Init	8	static
+../App_User/MotorControl/foc_core.c:50:6:FOC_SetHome	4	static
+../App_User/MotorControl/foc_core.c:59:6:FOC_AlignSensor	40	static
+../App_User/MotorControl/foc_core.c:122:6:FOC_CurrentLoop_ISR	40	static
+../App_User/MotorControl/foc_core.c:150:6:FOC_MotionLoop	56	static

@@ -1,0 +1,5 @@
+../Core/Src/comp.c:32:6:MX_COMP1_Init	2
+../Core/Src/comp.c:59:6:MX_COMP2_Init	2
+../Core/Src/comp.c:86:6:MX_COMP3_Init	2
+../Core/Src/comp.c:113:6:HAL_COMP_MspInit	4
+../Core/Src/comp.c:176:6:HAL_COMP_MspDeInit	4

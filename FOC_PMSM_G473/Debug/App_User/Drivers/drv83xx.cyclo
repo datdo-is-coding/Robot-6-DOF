@@ -1,0 +1,3 @@
+../App_User/Drivers/drv83xx.c:4:9:DRV_Init	1
+../App_User/Drivers/drv83xx.c:28:6:DRV_WriteReg	1
+../App_User/Drivers/drv83xx.c:38:10:DRV_ReadReg	1

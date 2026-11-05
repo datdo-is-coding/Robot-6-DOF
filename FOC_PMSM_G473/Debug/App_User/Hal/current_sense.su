@@ -1,0 +1,5 @@
+/home/tuan/STM32CubeIDE/workspace_1.19.0/FOC_PMSM_G473/App_User/MotorControl/foc_math.h:14:20:Clarke_Transform	24	static
+/home/tuan/STM32CubeIDE/workspace_1.19.0/FOC_PMSM_G473/App_User/MotorControl/foc_math.h:21:20:Park_Transform	32	static
+../App_User/Hal/current_sense.c:7:6:CurrentSense_Init	4	static
+../App_User/Hal/current_sense.c:19:6:CurrentSense_CalibrateOffset	24	static
+../App_User/Hal/current_sense.c:43:6:CurrentSense_Read	24	static

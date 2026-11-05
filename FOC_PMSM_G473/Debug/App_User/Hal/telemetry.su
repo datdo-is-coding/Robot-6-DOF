@@ -1,0 +1,4 @@
+../App_User/Hal/telemetry.c:15:6:Telemetry_Init	4	static
+../App_User/Hal/telemetry.c:17:6:Telemetry_Send	128	static
+../App_User/Hal/telemetry.c:46:13:Telemetry_ParseCommand	48	static
+../App_User/Hal/telemetry.c:97:6:Telemetry_ProcessRxByte	16	static

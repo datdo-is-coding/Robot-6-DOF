@@ -1,0 +1,3 @@
+../App_User/Drivers/drv83xx.c:4:9:DRV_Init	16	static
+../App_User/Drivers/drv83xx.c:28:6:DRV_WriteReg	24	static
+../App_User/Drivers/drv83xx.c:38:10:DRV_ReadReg	32	static
