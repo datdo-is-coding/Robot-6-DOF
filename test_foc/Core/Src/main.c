@@ -51,7 +51,7 @@
 #define VOLTAGE_LIMIT       3.5f
 
 /* Van toc toi da mac dinh khi di chuyen (rad/s) */
-#define DEFAULT_MAX_VELOCITY  10.0f
+#define DEFAULT_MAX_VELOCITY  30.0f
 
 /* USER CODE END PD */
 
@@ -76,7 +76,7 @@ volatile uint8_t cmd_mode = 0;              /* 0 = Open-Loop [MAC DINH], 1 = FOC
 volatile uint8_t cmd_recalibrate = 0;       /* Dat = 1 trong Live Expressions de calibrate lai */
 
 /* VELOCITY CONTROL (mode 1) */
-volatile float cmd_target_velocity = 5.0f;  /* Van toc muc tieu (rad/s). 5 rad/s ~ 48 RPM */
+volatile float cmd_target_velocity = 50.0f;  /* Van toc muc tieu (rad/s). 5 rad/s ~ 48 RPM */
 
 /* TORQUE / VOLTAGE CONTROL (mode 2) */
 volatile float cmd_target_Uq = 1.5f;        /* Dien ap Uq (V) */
