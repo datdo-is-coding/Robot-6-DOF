@@ -1,0 +1,34 @@
+{
+  "published_files": [
+    "hall.kicad_sch",
+    "gatedrv.kicad_sch",
+    "MCU.kicad_sch",
+    "foc_v2.kicad_pro",
+    "foc_v2.kicad_pcb",
+    "fp-lib-table",
+    "foc_v2.pretty/AMASS_XT30PW-M_Edge_NoSilk.kicad_mod",
+    "foc_v2.pretty/MA730_QFN16_3x3.kicad_mod",
+    "foc_v2.pretty/NetTie_Kelvin.kicad_mod",
+    "VIPPO_REQUIRED.csv",
+    "FABRICATION_NOTES.md"
+  ],
+  "sha256": {
+    "hall.kicad_sch": "279c3c627ab8a86e29e866f2c7c45d0a205577bc85a8c461b1d524880880770b",
+    "gatedrv.kicad_sch": "18939f514b7f0f7d05701112b4c75bd8e5b87a16dba74bf0f2c1585075786d28",
+    "MCU.kicad_sch": "5b18ab2d65b6e585b6e729e595831a0ec4903f04bbf7b793b52a2b28610975da",
+    "foc_v2.kicad_pro": "3ed1c0251ef437bfbc651c7ce85fd759edeb72d09e6cbc418555fe8c6a57e2e0",
+    "foc_v2.kicad_pcb": "097d3a7753757350ba666f7b537c778b5fe497442083b997209ccfef41978cdd",
+    "fp-lib-table": "f979ce9456342b6a13639bcc6140ddacc4b710f2c530c2359c32d01abf6824de",
+    "foc_v2.pretty/AMASS_XT30PW-M_Edge_NoSilk.kicad_mod": "196a90bd5c704333ac1fa3676ff61b975f6ccd4d28e7403a04fe4dfdd51e321b",
+    "foc_v2.pretty/MA730_QFN16_3x3.kicad_mod": "3c72b10f6c347dd3681f9aee607a227bd4ebfd4e20c36f924729b455dbe4634e",
+    "foc_v2.pretty/NetTie_Kelvin.kicad_mod": "8151fefaaad90266e43617fa08de74e95e33b2243e3f7c2ca3fe235f16eee9a9",
+    "VIPPO_REQUIRED.csv": "b2f0693a1b7625eb09c673ea7e10f4212201267be5540d9bec5a640640c3a8df",
+    "FABRICATION_NOTES.md": "680eaaa448d4a4119dff12c0ed593449fc742be27fa9bf4dcaf078e67185c89e"
+  },
+  "drc": 0,
+  "erc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "manufacturing_notes": "FABRICATION_NOTES.md",
+  "vippo_csv": "VIPPO_REQUIRED.csv"
+}

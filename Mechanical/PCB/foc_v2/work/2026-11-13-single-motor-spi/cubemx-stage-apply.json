@@ -1,0 +1,68 @@
+[
+  {
+    "request": {
+      "name": "cubemx_apply_ioc_changes",
+      "arguments": {
+        "request": {
+          "plan_request": {
+            "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+            "pin_assignments": [
+              {
+                "pin": "PB3",
+                "signal": "SPI3_SCK"
+              },
+              {
+                "pin": "PC11",
+                "signal": "SPI3_MISO"
+              },
+              {
+                "pin": "PC12",
+                "signal": "SPI3_MOSI"
+              },
+              {
+                "pin": "PA15",
+                "signal": "GPIO_Output",
+                "label": "HALL_CS"
+              }
+            ],
+            "enabled_peripherals": [
+              "SPI3"
+            ],
+            "parameter_updates": {
+              "PB3.Mode": "Full_Duplex_Master",
+              "PA15.GPIOParameters": "GPIO_Label,PinState,GPIO_PuPd",
+              "PA15.PinState": "GPIO_PIN_SET",
+              "PA15.GPIO_PuPd": "GPIO_PULLUP",
+              "PC10.GPIOParameters": "GPIO_Label,PinState",
+              "PC10.PinState": "GPIO_PIN_SET",
+              "SPI3.VirtualType": "VM_MASTER",
+              "SPI3.Mode": "SPI_MODE_MASTER",
+              "SPI3.Direction": "SPI_DIRECTION_2LINES",
+              "SPI3.CLKPolarity": "SPI_POLARITY_HIGH",
+              "SPI3.CLKPhase": "SPI_PHASE_2EDGE",
+              "SPI3.BaudRatePrescaler": "SPI_BAUDRATEPRESCALER_8",
+              "SPI3.DataSize": "SPI_DATASIZE_16BIT",
+              "SPI3.NSS": "SPI_NSS_SOFT",
+              "SPI3.FirstBit": "SPI_FIRSTBIT_MSB",
+              "SPI3.CalculateBaudRate": "5.25 MBits/s",
+              "SPI3.IPParameters": "VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit",
+              "SPI1.BaudRatePrescaler": "SPI_BAUDRATEPRESCALER_16",
+              "SPI1.CalculateBaudRate": "5.25 MBits/s"
+            }
+          },
+          "expected_source_sha256": "f1e80cb89bb6c6e6efb042f20f52d3f0340651fcad005464513bd35c27438f68"
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Error executing tool cubemx_apply_ioc_changes"
+        }
+      ],
+      "isError": true,
+      "resultType": "complete"
+    }
+  }
+]

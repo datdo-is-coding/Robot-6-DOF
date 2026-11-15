@@ -1,0 +1,168 @@
+{
+  "checked_connections": {
+    "MA730_CS": {
+      "mcu_pin": "50",
+      "destination": "U2.5",
+      "net": "/HALL/HALL_CS"
+    },
+    "MA730_SCK": {
+      "mcu_pin": "55",
+      "destination": "U2.12",
+      "net": "/HALL/HALL_SCLK"
+    },
+    "MA730_MISO": {
+      "mcu_pin": "52",
+      "destination": "U2.7",
+      "net": "/HALL/HALL_MISO"
+    },
+    "MA730_MOSI": {
+      "mcu_pin": "53",
+      "destination": "U2.4",
+      "net": "/HALL/HALL_MOSI"
+    },
+    "DRV8323_MISO": {
+      "mcu_pin": "56",
+      "destination": "IC1.29",
+      "net": "/GATE_DRV/SPI1_MISO"
+    },
+    "DRV8323_MOSI": {
+      "mcu_pin": "57",
+      "destination": "IC1.30",
+      "net": "/GATE_DRV/SPI1_MOSI"
+    },
+    "DRV8323_SCK": {
+      "mcu_pin": "21",
+      "destination": "IC1.31",
+      "net": "/GATE_DRV/SPI1_SCK"
+    },
+    "DRV8323_CS": {
+      "mcu_pin": "51",
+      "destination": "IC1.32",
+      "net": "/GATE_DRV/SPI1_SS0"
+    },
+    "CAN_RX": {
+      "mcu_pin": "61",
+      "destination": "U9.4",
+      "net": "/COMMUNICATION/CAN_RX"
+    },
+    "CAN_TX": {
+      "mcu_pin": "62",
+      "destination": "U9.1",
+      "net": "/COMMUNICATION/CAN_TX"
+    },
+    "PWM_A": {
+      "mcu_pin": "41",
+      "destination": "IC1.37",
+      "net": "/GATE_DRV/PWM1_A"
+    },
+    "PWM_AN": {
+      "mcu_pin": "34",
+      "destination": "IC1.38",
+      "net": "/GATE_DRV/PWM1_AN"
+    },
+    "PWM_B": {
+      "mcu_pin": "42",
+      "destination": "IC1.39",
+      "net": "/GATE_DRV/PWM1_B"
+    },
+    "PWM_BN": {
+      "mcu_pin": "35",
+      "destination": "IC1.40",
+      "net": "/GATE_DRV/PWM1_BN"
+    },
+    "PWM_C": {
+      "mcu_pin": "43",
+      "destination": "IC1.41",
+      "net": "/GATE_DRV/PWM1_C"
+    },
+    "PWM_CN": {
+      "mcu_pin": "36",
+      "destination": "IC1.42",
+      "net": "/GATE_DRV/PWM1_CN"
+    },
+    "ISENSE_A": {
+      "mcu_pin": "11",
+      "destination": "IC1.25",
+      "net": "/GATE_DRV/ISENSE1_A"
+    },
+    "ISENSE_B": {
+      "mcu_pin": "17",
+      "destination": "IC1.24",
+      "net": "/GATE_DRV/ISENSE1_B"
+    },
+    "ISENSE_C": {
+      "mcu_pin": "20",
+      "destination": "IC1.23",
+      "net": "/GATE_DRV/ISENSE1_C"
+    },
+    "ENABLE": {
+      "mcu_pin": "40",
+      "destination": "IC1.33",
+      "net": "/GATE_DRV/EN_GATE1"
+    },
+    "FAULT": {
+      "mcu_pin": "30",
+      "destination": "IC1.28",
+      "net": "/GATE_DRV/NFAULT1"
+    }
+  },
+  "unused_mcu_pins_checked": 14,
+  "unused_ma730_pins_checked": 6,
+  "obsolete_signals_removed": true,
+  "erc_before": {
+    "error": 16,
+    "warning": 120
+  },
+  "erc_after": {
+    "error": 3,
+    "warning": 97
+  },
+  "new_erc_errors": [],
+  "remaining_erc_errors": [
+    {
+      "description": "Pin not connected",
+      "items": [
+        {
+          "description": "Hierarchical Sheet Pin 'PV_SENSE'",
+          "pos": {
+            "x": 110.49,
+            "y": 114.3
+          },
+          "uuid": "e8d0c19a-e8a3-4bc8-8b6e-11c7410171e0"
+        }
+      ],
+      "severity": "error",
+      "type": "pin_not_connected"
+    },
+    {
+      "description": "Input Power pin not driven by any Output Power pins",
+      "items": [
+        {
+          "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+          "pos": {
+            "x": 29.21,
+            "y": 31.75
+          },
+          "uuid": "cf8af440-4304-4957-a286-c76834cd1961"
+        }
+      ],
+      "severity": "error",
+      "type": "power_pin_not_driven"
+    },
+    {
+      "description": "Input Power pin not driven by any Output Power pins",
+      "items": [
+        {
+          "description": "Symbol #PWR05 Pin 1 [Power input, Line]",
+          "pos": {
+            "x": 214.63,
+            "y": 39.37
+          },
+          "uuid": "3e470d68-58b9-4996-81c9-f05a8fc746c6"
+        }
+      ],
+      "severity": "error",
+      "type": "power_pin_not_driven"
+    }
+  ]
+}

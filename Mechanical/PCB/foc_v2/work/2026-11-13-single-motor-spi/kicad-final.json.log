@@ -1,0 +1,55 @@
+<frozen runpy>:128: RuntimeWarning: 'kcaa.server' found in sys.modules after import of package 'kcaa', but prior to execution of 'kcaa.server'; this may result in unpredictable behaviour
+2026-11-13 01:47:51,659 - root - INFO - Starting KiCad MCP server...
+2026-11-13 01:47:51,659 - root - INFO - Initializing KiCad MCP server (profile=full)
+2026-11-13 01:47:51,659 - root - INFO - KiCad Python module setup removed; relying on kicad-cli for external operations.
+2026-11-13 01:47:51,661 - root - INFO - Created FastMCP server instance with lifespan management
+2026-11-13 01:47:51,662 - root - INFO - Registering full profile: all tools, resources, and prompts
+2026-11-13 01:47:52,012 - root - INFO - Registered handler for signal 2
+2026-11-13 01:47:52,012 - root - INFO - Registered handler for signal 15
+2026-11-13 01:47:52,012 - root - INFO - Server initialization complete
+2026-11-13 01:47:52,012 - root - INFO - Using transport: stdio
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                FastMCP 4.1.1                                 │
+│                            https://gofastmcp.com                             │
+│                                                                              │
+│                  🖥  Server:      KiCad, 4.1.1                                │
+│                  🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                          🎉 Update available: 4.1.8                          │
+│                      Run: pip install --upgrade fastmcp                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+2026-11-13 01:47:52,033 - root - INFO - Starting KiCad MCP server initialization
+2026-11-13 01:47:52,033 - root - INFO - KiCad Python module availability: False (Setup logic removed)
+2026-11-13 01:47:52,033 - root - INFO - KiCad MCP server initialization complete
+[11/13/26 01:47:52] INFO     Starting MCP server 'KiCad' with   transport.py:241
+                             transport 'stdio'                                  
+/home/tuan/.local/share/kicad/10.0/scripting/plugins/kicad_ai_assistant/.venv/lib/python3.12/site-packages/kcaa/tools/netlist_tools.py:150: RuntimeWarning: coroutine 'Context.info' was never awaited
+  ctx.info(f"Extracting netlist from: {os.path.basename(schematic_path)}")
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+/home/tuan/.local/share/kicad/10.0/scripting/plugins/kicad_ai_assistant/.venv/lib/python3.12/site-packages/kcaa/tools/netlist_tools.py:167: RuntimeWarning: coroutine 'Context.info' was never awaited
+  ctx.info("Performing connection analysis...")
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+/home/tuan/.local/share/kicad/10.0/scripting/plugins/kicad_ai_assistant/.venv/lib/python3.12/site-packages/kcaa/tools/netlist_tools.py:373: RuntimeWarning: coroutine 'Context.info' was never awaited
+  ctx.info("Netlist extraction complete")
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2026-11-13 01:47:52,280 - root - INFO - Shutting down KiCad MCP server
+2026-11-13 01:47:52,280 - root - INFO - KiCad MCP server shutdown complete
+2026-11-13 01:47:52,281 - root - INFO - Server shutdown complete
+2026-11-13 01:47:52,281 - root - INFO - Running cleanup handlers...
+2026-11-13 01:47:52,281 - root - INFO - KiCad MCP server shutdown complete
+2026-11-13 01:47:52,281 - root - INFO - Cleanup handler <lambda> completed successfully
+2026-11-13 01:47:52,281 - root - INFO - Cleaning up 0 temporary directories
+2026-11-13 01:47:52,281 - root - INFO - Cleanup handler cleanup_temp_dirs completed successfully

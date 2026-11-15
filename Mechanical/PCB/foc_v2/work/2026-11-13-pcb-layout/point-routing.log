@@ -1,0 +1,54 @@
+{'i': 0, 'net': '/GATE_DRV/CSA_CAL1', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 1, 'net': 'GND', 'ok': True, 'layers': ['F.Cu', 'F.Cu'], 'segments': 0, 'seconds': 1.13}
+{'i': 2, 'net': 'GND', 'ok': True, 'layers': ['F.Cu', 'F.Cu'], 'segments': 0, 'seconds': 1.13}
+{'i': 3, 'net': 'GND', 'ok': True, 'layers': ['F.Cu', 'F.Cu'], 'segments': 0, 'seconds': 1.12}
+{'i': 4, 'net': '+3V3', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 5, 'net': '+3V3', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 6, 'net': '+3V3', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 7, 'net': '+3V3', 'ok': False, 'error': 'planning limit'}
+{'i': 8, 'net': '+3V3', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 9, 'net': '+3V3', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 10, 'net': '+3V3', 'ok': True, 'layers': ['F.Cu', 'F.Cu'], 'segments': 2, 'seconds': 9.97}
+{'i': 11, 'net': '+3V3', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 12, 'net': '/GATE_DRV/SHC', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 13, 'net': 'Net-(Q5-G)', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 14, 'net': 'VS', 'ok': True, 'layers': ['F.Cu', 'B.Cu'], 'segments': 3, 'seconds': 9.5}
+{'i': 15, 'net': 'VS', 'ok': True, 'layers': ['F.Cu', 'F.Cu'], 'segments': 1, 'seconds': 1.24}
+{'i': 16, 'net': '/GATE_DRV/SHA', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 17, 'net': 'Net-(D4-K)', 'ok': True, 'layers': ['F.Cu', 'F.Cu'], 'segments': 2, 'seconds': 9.73}
+{'i': 18, 'net': '/GATE_DRV/CSA_SPA', 'ok': False, 'error': 'planning limit'}
+{'i': 19, 'net': '+5V', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 20, 'net': 'Net-(IC1-FB)', 'ok': False, 'error': 'no layer'}
+{'i': 21, 'net': 'Net-(IC1-CPL)', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 22, 'net': 'Net-(IC1-CPH)', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 23, 'net': 'Net-(IC1-VCP)', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 24, 'net': '/GATE_DRV/GHA', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 25, 'net': '/GATE_DRV/GLA', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 26, 'net': '/GATE_DRV/CSA_SPB', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 27, 'net': '/GATE_DRV/GLB', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 28, 'net': '/GATE_DRV/SHB', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 29, 'net': '/GATE_DRV/GLC', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 30, 'net': '/GATE_DRV/ISENSE1_C', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 31, 'net': '/GATE_DRV/SPI1_MISO', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 32, 'net': '/GATE_DRV/SPI1_MOSI', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 33, 'net': '/GATE_DRV/SPI1_SCK', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 34, 'net': '/GATE_DRV/SPI1_SS0', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 35, 'net': '/GATE_DRV/EN_GATE1', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 36, 'net': 'DVDD', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 37, 'net': '/GATE_DRV/PWM1_AN', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 38, 'net': '/GATE_DRV/PWM1_B', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 39, 'net': '/GATE_DRV/PWM1_BN', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 40, 'net': '/GATE_DRV/PWM1_C', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 41, 'net': '/MCU/LED_G', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 42, 'net': '/MCU/SWCLK', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 43, 'net': '/MCU/OSC_IN', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 44, 'net': '/MCU/OSC_OUT', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 45, 'net': '/MCU/ADC_IA', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 46, 'net': '/GATE_DRV/PV_SENSE', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 47, 'net': '/GATE_DRV/PV_SENSE', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 48, 'net': '/HALL/HALL_MISO', 'ok': False, 'error': 'planning limit'}
+{'i': 49, 'net': '/HALL/HALL_MOSI', 'ok': False, 'error': 'planning limit'}
+{'i': 50, 'net': '/COMMUNICATION/CAN_RX', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 51, 'net': '/COMMUNICATION/VBUS', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+{'i': 52, 'net': '/COMMUNICATION/VBUS', 'ok': False, 'error': 'No obstacle-avoiding path from __A/1 to __B/1 at 0.15mm track width on layer F.Cu within board (65.0, 65.0, 135.0, 135.0).'}
+Routed 7 of 53 native unconnected pairs.

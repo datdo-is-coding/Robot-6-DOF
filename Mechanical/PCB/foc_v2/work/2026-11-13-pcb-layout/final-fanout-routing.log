@@ -1,0 +1,15 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+3 /MCU/NRST 927 grid points
+4 VS 264 grid points
+5 /GATE_DRV/SNB 457 grid points
+6 Net-(IC1-VCP) 110 grid points
+7 /GATE_DRV/GLB 467 grid points
+8 /GATE_DRV/GHB 527 grid points
+9 /GATE_DRV/SPI1_MISO 269 grid points
+10 /GATE_DRV/SPI1_SS0 309 grid points
+11 /GATE_DRV/EN_GATE1 304 grid points
+12 /GATE_DRV/PWM1_B 568 grid points
+13 /GATE_DRV/PWM1_BN 648 grid points
+14 /GATE_DRV/PWM1_CN 677 grid points

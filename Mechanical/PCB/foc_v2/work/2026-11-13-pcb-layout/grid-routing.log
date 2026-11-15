@@ -1,0 +1,54 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+{'index': 0, 'net': '/GATE_DRV/CSA_CAL1', 'ok': False, 'detail': 'search limit'}
+{'index': 4, 'net': '+3V3', 'ok': True, 'detail': '1545 cells', 'vertices': 17}
+{'index': 5, 'net': '+3V3', 'ok': True, 'detail': '338 cells', 'vertices': 6}
+{'index': 6, 'net': '+3V3', 'ok': True, 'detail': '3219 cells', 'vertices': 14}
+{'index': 7, 'net': '+3V3', 'ok': True, 'detail': '1025 cells', 'vertices': 15}
+{'index': 8, 'net': '+3V3', 'ok': True, 'detail': '475 cells', 'vertices': 8}
+{'index': 9, 'net': '+3V3', 'ok': True, 'detail': '50 cells', 'vertices': 12}
+{'index': 10, 'net': '+3V3', 'ok': True, 'detail': '720 cells', 'vertices': 8}
+{'index': 11, 'net': '+3V3', 'ok': True, 'detail': '2558 cells', 'vertices': 12}
+{'index': 12, 'net': '+3V3', 'ok': False, 'detail': 'no path'}
+{'index': 13, 'net': '/GATE_DRV/SHC', 'ok': False, 'detail': 'search limit'}
+{'index': 14, 'net': 'Net-(Q5-G)', 'ok': True, 'detail': '7432 cells', 'vertices': 16}
+{'index': 15, 'net': '/GATE_DRV/SHA', 'ok': False, 'detail': 'no path'}
+{'index': 16, 'net': '/GATE_DRV/CSA_SPA', 'ok': True, 'detail': '32 cells', 'vertices': 4}
+{'index': 17, 'net': '/GATE_DRV/CSA_SPA', 'ok': True, 'detail': '27 cells', 'vertices': 4}
+{'index': 18, 'net': '/GATE_DRV/CSA_SPA', 'ok': False, 'detail': 'no path'}
+{'index': 19, 'net': '+5V', 'ok': True, 'detail': '5460 cells', 'vertices': 32}
+{'index': 20, 'net': 'Net-(IC1-FB)', 'ok': True, 'detail': '1014 cells', 'vertices': 10}
+{'index': 21, 'net': 'Net-(IC1-CPL)', 'ok': False, 'detail': 'search limit'}
+{'index': 22, 'net': 'Net-(IC1-CPH)', 'ok': False, 'detail': 'search limit'}
+{'index': 23, 'net': 'Net-(IC1-VCP)', 'ok': False, 'detail': 'search limit'}
+{'index': 24, 'net': '/GATE_DRV/GHA', 'ok': False, 'detail': 'search limit'}
+{'index': 25, 'net': '/GATE_DRV/GLA', 'ok': False, 'detail': 'search limit'}
+{'index': 26, 'net': '/GATE_DRV/CSA_SPB', 'ok': False, 'detail': 'no path'}
+{'index': 27, 'net': '/GATE_DRV/GLB', 'ok': False, 'detail': 'no path'}
+{'index': 28, 'net': '/GATE_DRV/SHB', 'ok': False, 'detail': 'search limit'}
+{'index': 29, 'net': '/GATE_DRV/GLC', 'ok': False, 'detail': 'search limit'}
+{'index': 30, 'net': '/GATE_DRV/ISENSE1_C', 'ok': False, 'detail': 'no path'}
+{'index': 31, 'net': '/GATE_DRV/NFAULT1', 'ok': True, 'detail': '7 cells', 'vertices': 6}
+{'index': 32, 'net': '/GATE_DRV/SPI1_MISO', 'ok': False, 'detail': 'no path'}
+{'index': 33, 'net': '/GATE_DRV/SPI1_MOSI', 'ok': True, 'detail': '17959 cells', 'vertices': 28}
+{'index': 34, 'net': '/GATE_DRV/SPI1_SCK', 'ok': True, 'detail': '57354 cells', 'vertices': 52}
+{'index': 35, 'net': '/GATE_DRV/SPI1_SS0', 'ok': False, 'detail': 'no path'}
+{'index': 36, 'net': '/GATE_DRV/EN_GATE1', 'ok': False, 'detail': 'search limit'}
+{'index': 37, 'net': 'DVDD', 'ok': False, 'detail': 'no path'}
+{'index': 38, 'net': '/GATE_DRV/PWM1_AN', 'ok': True, 'detail': '54059 cells', 'vertices': 39}
+{'index': 39, 'net': '/GATE_DRV/PWM1_B', 'ok': True, 'detail': '87928 cells', 'vertices': 34}
+{'index': 40, 'net': '/GATE_DRV/PWM1_BN', 'ok': False, 'detail': 'no path'}
+{'index': 41, 'net': '/GATE_DRV/PWM1_C', 'ok': False, 'detail': 'no path'}
+{'index': 42, 'net': '/MCU/LED_G', 'ok': True, 'detail': '157 cells', 'vertices': 11}
+{'index': 43, 'net': '/MCU/SWCLK', 'ok': True, 'detail': '37941 cells', 'vertices': 52}
+{'index': 44, 'net': '/MCU/OSC_IN', 'ok': False, 'detail': 'search limit'}
+{'index': 45, 'net': '/MCU/OSC_OUT', 'ok': False, 'detail': 'search limit'}
+{'index': 46, 'net': '/MCU/ADC_IA', 'ok': True, 'detail': '1294 cells', 'vertices': 10}
+{'index': 47, 'net': '/GATE_DRV/PV_SENSE', 'ok': True, 'detail': '17616 cells', 'vertices': 49}
+{'index': 48, 'net': '/GATE_DRV/PV_SENSE', 'ok': True, 'detail': '1309 cells', 'vertices': 21}
+{'index': 49, 'net': '/HALL/HALL_MISO', 'ok': False, 'detail': 'no path'}
+{'index': 50, 'net': '/HALL/HALL_MOSI', 'ok': False, 'detail': 'no path'}
+{'index': 51, 'net': '/COMMUNICATION/CAN_RX', 'ok': False, 'detail': 'search limit'}
+{'index': 52, 'net': '/COMMUNICATION/VBUS', 'ok': True, 'detail': '4731 cells', 'vertices': 19}
+{'index': 53, 'net': '/COMMUNICATION/VBUS', 'ok': True, 'detail': '4821 cells', 'vertices': 15}

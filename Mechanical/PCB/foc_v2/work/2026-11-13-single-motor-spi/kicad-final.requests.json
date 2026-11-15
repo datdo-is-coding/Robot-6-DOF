@@ -1,0 +1,19 @@
+[
+  {
+    "name": "extract_schematic_netlist",
+    "arguments": {
+      "schematic_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch",
+      "include_wire_topology": false
+    }
+  },
+  {
+    "name": "reload_kicad",
+    "arguments": {
+      "paths": [
+        "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch",
+        "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/MCU.kicad_sch",
+        "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/hall.kicad_sch"
+      ]
+    }
+  }
+]
