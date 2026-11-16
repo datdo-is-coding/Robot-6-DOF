@@ -1,0 +1,27 @@
+[
+  {
+    "key": "Mcu.IP10",
+    "expected": "SPI3",
+    "actual": "USB_OTG_FS"
+  },
+  {
+    "key": "Mcu.Pin31",
+    "expected": "PB3",
+    "actual": "VP_SYS_VS_Systick"
+  },
+  {
+    "key": "Mcu.Pin32",
+    "expected": "PC11",
+    "actual": "VP_TIM1_VS_ClockSourceINT"
+  },
+  {
+    "key": "Mcu.Pin33",
+    "expected": "PC12",
+    "actual": "VP_TIM1_VS_no_output4"
+  },
+  {
+    "key": "Mcu.Pin34",
+    "expected": "PA15",
+    "actual": "VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS"
+  }
+]

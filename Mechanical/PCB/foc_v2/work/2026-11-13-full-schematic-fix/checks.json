@@ -1,0 +1,25 @@
+{
+  "erc": {
+    "/": 0,
+    "/MCU/": 0,
+    "/GATE_DRV/": 0,
+    "/COMMUNICATION/": 0,
+    "/HALL/": 0
+  },
+  "components": 114,
+  "critical_connectivity": "passed",
+  "bus_voltage_nominal": 24,
+  "phase_current_peak_A": 10,
+  "shunt_ohms": 0.005,
+  "shunt_loss_at_peak_W": 0.5,
+  "csa_gain": 20,
+  "csa_output_at_plusminus10A_V": [
+    0.6499999999999999,
+    2.65
+  ],
+  "bus_divider_ratio": 16,
+  "bus_adc_at_24V": 1.5,
+  "can_termination_enabled_ohms": 120.8,
+  "usb_vbus_active_low": true,
+  "cubemx_validated": true
+}

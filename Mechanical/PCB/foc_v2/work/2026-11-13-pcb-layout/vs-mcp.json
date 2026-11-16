@@ -1,0 +1,27 @@
+[
+  {
+    "request": {
+      "name": "pcb_route_pad_to_pad",
+      "arguments": {
+        "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+        "ref_a": "C12",
+        "pad_a": "1",
+        "ref_b": "IC1",
+        "pad_b": "6",
+        "net": "VS",
+        "width": 0.4,
+        "algorithm": "pns"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"error\": \"Board bbox is degenerate ((100.0, 100.0, 135.0, 100.0)); cannot verify segments stay within the board.\"}"
+        }
+      ],
+      "isError": false,
+      "resultType": "complete"
+    }
+  }
+]

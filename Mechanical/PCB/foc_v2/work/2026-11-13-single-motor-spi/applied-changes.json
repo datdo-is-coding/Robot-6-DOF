@@ -1,0 +1,29 @@
+{
+  "published_at": "2026-11-12T18:47:45.704867+00:00",
+  "cube_mx_validated_before_schematic_changes": true,
+  "changed_files": {
+    "src.ioc": {
+      "before": "f1e80cb89bb6c6e6efb042f20f52d3f0340651fcad005464513bd35c27438f68",
+      "after": "6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d"
+    },
+    "MCU.kicad_sch": {
+      "before": "83ea6bdad1a4f99d38651fb51ba535b81a59ba08ae2c688d5029b366554f4f50",
+      "after": "476539821ea292213a6ad9b26c0df70d3439569ccd043302bf717f5d82d7b00d"
+    },
+    "hall.kicad_sch": {
+      "before": "91eeb8552df4261f13de6bd1858559e1965820e1108c5d22058914245da504f5",
+      "after": "510a3c723f04d556040fd5259ace40213f9c494be2e7f84c7b611d856f48a447"
+    },
+    "foc_v2.kicad_sch": {
+      "before": "72feb3e02b5fc598ed72a70c54abc4eb1fbc30904e88bfe2f7e44cd12fe86102",
+      "after": "fc7bef523aa181eeb7ff8dea21253b0cce9b16c34594c3ea24d5e1087d683b27"
+    }
+  },
+  "untouched_files": [
+    "communication.kicad_sch",
+    "foc_v2.kicad_pcb",
+    "foc_v2.kicad_pro",
+    "gatedrv.kicad_sch"
+  ],
+  "backup_directory": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/saved-before"
+}

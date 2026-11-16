@@ -91,6 +91,7 @@
       8,
       9
     ],
+<<<<<<< HEAD
     "col_widths": [
       186,
       171,
@@ -103,6 +104,9 @@
       112,
       112
     ],
+=======
+    "col_widths": [],
+>>>>>>> 51d2e07b8bb2e901d1cfa40c1c7654e747f0922e
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,

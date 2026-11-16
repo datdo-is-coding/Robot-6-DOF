@@ -1,0 +1,114 @@
+[
+  {
+    "pad": "IC1.6",
+    "net": "VS",
+    "x_mm": 96.025,
+    "y_mm": 92.25,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "IC1.9",
+    "net": "/GATE_DRV/SHA",
+    "x_mm": 96.025,
+    "y_mm": 93.75,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "C18.1",
+    "net": "Net-(IC1-VCP)",
+    "x_mm": 92.09,
+    "y_mm": 95.2,
+    "filled_and_copper_capped": false
+  },
+  {
+    "pad": "R51.2",
+    "net": "/GATE_DRV/SPI1_MISO",
+    "x_mm": 104.2,
+    "y_mm": 104.885,
+    "filled_and_copper_capped": false
+  },
+  {
+    "pad": "U1.21",
+    "net": "/GATE_DRV/SPI1_SCK",
+    "x_mm": 98.2,
+    "y_mm": 122.49,
+    "filled_and_copper_capped": false
+  },
+  {
+    "pad": "IC1.31",
+    "net": "/GATE_DRV/SPI1_SCK",
+    "x_mm": 103.3375,
+    "y_mm": 92.25,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "U1.36",
+    "net": "/GATE_DRV/PWM1_CN",
+    "x_mm": 106.66,
+    "y_mm": 120.05,
+    "filled_and_copper_capped": false
+  },
+  {
+    "pad": "C21.1",
+    "net": "GND",
+    "x_mm": 105.0,
+    "y_mm": 96.3675,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "R34.1",
+    "net": "GND",
+    "x_mm": 91.4025,
+    "y_mm": 119.4,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "IC1.5",
+    "net": "Net-(IC1-VCP)",
+    "x_mm": 96.5625,
+    "y_mm": 91.75,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "IC1.29",
+    "net": "/GATE_DRV/SPI1_MISO",
+    "x_mm": 103.6375,
+    "y_mm": 93.25,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "C52.2",
+    "net": "GND",
+    "x_mm": 108.4675,
+    "y_mm": 113.57499999999999,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "IC1.33",
+    "net": "/GATE_DRV/EN_GATE1",
+    "x_mm": 104.085,
+    "y_mm": 91.25,
+    "filled_and_copper_capped": false
+  },
+  {
+    "pad": "IC1.42",
+    "net": "/GATE_DRV/PWM1_CN",
+    "x_mm": 100.25,
+    "y_mm": 89.0625,
+    "filled_and_copper_capped": true
+  },
+  {
+    "pad": "U10.2",
+    "net": "GND",
+    "x_mm": 113.535,
+    "y_mm": 112.2,
+    "filled_and_copper_capped": false
+  },
+  {
+    "pad": "U1.18",
+    "net": "GND",
+    "x_mm": 96.75,
+    "y_mm": 123.675,
+    "filled_and_copper_capped": true
+  }
+]

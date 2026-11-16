@@ -1,0 +1,54 @@
+2026-11-13 12:02:02.007 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-11-13 12:02:02.285 INFO   Hardware: 12 CPU cores, 513 CPU score, 4096 MB RAM
+2026-11-13 12:02:02.287 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-13 12:02:03.651 INFO   [8C3BD5\F1B3C9] Loading board file 'routing.dsn'...
+2026-11-13 12:02:03.894 INFO   [8C3BD5\F1B3C9] Job '8C3BD5\F1B3C9' started at 2026-11-13T05:02:03.894764206Z.
+2026-11-13 12:02:04.031 WARN   Design Warning: Board has 6 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 6 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 6 fixed trace/via clearance violations (first 5 shown):
+          - FixedVia#1663 [net VS] <-> R10.1 [net /GATE_DRV/EN_GATE1]
+          - FixedVia#1663 [net VS] <-> R51.1 [net +3V3]
+          - FixedTrace#1541 [net VS] <-> IC1.4 [net Net-(IC1-CPH)]
+          - FixedTrace#1530 [net VS] <-> R10.1 [net /GATE_DRV/EN_GATE1]
+          - FixedTrace#1512 [net VS] <-> IC1.4 [net Net-(IC1-CPH)]
+          ... and 1 more
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 6 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-11-13 12:02:04.074 INFO   [8C3BD5\F1B3C9] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=3.
+2026-11-13 12:02:04.190 INFO   [8C3BD5\F1B3C9] Fanout stage started on board '92e941c664788e73c64bf74892ccfda9' with 371 of 401 SMD pins needing fanout (30 already connected, 0 netless).
+2026-11-13 12:02:14.168 INFO   [8C3BD5\F1B3C9] Fanout pass #1 on board '3ab5e3c459b50c274fe270f1bf129af9' completed in 9.89 seconds with 185 SMD pins fanouted, 166 not routed, 0 insert errors, +6 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-11-13 12:02:19.221 INFO   [8C3BD5\F1B3C9] Fanout pass #2 on board 'f5b026148cc9833b783b8cf158c688f1' completed in 5.03 seconds with 62 SMD pins fanouted, 152 not routed, 0 insert errors, +5 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-11-13 12:02:19.390 INFO   [8C3BD5\F1B3C9] Fanout stage completed: started with 401 total SMD pins, completed in 15.14 seconds, escaped pins: 219/401 (54.6%), using 15.12 total CPU seconds, 9.01 GB total allocated, and 273.3 MB peak heap usage.
+2026-11-13 12:02:19.951 INFO   [8C3BD5\F1B3C9] Auto-routing stage started on board 'f5b026148cc9833b783b8cf158c688f1' with baseline score 492.65 for 124 unrouted items.
+2026-11-13 12:02:25.798 INFO   Necked retry routed net '/MCU/OSC_OUT' at 150.0 um trace width.
+2026-11-13 12:02:27.578 INFO   Necked retry routed net '/GATE_DRV/SPI1_MOSI' at 150.0 um trace width.
+2026-11-13 12:02:35.124 INFO   Necked retry routed net '/MCU/ADC_IB' at 150.0 um trace width.
+2026-11-13 12:02:36.665 INFO   Necked retry routed net '+3V3' at 150.0 um trace width.
+2026-11-13 12:02:55.114 INFO   Necked retry routed net '/GATE_DRV/NFAULT1' at 150.0 um trace width.
+2026-11-13 12:03:20.204 INFO   Necked retry routed net '/GATE_DRV/GLA' at 150.0 um trace width.
+2026-11-13 12:03:22.653 INFO   Necked retry routed net '/GATE_DRV/GHA' at 150.0 um trace width.
+2026-11-13 12:03:42.429 INFO   Necked retry routed net '/GATE_DRV/GHB' at 150.0 um trace width.
+2026-11-13 12:03:43.128 INFO   [8C3BD5\F1B3C9] Auto-routing pass #1 on board 'f5b026148cc9833b783b8cf158c688f1' was completed in 82.97 seconds with score 623.53 (92 unrouted and 6 violations), using 97.87 CPU seconds and the job allocated 92.34 GB of memory so far.
+2026-11-13 12:03:47.204 INFO   Necked retry routed net '+3V3' at 150.0 um trace width.
+2026-11-13 12:04:01.117 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'VS' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-11-13 12:04:20.595 INFO   Necked retry routed net '/GATE_DRV/GLA' at 150.0 um trace width.
+2026-11-13 12:04:22.468 INFO   Necked retry routed net '/GATE_DRV/ISENSE1_B' at 150.0 um trace width.
+2026-11-13 12:04:27.590 INFO   Necked retry routed net '/GATE_DRV/SPI1_SCK' at 150.0 um trace width.
+2026-11-13 12:04:30.641 INFO   Necked retry routed net '/GATE_DRV/EN_GATE1' at 150.0 um trace width.
+2026-11-13 12:04:33.899 INFO   Necked retry routed net '/GATE_DRV/PWM1_CN' at 150.0 um trace width.
+2026-11-13 12:04:35.898 INFO   Necked retry routed net '/COMMUNICATION/VBUS' at 150.0 um trace width.
+2026-11-13 12:04:36.298 INFO   [8C3BD5\F1B3C9] Auto-routing pass #2 on board '0af19fab2694291d810235175fd04b32' was completed in 53.03 seconds with score 472.20 (129 unrouted and 6 violations), using 150.37 CPU seconds and the job allocated 147.38 GB of memory so far.
+2026-11-13 12:05:13.590 INFO   Necked retry routed net '/GATE_DRV/SPI1_MOSI' at 150.0 um trace width.
+2026-11-13 12:05:17.157 INFO   Necked retry routed net '/GATE_DRV/SPI1_SCK' at 150.0 um trace width.
+2026-11-13 12:05:27.781 INFO   Necked retry routed net '/GATE_DRV/PWM1_B' at 150.0 um trace width.
+2026-11-13 12:05:29.950 INFO   Necked retry routed net '/MCU/SWDIO' at 150.0 um trace width.
+2026-11-13 12:05:30.145 INFO   Necked retry routed net '/HALL/HALL_CS' at 150.0 um trace width.
+2026-11-13 12:05:30.352 INFO   [8C3BD5\F1B3C9] Auto-routing pass #3 on board 'df403215a0871ea48efef73e92d051d4' was completed in 53.98 seconds with score 545.82 (111 unrouted and 6 violations), using 203.92 CPU seconds and the job allocated 204.69 GB of memory so far.
+2026-11-13 12:05:30.722 INFO   Necked retry routed net 'GND' at 150.0 um trace width.
+2026-11-13 12:05:32.209 INFO   Necked retry routed net 'GND' at 150.0 um trace width.
+2026-11-13 12:06:04.352 INFO   [8C3BD5\F1B3C9] Auto-routing pass #4 on board '0af19fab2694291d810235175fd04b32' was completed in 0.00 seconds with score 623.53 (92 unrouted and 6 violations), using 237.62 CPU seconds and the job allocated 240.21 GB of memory so far.
+2026-11-13 12:06:04.753 INFO   [8C3BD5\F1B3C9] Auto-routing stage completed with timeout: started with 263 unrouted nets, completed in 240.56 seconds, final score: 623.53 (92 unrouted and 6 violations), using 237.62 total CPU seconds, 240.21 GB total allocated, and 518.4 MB peak heap usage.
+2026-11-13 12:06:04.773 INFO   [8C3BD5\F1B3C9] Job '8C3BD5\F1B3C9' finished with state: TIMED_OUT (elapsed: 4 minutes 0.88 seconds, finished at UTC: 2026-11-13T05:06:04.772641572Z).
+2026-11-13 12:06:04.795 INFO   Saving output file '/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/routed.ses' (SES)...
+2026-11-13 12:06:04.797 INFO   Successfully saved output file '/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/routed.ses' (76251 bytes).

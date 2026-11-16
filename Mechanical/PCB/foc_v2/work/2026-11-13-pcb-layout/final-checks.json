@@ -1,0 +1,33 @@
+{
+  "footprints": 124,
+  "diameter_mm": 70,
+  "hole_diameter_mm": 2.7,
+  "mounting_pcd_mm": 26,
+  "copper_layers": 4,
+  "sensor_bottom_center_mm": [
+    100,
+    100
+  ],
+  "power_vias_0p8_0p4": 81,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "erc_violations": 0,
+  "source_ioc_unchanged": true,
+  "candidate_sha256": {
+    "communication.kicad_sch": "7b133e260f66e3af3c19a38541f9aae35e05292dceb98ad047cee87c15f5e75a",
+    "foc_v2.kicad_sch": "b424b4fd5d057c99d3dd8817e1c9d573b5ce8eed1c310ffe95f416f53aab9184",
+    "hall.kicad_sch": "279c3c627ab8a86e29e866f2c7c45d0a205577bc85a8c461b1d524880880770b",
+    "gatedrv.kicad_sch": "18939f514b7f0f7d05701112b4c75bd8e5b87a16dba74bf0f2c1585075786d28",
+    "src.ioc": "d2b1f9727924c0cc0f0f7e0f8d3e10a564d00b875726f0d77c67e799964835a8",
+    "MCU.kicad_sch": "5b18ab2d65b6e585b6e729e595831a0ec4903f04bbf7b793b52a2b28610975da",
+    "foc_v2.kicad_pro": "3ed1c0251ef437bfbc651c7ce85fd759edeb72d09e6cbc418555fe8c6a57e2e0",
+    "foc_v2.kicad_sym": "edd31ebfefba62cddd2cbca1574142d361fb7c02296c0e9cfc344eeb98ea1b5b",
+    "foc_v2.kicad_pcb": "097d3a7753757350ba666f7b537c778b5fe497442083b997209ccfef41978cdd",
+    "sym-lib-table": "0d3c010d2f5d752667f0f59dd90ee55f9213553ad48273220c4b52d443aa138a",
+    "fp-lib-table": "f979ce9456342b6a13639bcc6140ddacc4b710f2c530c2359c32d01abf6824de",
+    "foc_v2.pretty/AMASS_XT30PW-M_Edge_NoSilk.kicad_mod": "196a90bd5c704333ac1fa3676ff61b975f6ccd4d28e7403a04fe4dfdd51e321b",
+    "foc_v2.pretty/MA730_QFN16_3x3.kicad_mod": "3c72b10f6c347dd3681f9aee607a227bd4ebfd4e20c36f924729b455dbe4634e",
+    "foc_v2.pretty/NetTie_Kelvin.kicad_mod": "8151fefaaad90266e43617fa08de74e95e33b2243e3f7c2ca3fe235f16eee9a9"
+  }
+}

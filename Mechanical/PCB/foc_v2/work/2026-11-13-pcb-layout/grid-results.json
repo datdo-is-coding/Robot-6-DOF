@@ -1,0 +1,199 @@
+[
+  {
+    "index": 0,
+    "net": "/GATE_DRV/CSA_CAL1",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 5,
+    "net": "+3V3",
+    "ok": true,
+    "detail": "13 grid points",
+    "vertices": 7
+  },
+  {
+    "index": 6,
+    "net": "VS",
+    "ok": true,
+    "detail": "57 grid points",
+    "vertices": 7
+  },
+  {
+    "index": 7,
+    "net": "VS",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 8,
+    "net": "VS",
+    "ok": true,
+    "detail": "224 grid points",
+    "vertices": 25
+  },
+  {
+    "index": 9,
+    "net": "/GATE_DRV/SHA",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 10,
+    "net": "/GATE_DRV/GHA",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 11,
+    "net": "/GATE_DRV/GLA",
+    "ok": true,
+    "detail": "241 grid points",
+    "vertices": 16
+  },
+  {
+    "index": 12,
+    "net": "/GATE_DRV/CSA_SPB",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 13,
+    "net": "/GATE_DRV/GLB",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 14,
+    "net": "/GATE_DRV/SHB",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 15,
+    "net": "/GATE_DRV/GHB",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 16,
+    "net": "/GATE_DRV/GHC",
+    "ok": true,
+    "detail": "13 grid points",
+    "vertices": 9
+  },
+  {
+    "index": 17,
+    "net": "/GATE_DRV/GHC",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 18,
+    "net": "/GATE_DRV/GLC",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 19,
+    "net": "/GATE_DRV/ISENSE1_C",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 20,
+    "net": "/GATE_DRV/ISENSE1_B",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 21,
+    "net": "/GATE_DRV/NFAULT1",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 22,
+    "net": "/GATE_DRV/SPI1_MISO",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 23,
+    "net": "/GATE_DRV/SPI1_MOSI",
+    "ok": true,
+    "detail": "547 grid points",
+    "vertices": 58
+  },
+  {
+    "index": 24,
+    "net": "/GATE_DRV/SPI1_SCK",
+    "ok": true,
+    "detail": "716 grid points",
+    "vertices": 82
+  },
+  {
+    "index": 25,
+    "net": "/GATE_DRV/EN_GATE1",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 26,
+    "net": "/GATE_DRV/PWM1_A",
+    "ok": true,
+    "detail": "108 grid points",
+    "vertices": 13
+  },
+  {
+    "index": 27,
+    "net": "/GATE_DRV/PWM1_AN",
+    "ok": true,
+    "detail": "12 grid points",
+    "vertices": 6
+  },
+  {
+    "index": 28,
+    "net": "/GATE_DRV/PWM1_BN",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 29,
+    "net": "/GATE_DRV/PWM1_C",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 30,
+    "net": "/GATE_DRV/PWM1_CN",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 31,
+    "net": "/HALL/HALL_CS",
+    "ok": true,
+    "detail": "544 grid points",
+    "vertices": 53
+  },
+  {
+    "index": 32,
+    "net": "/HALL/HALL_MISO",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 33,
+    "net": "/HALL/HALL_MOSI",
+    "ok": false,
+    "detail": "no grid path"
+  },
+  {
+    "index": 34,
+    "net": "Net-(D1-A)",
+    "ok": true,
+    "detail": "23 grid points",
+    "vertices": 11
+  }
+]

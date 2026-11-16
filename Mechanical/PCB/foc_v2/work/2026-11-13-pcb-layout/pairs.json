@@ -1,0 +1,57 @@
+[
+  {
+    "a": {
+      "pos": [
+        110.954,
+        87.5695
+      ],
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "net": "/GATE_DRV/CSA_CAL1",
+      "kind": "PCB_VIA"
+    },
+    "b": {
+      "pos": [
+        99.8698,
+        115.212
+      ],
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "net": "/GATE_DRV/CSA_CAL1",
+      "kind": "PCB_VIA"
+    }
+  },
+  {
+    "a": {
+      "pos": [
+        134.4,
+        100.0
+      ],
+      "layers": [
+        "F.Cu"
+      ],
+      "net": "GND",
+      "kind": "ZONE"
+    },
+    "b": {
+      "pos": [
+        134.4,
+        100.0
+      ],
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND",
+      "kind": "ZONE"
+    }
+  }
+]
