@@ -1,0 +1,176 @@
+[11/13/26 01:35:11] ERROR    Tool 'cubemx_apply_ioc_changes'       server.py:455
+                             raised an unexpected exception                     
+                             ╭─ Traceback (most recent call last─╮              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/mcp/server/mcpserver/ │              
+                             │ tools/base.py:179 in run          │              
+                             │                                   │              
+                             │   176 │   │   │   │   │   return  │              
+                             │       else resolved               │              
+                             │   177 │   │   │   │   pass_direct │              
+                             │   178 │   │   │                   │              
+                             │ ❱ 179 │   │   │   result = await  │              
+                             │       pass_directly)              │              
+                             │   180 │   │   │                   │              
+                             │   181 │   │   │   # Registration  │              
+                             │   182 │   │   │   # a body that r │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/mcp/server/mcpserver/ │              
+                             │ utilities/func_metadata.py:164 in │              
+                             │ call_fn                           │              
+                             │                                   │              
+                             │   161 │   │   kwargs = arguments  │              
+                             │   162 │   │   if fn_is_async:     │              
+                             │   163 │   │   │   return await fn │              
+                             │ ❱ 164 │   │   return await anyio. │              
+                             │   165 │                           │              
+                             │   166 │   @deprecated(            │              
+                             │   167 │   │   "FuncMetadata.call_ │              
+                             │       3.0; "                      │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/anyio/to_thread.py:65 │              
+                             │  in run_sync                      │              
+                             │                                   │              
+                             │   62 │   │   │   stacklevel=2,    │              
+                             │   63 │   │   )                    │              
+                             │   64 │                            │              
+                             │ ❱ 65 │   return await get_async_b │              
+                             │   66 │   │   func, args, abandon_ │              
+                             │   67 │   )                        │              
+                             │   68                              │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/anyio/_backends/_asyn │              
+                             │ cio.py:2779 in                    │              
+                             │ run_sync_in_worker_thread         │              
+                             │                                   │              
+                             │   2776 │   │   │   │   │   worker │              
+                             │   2777 │   │   │   │              │              
+                             │   2778 │   │   │   │   worker.que │              
+                             │ ❱ 2779 │   │   │   │   return awa │              
+                             │   2780 │                          │              
+                             │   2781 │   @classmethod           │              
+                             │   2782 │   def check_cancelled(cl │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/anyio/_backends/_asyn │              
+                             │ cio.py:1124 in run                │              
+                             │                                   │              
+                             │   1121 │   │   │   │   if not fut │              
+                             │   1122 │   │   │   │   │   thread │              
+                             │   1123 │   │   │   │   │   try:   │              
+                             │ ❱ 1124 │   │   │   │   │   │   re │              
+                             │   1125 │   │   │   │   │   except │              
+                             │   1126 │   │   │   │   │   │   ex │              
+                             │   1127 │   │   │   │   │   finall │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/stm32cubemx_mcp/serve │              
+                             │ r.py:69 in                        │              
+                             │ cubemx_apply_ioc_changes          │              
+                             │                                   │              
+                             │    66 @mcp.tool()                 │              
+                             │    67 def cubemx_apply_ioc_change │              
+                             │    68 │   """Apply an approved IO │              
+                             │ ❱  69 │   return apply_ioc_change │              
+                             │    70                             │              
+                             │    71                             │              
+                             │    72 @mcp.tool()                 │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/stm32cubemx_mcp/apply │              
+                             │ .py:106 in apply_ioc_changes      │              
+                             │                                   │              
+                             │   103 │   │   )                   │              
+                             │   104 │   │   if not validation.v │              
+                             │   105 │   │   │   codes = ", ".jo │              
+                             │ ❱ 106 │   │   │   raise ValueErro │              
+                             │       Diagnostics: {codes}")      │              
+                             │   107 │   │   cubemx_validated =  │              
+                             │   108 │                           │              
+                             │   109 │   backup = _create_backup │              
+                             ╰───────────────────────────────────╯              
+                             ValueError: STM32CubeMX rejected the               
+                             planned IOC content. Diagnostics:                  
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch,                            
+                             ioc.roundtrip_mismatch                             
+                                                                                
+                             The above exception was the direct                 
+                             cause of the following exception:                  
+                                                                                
+                             ╭─ Traceback (most recent call last─╮              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/mcp/server/mcpserver/ │              
+                             │ server.py:442 in                  │              
+                             │ _handle_call_tool                 │              
+                             │                                   │              
+                             │    439 │   ) -> CallToolResult |  │              
+                             │    440 │   │   context = Context( │              
+                             │        subscriptions=self._subscr │              
+                             │    441 │   │   try:               │              
+                             │ ❱  442 │   │   │   return await s │              
+                             │    443 │   │   except MCPError:   │              
+                             │    444 │   │   │   raise          │              
+                             │    445 │   │   except Exception a │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/mcp/server/mcpserver/ │              
+                             │ server.py:548 in call_tool        │              
+                             │                                   │              
+                             │    545 │   │   """                │              
+                             │    546 │   │   if context is None │              
+                             │    547 │   │   │   context = Cont │              
+                             │ ❱  548 │   │   return await self. │              
+                             │        convert_result=True)       │              
+                             │    549 │                          │              
+                             │    550 │   async def list_resourc │              
+                             │    551 │   │   """List all availa │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/mcp/server/mcpserver/ │              
+                             │ tools/tool_manager.py:87 in       │              
+                             │ call_tool                         │              
+                             │                                   │              
+                             │   84 │   │   if not tool:         │              
+                             │   85 │   │   │   raise ToolError( │              
+                             │   86 │   │                        │              
+                             │ ❱ 87 │   │   return await tool.ru │              
+                             │   88                              │              
+                             │                                   │              
+                             │ /home/tuan/.local/share/uv/tools/ │              
+                             │ stm32cubemx-mcp/lib/python3.12/si │              
+                             │ te-packages/mcp/server/mcpserver/ │              
+                             │ tools/base.py:213 in run          │              
+                             │                                   │              
+                             │   210 │   │   │   raise ToolError │              
+                             │   211 │   │   except Exception as │              
+                             │   212 │   │   │   # A crash: the  │              
+                             │ ❱ 213 │   │   │   raise Unexpecte │              
+                             │   214                             │              
+                             ╰───────────────────────────────────╯              
+                             UnexpectedToolError: Error executing               
+                             tool cubemx_apply_ioc_changes                      

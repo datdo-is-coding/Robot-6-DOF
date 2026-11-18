@@ -1,0 +1,87 @@
+[
+  {
+    "request": {
+      "name": "cubemx_plan_ioc_changes",
+      "arguments": {
+        "request": {
+          "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+          "parameter_updates": {
+            "ProjectManager.functionlistsort": "1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true"
+          }
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"plan_id\": \"0003502bad402cbb756b\",\n  \"path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\",\n  \"source_sha256\": \"e625dd8322647bb41906c1c50532b25c2cec5f9459a028f9b769d4ca9f302f71\",\n  \"planned_sha256\": \"6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d\",\n  \"changes\": [\n    {\n      \"key\": \"ProjectManager.functionlistsort\",\n      \"before\": \"1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true\",\n      \"after\": \"1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    }\n  ],\n  \"unified_diff\": \"--- /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\\n+++ /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc.planned\\n@@ -259,7 +259,7 @@\\n ProjectManager.UAScriptAfterPath=\\n ProjectManager.UAScriptBeforePath=\\n ProjectManager.UnderRoot=false\\n-ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true\\n+ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true\\n RCC.48MHZClocksFreq_Value=48000000\\n RCC.AHBFreq_Value=168000000\\n RCC.APB1CLKDivider=RCC_HCLK_DIV4\",\n  \"validation_status\": \"not_run\",\n  \"diagnostics\": [\n    {\n      \"severity\": \"info\",\n      \"code\": \"ioc.validation_required\",\n      \"message\": \"CubeMX did not validate this plan. Validate the staged IOC.\",\n      \"line\": null\n    }\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "plan_id": "0003502bad402cbb756b",
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+        "source_sha256": "e625dd8322647bb41906c1c50532b25c2cec5f9459a028f9b769d4ca9f302f71",
+        "planned_sha256": "6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d",
+        "changes": [
+          {
+            "key": "ProjectManager.functionlistsort",
+            "before": "1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true",
+            "after": "1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true",
+            "reason": "Set a requested IOC parameter."
+          }
+        ],
+        "unified_diff": "--- /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\n+++ /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc.planned\n@@ -259,7 +259,7 @@\n ProjectManager.UAScriptAfterPath=\n ProjectManager.UAScriptBeforePath=\n ProjectManager.UnderRoot=false\n-ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true\n+ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true\n RCC.48MHZClocksFreq_Value=48000000\n RCC.AHBFreq_Value=168000000\n RCC.APB1CLKDivider=RCC_HCLK_DIV4",
+        "validation_status": "not_run",
+        "diagnostics": [
+          {
+            "severity": "info",
+            "code": "ioc.validation_required",
+            "message": "CubeMX did not validate this plan. Validate the staged IOC.",
+            "line": null
+          }
+        ]
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "request": {
+      "name": "cubemx_apply_ioc_changes",
+      "arguments": {
+        "request": {
+          "plan_request": {
+            "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+            "parameter_updates": {
+              "ProjectManager.functionlistsort": "1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true"
+            }
+          },
+          "expected_source_sha256": "e625dd8322647bb41906c1c50532b25c2cec5f9459a028f9b769d4ca9f302f71"
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"plan_id\": \"0003502bad402cbb756b\",\n  \"path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\",\n  \"backup_path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc.bak.e625dd832264\",\n  \"source_sha256\": \"e625dd8322647bb41906c1c50532b25c2cec5f9459a028f9b769d4ca9f302f71\",\n  \"applied_sha256\": \"6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d\",\n  \"changed\": true,\n  \"cubemx_validated\": true,\n  \"changed_keys\": [\n    \"ProjectManager.functionlistsort\"\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "plan_id": "0003502bad402cbb756b",
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+        "backup_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc.bak.e625dd832264",
+        "source_sha256": "e625dd8322647bb41906c1c50532b25c2cec5f9459a028f9b769d4ca9f302f71",
+        "applied_sha256": "6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d",
+        "changed": true,
+        "cubemx_validated": true,
+        "changed_keys": [
+          "ProjectManager.functionlistsort"
+        ]
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  }
+]

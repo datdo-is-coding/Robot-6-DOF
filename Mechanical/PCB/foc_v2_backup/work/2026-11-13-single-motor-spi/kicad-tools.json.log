@@ -1,0 +1,46 @@
+<frozen runpy>:128: RuntimeWarning: 'kcaa.server' found in sys.modules after import of package 'kcaa', but prior to execution of 'kcaa.server'; this may result in unpredictable behaviour
+2026-11-13 01:33:03,769 - root - INFO - Starting KiCad MCP server...
+2026-11-13 01:33:03,769 - root - INFO - Initializing KiCad MCP server (profile=full)
+2026-11-13 01:33:03,769 - root - INFO - KiCad Python module setup removed; relying on kicad-cli for external operations.
+2026-11-13 01:33:03,770 - root - INFO - Created FastMCP server instance with lifespan management
+2026-11-13 01:33:03,771 - root - INFO - Registering full profile: all tools, resources, and prompts
+2026-11-13 01:33:04,104 - root - INFO - Registered handler for signal 2
+2026-11-13 01:33:04,104 - root - INFO - Registered handler for signal 15
+2026-11-13 01:33:04,110 - root - INFO - Server initialization complete
+2026-11-13 01:33:04,110 - root - INFO - Using transport: stdio
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                FastMCP 4.1.1                                 │
+│                            https://gofastmcp.com                             │
+│                                                                              │
+│                  🖥  Server:      KiCad, 4.1.1                                │
+│                  🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                          🎉 Update available: 4.1.8                          │
+│                      Run: pip install --upgrade fastmcp                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+2026-11-13 01:33:04,130 - root - INFO - Starting KiCad MCP server initialization
+2026-11-13 01:33:04,131 - root - INFO - KiCad Python module availability: False (Setup logic removed)
+2026-11-13 01:33:04,131 - root - INFO - KiCad MCP server initialization complete
+[11/13/26 01:33:04] INFO     Starting MCP server 'KiCad' with   transport.py:241
+                             transport 'stdio'                                  
+2026-11-13 01:33:04,287 - root - INFO - Shutting down KiCad MCP server
+2026-11-13 01:33:04,287 - root - INFO - KiCad MCP server shutdown complete
+2026-11-13 01:33:04,287 - root - INFO - Server shutdown complete
+2026-11-13 01:33:04,287 - root - INFO - Running cleanup handlers...
+2026-11-13 01:33:04,287 - root - INFO - KiCad MCP server shutdown complete
+2026-11-13 01:33:04,287 - root - INFO - Cleanup handler <lambda> completed successfully
+2026-11-13 01:33:04,287 - root - INFO - Cleaning up 0 temporary directories
+2026-11-13 01:33:04,287 - root - INFO - Cleanup handler cleanup_temp_dirs completed successfully

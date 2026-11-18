@@ -1,0 +1,12 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+{'source': 'U1.18', 'area': 0.4583719972560044, 'ok': False}
+{'source': 'R34.1', 'area': 0.8192656260874965, 'ok': False}
+{'source': 'C52.2', 'area': 1.3410811021235043, 'ok': False}
+{'source': 'U10.2', 'area': 2.6946235056640133, 'ok': False}
+{'source': 'R54.2', 'area': 2.6390714997310036, 'ok': True}
+{'source': 'C64.2', 'area': 2.731292824607505, 'ok': True}
+{'source': 'C21.1', 'area': 0.7979517232625094, 'ok': False}
+{'source': 'C20.2', 'area': 3.635415123192502, 'ok': True}
+{'source': 'U2.8', 'area': 4.820252583352987, 'ok': True}

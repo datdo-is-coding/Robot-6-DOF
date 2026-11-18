@@ -1,0 +1,66 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+{'index': 1, 'net': '/GATE_DRV/SHC', 'ok': False, 'detail': 'no grid path'}
+{'index': 2, 'net': '/GATE_DRV/SHA', 'ok': True, 'detail': '235 grid points', 'vertices': 24}
+{'index': 3, 'net': '/GATE_DRV/CSA_SPA', 'ok': False, 'detail': 'no grid path'}
+{'index': 4, 'net': 'Net-(IC1-CPL)', 'ok': True, 'detail': '36 grid points', 'vertices': 12}
+{'index': 5, 'net': 'Net-(IC1-CPH)', 'ok': True, 'detail': '36 grid points', 'vertices': 9}
+{'index': 6, 'net': 'Net-(IC1-VCP)', 'ok': True, 'detail': '67 grid points', 'vertices': 12}
+{'index': 7, 'net': '/GATE_DRV/GHA', 'ok': False, 'detail': 'no grid path'}
+{'index': 8, 'net': '/GATE_DRV/GLA', 'ok': False, 'detail': 'no grid path'}
+{'index': 9, 'net': '/GATE_DRV/CSA_SPB', 'ok': False, 'detail': 'no grid path'}
+{'index': 10, 'net': '/GATE_DRV/GLB', 'ok': False, 'detail': 'no grid path'}
+{'index': 11, 'net': '/GATE_DRV/SHB', 'ok': False, 'detail': 'no grid path'}
+{'index': 12, 'net': '/GATE_DRV/GLC', 'ok': False, 'detail': 'no grid path'}
+{'index': 13, 'net': '/GATE_DRV/ISENSE1_C', 'ok': False, 'detail': 'no grid path'}
+{'index': 14, 'net': '/GATE_DRV/SPI1_MISO', 'ok': False, 'detail': 'no grid path'}
+{'index': 15, 'net': '/GATE_DRV/SPI1_SS0', 'ok': False, 'detail': 'no grid path'}
+{'index': 16, 'net': '/GATE_DRV/EN_GATE1', 'ok': False, 'detail': 'no grid path'}
+{'index': 17, 'net': 'DVDD', 'ok': False, 'detail': 'no grid path'}
+{'index': 18, 'net': '/GATE_DRV/PWM1_C', 'ok': False, 'detail': 'no grid path'}
+{'index': 19, 'net': '/MCU/OSC_IN', 'ok': False, 'detail': 'no grid path'}
+{'index': 20, 'net': '/MCU/OSC_OUT', 'ok': False, 'detail': 'no grid path'}
+{'index': 21, 'net': '/HALL/HALL_MISO', 'ok': False, 'detail': 'no grid path'}
+{'index': 22, 'net': '/COMMUNICATION/CAN_RX', 'ok': False, 'detail': 'no grid path'}
+{'index': 23, 'net': '+3V3', 'ok': True, 'detail': '47 grid points', 'vertices': 9}
+{'index': 24, 'net': '+3V3', 'ok': True, 'detail': '24 grid points', 'vertices': 6}
+{'index': 25, 'net': '+3V3', 'ok': True, 'detail': '146 grid points', 'vertices': 18}
+{'index': 26, 'net': '+3V3', 'ok': True, 'detail': '202 grid points', 'vertices': 16}
+{'index': 27, 'net': '+3V3', 'ok': True, 'detail': '87 grid points', 'vertices': 16}
+{'index': 28, 'net': '+3V3', 'ok': True, 'detail': '41 grid points', 'vertices': 12}
+{'index': 29, 'net': '+3V3', 'ok': True, 'detail': '68 grid points', 'vertices': 19}
+{'index': 30, 'net': '+3V3', 'ok': True, 'detail': '125 grid points', 'vertices': 18}
+{'index': 31, 'net': '+3V3', 'ok': True, 'detail': '21 grid points', 'vertices': 8}
+{'index': 32, 'net': '+3V3', 'ok': True, 'detail': '35 grid points', 'vertices': 11}
+{'index': 33, 'net': '+3V3', 'ok': True, 'detail': '209 grid points', 'vertices': 20}
+{'index': 34, 'net': '+3V3', 'ok': True, 'detail': '45 grid points', 'vertices': 9}
+{'index': 35, 'net': '+3V3', 'ok': True, 'detail': '122 grid points', 'vertices': 13}
+{'index': 36, 'net': '+3V3', 'ok': True, 'detail': '37 grid points', 'vertices': 14}
+{'index': 37, 'net': '+3V3', 'ok': True, 'detail': '245 grid points', 'vertices': 34}
+{'index': 38, 'net': '+3V3', 'ok': True, 'detail': '148 grid points', 'vertices': 34}
+{'index': 39, 'net': '+3V3', 'ok': True, 'detail': '103 grid points', 'vertices': 24}
+{'index': 40, 'net': '+3V3', 'ok': True, 'detail': '24 grid points', 'vertices': 9}
+{'index': 41, 'net': '+3V3', 'ok': True, 'detail': '248 grid points', 'vertices': 38}
+{'index': 42, 'net': '+3V3', 'ok': True, 'detail': '123 grid points', 'vertices': 7}
+{'index': 43, 'net': '+3V3', 'ok': True, 'detail': '30 grid points', 'vertices': 8}
+{'index': 44, 'net': '+3V3', 'ok': True, 'detail': '32 grid points', 'vertices': 9}
+{'index': 45, 'net': '+3V3', 'ok': True, 'detail': '33 grid points', 'vertices': 8}
+{'index': 46, 'net': '+3V3', 'ok': True, 'detail': '50 grid points', 'vertices': 10}
+{'index': 47, 'net': '+3V3', 'ok': True, 'detail': '243 grid points', 'vertices': 28}
+{'index': 48, 'net': '+3V3', 'ok': True, 'detail': '205 grid points', 'vertices': 14}
+{'index': 49, 'net': 'VS', 'ok': False, 'detail': 'no grid path'}
+{'index': 50, 'net': 'VS', 'ok': True, 'detail': '83 grid points', 'vertices': 14}
+{'index': 51, 'net': 'VS', 'ok': False, 'detail': 'no grid path'}
+{'index': 52, 'net': 'VS', 'ok': True, 'detail': '9 grid points', 'vertices': 4}
+{'index': 53, 'net': 'VS', 'ok': True, 'detail': '33 grid points', 'vertices': 7}
+{'index': 54, 'net': 'VS', 'ok': True, 'detail': '52 grid points', 'vertices': 11}
+{'index': 55, 'net': 'VS', 'ok': True, 'detail': '9 grid points', 'vertices': 4}
+{'index': 56, 'net': 'VS', 'ok': True, 'detail': '197 grid points', 'vertices': 26}
+{'index': 57, 'net': '+5V', 'ok': True, 'detail': '88 grid points', 'vertices': 15}
+{'index': 58, 'net': '+5V', 'ok': True, 'detail': '48 grid points', 'vertices': 13}
+{'index': 59, 'net': '+5V', 'ok': True, 'detail': '70 grid points', 'vertices': 20}
+{'index': 60, 'net': '+5V', 'ok': True, 'detail': '74 grid points', 'vertices': 6}
+{'index': 61, 'net': '+5V', 'ok': True, 'detail': '51 grid points', 'vertices': 24}
+{'index': 62, 'net': '+5V', 'ok': True, 'detail': '38 grid points', 'vertices': 8}
+{'index': 63, 'net': '+5V', 'ok': True, 'detail': '571 grid points', 'vertices': 65}

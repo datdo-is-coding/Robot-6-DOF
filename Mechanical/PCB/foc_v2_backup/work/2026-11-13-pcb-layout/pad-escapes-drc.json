@@ -1,0 +1,359 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-14T01:09:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "foc_v2.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [VS] on F.Cu, length 0.5000 mm",
+                    "pos": {
+                        "x": 96.5625,
+                        "y": 92.75
+                    },
+                    "uuid": "0ea5b867-24b8-4c33-8eb2-c909f99ef1aa"
+                },
+                {
+                    "description": "Pad 2 [VS] of C18 on F.Cu",
+                    "pos": {
+                        "x": 94.8625,
+                        "y": 95.0
+                    },
+                    "uuid": "ff9def7c-6bf7-4432-b877-5ac64f302f86"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/GATE_DRV/SHA] of R55 on F.Cu",
+                    "pos": {
+                        "x": 85.825,
+                        "y": 98.8
+                    },
+                    "uuid": "1dbc67de-378b-4d2f-b7e7-be10acf84acb"
+                },
+                {
+                    "description": "Track [/GATE_DRV/SHA] on F.Cu, length 0.5375 mm",
+                    "pos": {
+                        "x": 96.5625,
+                        "y": 93.75
+                    },
+                    "uuid": "bb518d23-e5ce-4cef-b954-65c12a015337"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(IC1-VCP)] of C18 on F.Cu",
+                    "pos": {
+                        "x": 93.1375,
+                        "y": 95.0
+                    },
+                    "uuid": "c07e0212-1c58-4bbf-97fd-9bd98e5ed94a"
+                },
+                {
+                    "description": "Pad 5 [Net-(IC1-VCP)] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 96.5625,
+                        "y": 91.75
+                    },
+                    "uuid": "56414eca-3302-49e6-89c3-0c4ee179bd48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 29 [/GATE_DRV/SPI1_MISO] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 103.4375,
+                        "y": 93.25
+                    },
+                    "uuid": "3cd23ad9-cf9f-4b18-88c0-f0f21fdb7db2"
+                },
+                {
+                    "description": "Track [/GATE_DRV/SPI1_MISO] on In2.Cu, length 1.5835 mm",
+                    "pos": {
+                        "x": 105.304,
+                        "y": 97.06
+                    },
+                    "uuid": "47354071-6b85-415a-8c03-0d8e008bd082"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/GATE_DRV/SPI1_SCK] on F.Cu, length 0.1000 mm",
+                    "pos": {
+                        "x": 103.4375,
+                        "y": 92.25
+                    },
+                    "uuid": "330302da-ac9c-4e8e-93d4-256e34ff58f1"
+                },
+                {
+                    "description": "Track [/GATE_DRV/SPI1_SCK] on F.Cu, length 0.9863 mm",
+                    "pos": {
+                        "x": 98.25,
+                        "y": 123.475
+                    },
+                    "uuid": "87db0ed1-4eca-426c-8d07-08cfbaf5c24b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 33 [/GATE_DRV/EN_GATE1] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 103.4375,
+                        "y": 91.25
+                    },
+                    "uuid": "f09848a6-76a4-4269-b7bd-49c27a6c9615"
+                },
+                {
+                    "description": "Track [/GATE_DRV/EN_GATE1] on In2.Cu, length 1.0041 mm",
+                    "pos": {
+                        "x": 105.471,
+                        "y": 106.304
+                    },
+                    "uuid": "98af2328-43c1-44dd-adf9-fc7f101ea854"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 42 [/GATE_DRV/PWM1_CN] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 89.0625
+                    },
+                    "uuid": "986d7fff-9c39-46aa-b86d-2177a8ebce9e"
+                },
+                {
+                    "description": "Track [/GATE_DRV/PWM1_CN] on F.Cu, length 0.9850 mm",
+                    "pos": {
+                        "x": 105.675,
+                        "y": 120.05
+                    },
+                    "uuid": "6488775e-332a-4f06-a443-62b5c4da9538"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [VS] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 96.025,
+                        "y": 92.25
+                    },
+                    "uuid": "bd0b29a0-1723-476f-882a-746f76448d82"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/GATE_DRV/SHA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 96.025,
+                        "y": 93.75
+                    },
+                    "uuid": "d0db747d-0120-424f-9687-33b0fb0a13ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(IC1-VCP)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 92.09,
+                        "y": 95.2
+                    },
+                    "uuid": "08ae13d1-c093-4078-862d-2ec5319393f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/GATE_DRV/SPI1_SCK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 98.2,
+                        "y": 122.49
+                    },
+                    "uuid": "1b381f49-83cb-4de6-8bd7-dbddd4770e67"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/GATE_DRV/SPI1_SCK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 103.3375,
+                        "y": 92.25
+                    },
+                    "uuid": "aecea193-8a99-49d4-8881-23ad68bc213d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/GATE_DRV/PWM1_CN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 106.66,
+                        "y": 120.05
+                    },
+                    "uuid": "66a5dd8a-49b8-4452-acdf-deac50b7fb2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

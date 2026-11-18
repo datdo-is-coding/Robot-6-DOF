@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "foc_v2") (type "KiCad") (uri "${KIPRJMOD}/foc_v2.kicad_sym") (options "") (descr "Project DRV8323RS with electrical pin types")))

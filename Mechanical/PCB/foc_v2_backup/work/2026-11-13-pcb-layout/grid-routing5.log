@@ -1,0 +1,78 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+{'index': 0, 'net': '/HALL/HALL_MOSI', 'ok': True, 'detail': '19 grid points', 'vertices': 3}
+{'index': 1, 'net': 'Net-(IC1-CPH)', 'ok': True, 'detail': '36 grid points', 'vertices': 9}
+{'index': 2, 'net': 'Net-(IC1-CPL)', 'ok': True, 'detail': '36 grid points', 'vertices': 16}
+{'index': 3, 'net': '/MCU/NRST', 'ok': True, 'detail': '39 grid points', 'vertices': 11}
+{'index': 4, 'net': 'DVDD', 'ok': True, 'detail': '37 grid points', 'vertices': 14}
+{'index': 5, 'net': '/COMMUNICATION/CAN_TX', 'ok': True, 'detail': '45 grid points', 'vertices': 2}
+{'index': 6, 'net': 'Net-(U2-MGL)', 'ok': True, 'detail': '41 grid points', 'vertices': 6}
+{'index': 7, 'net': 'Net-(D4-K)', 'ok': True, 'detail': '62 grid points', 'vertices': 17}
+{'index': 8, 'net': '/MCU/NRST', 'ok': True, 'detail': '94 grid points', 'vertices': 22}
+{'index': 9, 'net': 'Net-(IC1-VCP)', 'ok': True, 'detail': '63 grid points', 'vertices': 15}
+{'index': 10, 'net': '/HALL/HALL_CS', 'ok': True, 'detail': '88 grid points', 'vertices': 18}
+{'index': 11, 'net': '/MCU/OSC_OUT', 'ok': True, 'detail': '142 grid points', 'vertices': 18}
+{'index': 12, 'net': 'Net-(D4-K)', 'ok': True, 'detail': '90 grid points', 'vertices': 16}
+{'index': 13, 'net': 'Net-(IC1-CB)', 'ok': True, 'detail': '128 grid points', 'vertices': 17}
+{'index': 14, 'net': 'Net-(IC1-FB)', 'ok': True, 'detail': '120 grid points', 'vertices': 18}
+{'index': 15, 'net': '/GATE_DRV/CSA_SPC', 'ok': True, 'detail': '99 grid points', 'vertices': 8}
+{'index': 16, 'net': '/MCU/OSC_IN', 'ok': True, 'detail': '201 grid points', 'vertices': 22}
+{'index': 17, 'net': '/MCU/LED_G', 'ok': True, 'detail': '188 grid points', 'vertices': 15}
+{'index': 18, 'net': '/GATE_DRV/SPI1_MISO', 'ok': True, 'detail': '159 grid points', 'vertices': 16}
+{'index': 19, 'net': '/MCU/BOOT0', 'ok': True, 'detail': '145 grid points', 'vertices': 19}
+{'index': 20, 'net': '/GATE_DRV/SPI1_MISO', 'ok': True, 'detail': '216 grid points', 'vertices': 27}
+{'index': 21, 'net': '/GATE_DRV/SNC', 'ok': True, 'detail': '190 grid points', 'vertices': 21}
+{'index': 22, 'net': '/GATE_DRV/NFAULT1', 'ok': False, 'detail': 'no grid path'}
+{'index': 23, 'net': '/HALL/HALL_SCLK', 'ok': True, 'detail': '248 grid points', 'vertices': 13}
+{'index': 24, 'net': '/GATE_DRV/CSA_SPA', 'ok': True, 'detail': '200 grid points', 'vertices': 20}
+{'index': 25, 'net': '/GATE_DRV/SPI1_SS0', 'ok': True, 'detail': '180 grid points', 'vertices': 13}
+{'index': 26, 'net': '/GATE_DRV/GHA', 'ok': True, 'detail': '241 grid points', 'vertices': 19}
+{'index': 27, 'net': '/GATE_DRV/SHA', 'ok': False, 'detail': 'no grid path'}
+{'index': 28, 'net': '/MCU/SWCLK', 'ok': True, 'detail': '257 grid points', 'vertices': 25}
+{'index': 29, 'net': '/HALL/HALL_CS', 'ok': True, 'detail': '270 grid points', 'vertices': 22}
+{'index': 30, 'net': '/GATE_DRV/EN_GATE1', 'ok': True, 'detail': '272 grid points', 'vertices': 25}
+{'index': 31, 'net': '/HALL/HALL_MOSI', 'ok': False, 'detail': 'no grid path'}
+{'index': 32, 'net': '/GATE_DRV/CSA_CAL1', 'ok': True, 'detail': '240 grid points', 'vertices': 25}
+{'index': 33, 'net': '/HALL/HALL_MISO', 'ok': False, 'detail': 'no grid path'}
+{'index': 34, 'net': '/GATE_DRV/GLA', 'ok': False, 'detail': 'no grid path'}
+{'index': 35, 'net': '/GATE_DRV/SPI1_SS0', 'ok': False, 'detail': 'no grid path'}
+{'index': 36, 'net': '/GATE_DRV/SHC', 'ok': True, 'detail': '352 grid points', 'vertices': 19}
+{'index': 37, 'net': '/GATE_DRV/SHB', 'ok': True, 'detail': '373 grid points', 'vertices': 21}
+{'index': 38, 'net': '/COMMUNICATION/CAN_RX', 'ok': True, 'detail': '361 grid points', 'vertices': 31}
+{'index': 39, 'net': '/GATE_DRV/SPI1_MOSI', 'ok': False, 'detail': 'no grid path'}
+{'index': 40, 'net': '/COMMUNICATION/CAN_TX', 'ok': True, 'detail': '388 grid points', 'vertices': 31}
+{'index': 41, 'net': '/GATE_DRV/NFAULT1', 'ok': True, 'detail': '424 grid points', 'vertices': 26}
+{'index': 42, 'net': '/GATE_DRV/SNA', 'ok': True, 'detail': '314 grid points', 'vertices': 23}
+{'index': 43, 'net': '/GATE_DRV/CSA_CAL1', 'ok': True, 'detail': '412 grid points', 'vertices': 49}
+{'index': 44, 'net': '/GATE_DRV/GHC', 'ok': True, 'detail': '538 grid points', 'vertices': 36}
+{'index': 45, 'net': '/GATE_DRV/GLC', 'ok': False, 'detail': 'no grid path'}
+{'index': 46, 'net': '/GATE_DRV/CSA_SPB', 'ok': False, 'detail': 'no grid path'}
+{'index': 47, 'net': '/GATE_DRV/GHB', 'ok': False, 'detail': 'no grid path'}
+{'index': 48, 'net': '/GATE_DRV/GLB', 'ok': False, 'detail': 'no grid path'}
+{'index': 49, 'net': '/GATE_DRV/SNB', 'ok': True, 'detail': '431 grid points', 'vertices': 27}
+{'index': 50, 'net': '/GATE_DRV/PWM1_B', 'ok': True, 'detail': '562 grid points', 'vertices': 48}
+{'index': 51, 'net': '/GATE_DRV/PWM1_C', 'ok': False, 'detail': 'no grid path'}
+{'index': 52, 'net': '/GATE_DRV/PWM1_A', 'ok': True, 'detail': '564 grid points', 'vertices': 50}
+{'index': 53, 'net': '/GATE_DRV/ISENSE1_A', 'ok': True, 'detail': '549 grid points', 'vertices': 73}
+{'index': 54, 'net': '/GATE_DRV/PWM1_CN', 'ok': False, 'detail': 'no grid path'}
+{'index': 55, 'net': '/GATE_DRV/SPI1_SCK', 'ok': False, 'detail': 'no grid path'}
+{'index': 56, 'net': '/GATE_DRV/PWM1_BN', 'ok': False, 'detail': 'no grid path'}
+{'index': 57, 'net': '/GATE_DRV/PWM1_AN', 'ok': True, 'detail': '660 grid points', 'vertices': 72}
+{'index': 58, 'net': '/GATE_DRV/ISENSE1_B', 'ok': False, 'detail': 'no grid path'}
+{'index': 59, 'net': '/GATE_DRV/ISENSE1_C', 'ok': False, 'detail': 'no grid path'}
+{'index': 60, 'net': '/MCU/SWDIO', 'ok': True, 'detail': '929 grid points', 'vertices': 104}
+{'index': 61, 'net': 'VS', 'ok': True, 'detail': '9 grid points', 'vertices': 4}
+{'index': 62, 'net': 'VS', 'ok': True, 'detail': '9 grid points', 'vertices': 4}
+{'index': 63, 'net': '+3V3', 'ok': True, 'detail': '32 grid points', 'vertices': 6}
+{'index': 64, 'net': 'VS', 'ok': True, 'detail': '33 grid points', 'vertices': 7}
+{'index': 65, 'net': '+3V3', 'ok': True, 'detail': '72 grid points', 'vertices': 16}
+{'index': 66, 'net': 'VS', 'ok': False, 'detail': 'no grid path'}
+{'index': 67, 'net': '+3V3', 'ok': True, 'detail': '45 grid points', 'vertices': 6}
+{'index': 68, 'net': 'VS', 'ok': True, 'detail': '56 grid points', 'vertices': 11}
+{'index': 69, 'net': 'VS', 'ok': False, 'detail': 'no grid path'}
+{'index': 70, 'net': 'VS', 'ok': True, 'detail': '71 grid points', 'vertices': 11}
+{'index': 71, 'net': '+3V3', 'ok': True, 'detail': '168 grid points', 'vertices': 39}
+{'index': 72, 'net': '+5V', 'ok': True, 'detail': '133 grid points', 'vertices': 13}
+{'index': 73, 'net': 'VS', 'ok': True, 'detail': '281 grid points', 'vertices': 25}
+{'index': 74, 'net': '+5V', 'ok': True, 'detail': '585 grid points', 'vertices': 59}

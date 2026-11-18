@@ -1,0 +1,100 @@
+[
+  {
+    "label": "ENCD2_A",
+    "unused_pin_at": [
+      124.46,
+      62.23
+    ]
+  },
+  {
+    "label": "PWM2_AN",
+    "unused_pin_at": [
+      124.46,
+      80.01
+    ]
+  },
+  {
+    "label": "ISENSE2_A",
+    "unused_pin_at": [
+      83.82,
+      85.09
+    ]
+  },
+  {
+    "label": "ENCD2_I",
+    "unused_pin_at": [
+      124.46,
+      67.31
+    ]
+  },
+  {
+    "label": "PWM2_B",
+    "unused_pin_at": [
+      83.82,
+      102.87
+    ]
+  },
+  {
+    "label": "PWM2_CN",
+    "unused_pin_at": [
+      124.46,
+      107.95
+    ]
+  },
+  {
+    "label": "PWM2_C",
+    "unused_pin_at": [
+      83.82,
+      105.41
+    ]
+  },
+  {
+    "label": "EN_GATE2",
+    "unused_pin_at": [
+      124.46,
+      135.89
+    ]
+  },
+  {
+    "label": "PWM2_A",
+    "unused_pin_at": [
+      83.82,
+      100.33
+    ]
+  },
+  {
+    "label": "ENCD2_B",
+    "unused_pin_at": [
+      124.46,
+      64.77
+    ]
+  },
+  {
+    "label": "ISENSE2_C",
+    "unused_pin_at": [
+      83.82,
+      90.17
+    ]
+  },
+  {
+    "label": "PWM2_BN",
+    "unused_pin_at": [
+      124.46,
+      105.41
+    ]
+  },
+  {
+    "label": "ISENSE2_B",
+    "unused_pin_at": [
+      83.82,
+      87.63
+    ]
+  },
+  {
+    "label": "ENCD1_I",
+    "unused_pin_at": [
+      124.46,
+      130.81
+    ]
+  }
+]

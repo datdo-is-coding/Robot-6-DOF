@@ -1,0 +1,42 @@
+2026-11-13 12:10:38.951 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-11-13 12:10:39.230 INFO   Hardware: 12 CPU cores, 503 CPU score, 4096 MB RAM
+2026-11-13 12:10:39.232 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-13 12:10:40.607 INFO   [ECF021\D572BA] Loading board file 'routing.dsn'...
+2026-11-13 12:10:40.847 INFO   Layer 'F.Cu' contains a power plane / large copper pour covering >=30% of the board; associated net(s) configured for plane routing.
+2026-11-13 12:10:40.847 INFO   Layer 'In1.Cu' contains a power plane / large copper pour covering >=30% of the board; associated net(s) configured for plane routing.
+2026-11-13 12:10:40.847 INFO   Layer 'B.Cu' contains a power plane / large copper pour covering >=30% of the board; associated net(s) configured for plane routing.
+2026-11-13 12:10:40.847 WARN   DSN file 'routing.dsn' was loaded with 5 warning(s).
+2026-11-13 12:10:40.956 INFO   [ECF021\D572BA] Job 'ECF021\D572BA' started at 2026-11-13T05:10:40.956803884Z.
+2026-11-13 12:10:41.849 WARN   Design Warning: Board has 5 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 5 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 5 fixed trace/via clearance violations:
+          - FixedTrace#2095 [net /GATE_DRV/NFAULT1] <-> IC1.29 [net /GATE_DRV/SPI1_MISO]
+          - FixedTrace#1828 [net VS] <-> IC1.4 [net Net-(IC1-CPH)]
+          - FixedTrace#1798 [net VS] <-> IC1.4 [net Net-(IC1-CPH)]
+          - R53.1 [net VS] <-> FixedVia#2455 [net VS]
+          - Q3.5 [net VS] <-> FixedVia#2431 [net VS]
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 5 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-11-13 12:10:41.897 INFO   [ECF021\D572BA] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=3.
+2026-11-13 12:10:43.322 INFO   [ECF021\D572BA] Fanout stage started on board 'd654b21a665fdfb38f96e62a1edb2f00' with 232 of 401 SMD pins needing fanout (169 already connected, 0 netless).
+2026-11-13 12:10:54.420 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net '/MCU/ADC_IA' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-11-13 12:11:05.032 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'Net-(Q4-G)' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-11-13 12:11:06.297 INFO   [ECF021\D572BA] Fanout pass #1 on board '3a47e795a85fd61b4cf8ce24e4f5ca88' completed in 22.27 seconds with 97 SMD pins fanouted, 37 not routed, 0 insert errors, +20 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-11-13 12:11:10.749 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net '/COMMUNICATION/USB_VBUS' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-11-13 12:11:13.594 INFO   [ECF021\D572BA] Fanout pass #2 on board 'c39d6b95d74e9b1b3067580ea1438915' completed in 7.25 seconds with 63 SMD pins fanouted, 30 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=200).
+2026-11-13 12:11:17.204 INFO   [ECF021\D572BA] Fanout pass #3 on board '41c9833a692279695fe68c48c3dfb35c' completed in 3.57 seconds with 63 SMD pins fanouted, 30 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-11-13 12:11:17.923 INFO   [ECF021\D572BA] Fanout stage completed: started with 401 total SMD pins, completed in 33.93 seconds, escaped pins: 316/401 (78.8%), using 35.05 total CPU seconds, 34.94 GB total allocated, and 289.1 MB peak heap usage.
+2026-11-13 12:11:20.337 INFO   [ECF021\D572BA] Auto-routing stage started on board '41c9833a692279695fe68c48c3dfb35c' with baseline score 642.15 for 88 unrouted items.
+2026-11-13 12:11:48.194 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'VS' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-11-13 12:12:19.164 INFO   Necked retry routed net '/COMMUNICATION/USB_DM_CONN' at 150.0 um trace width.
+2026-11-13 12:12:36.406 INFO   Necked retry routed net 'Net-(D4-K)' at 150.0 um trace width.
+2026-11-13 12:13:04.414 INFO   Necked retry routed net '/GATE_DRV/SPI1_MOSI' at 150.0 um trace width.
+2026-11-13 12:14:13.101 INFO   [ECF021\D572BA] Auto-routing pass #1 on board '41c9833a692279695fe68c48c3dfb35c' was completed in 171.94 seconds with score 703.13 (73 unrouted and 5 violations), using 208.75 CPU seconds and the job allocated 210.37 GB of memory so far.
+2026-11-13 12:15:33.576 INFO   Necked retry routed net '/GATE_DRV/PWM1_A' at 150.0 um trace width.
+2026-11-13 12:16:07.358 INFO   [ECF021\D572BA] Auto-routing pass #2 on board '0afe0b347260eabee18c0b7e4f84dd01' was completed in 113.47 seconds with score 711.26 (71 unrouted and 5 violations), using 321.11 CPU seconds and the job allocated 328.61 GB of memory so far.
+2026-11-13 12:16:42.615 INFO   [ECF021\D572BA] Auto-routing pass #3 on board 'fa69ca8791dbc159b3cfdb08028b4139' was completed in 34.46 seconds with score 711.26 (71 unrouted and 5 violations), using 354.66 CPU seconds and the job allocated 362.42 GB of memory so far.
+2026-11-13 12:16:44.899 INFO   [ECF021\D572BA] Auto-routing stage completed with timeout: started with 103 unrouted nets, completed in 362.28 seconds, final score: 711.26 (71 unrouted and 5 violations), using 354.66 total CPU seconds, 362.42 GB total allocated, and 586.8 MB peak heap usage.
+2026-11-13 12:16:44.929 INFO   [ECF021\D572BA] Job 'ECF021\D572BA' finished with state: TIMED_OUT (elapsed: 6 minutes 3.97 seconds, finished at UTC: 2026-11-13T05:16:44.928493623Z).
+2026-11-13 12:16:44.949 INFO   Saving output file '/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/routed.ses' (SES)...
+2026-11-13 12:16:44.952 INFO   Successfully saved output file '/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/routed.ses' (146556 bytes).

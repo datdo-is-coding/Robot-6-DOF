@@ -1,0 +1,10 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+3 VS 121 grid points
+4 /GATE_DRV/SHA 423 grid points
+5 Net-(IC1-VCP) no grid path
+6 /GATE_DRV/SPI1_MISO no grid path
+7 /GATE_DRV/SPI1_SCK 636 grid points
+8 /GATE_DRV/EN_GATE1 no grid path
+9 /GATE_DRV/PWM1_CN no grid path

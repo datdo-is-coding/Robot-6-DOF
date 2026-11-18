@@ -1,0 +1,31 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+{'index': 0, 'net': '/GATE_DRV/CSA_CAL1', 'ok': False, 'detail': 'no grid path'}
+{'index': 4, 'net': '+3V3', 'ok': False, 'detail': 'no grid path'}
+{'index': 5, 'net': '/GATE_DRV/SHC', 'ok': False, 'detail': 'no grid path'}
+{'index': 6, 'net': '/GATE_DRV/SHA', 'ok': False, 'detail': 'no grid path'}
+{'index': 7, 'net': '/GATE_DRV/CSA_SPA', 'ok': False, 'detail': 'no grid path'}
+{'index': 8, 'net': '+5V', 'ok': True, 'detail': '172 grid points', 'vertices': 14}
+{'index': 9, 'net': 'Net-(IC1-CPL)', 'ok': False, 'detail': 'no grid path'}
+{'index': 10, 'net': 'Net-(IC1-CPH)', 'ok': False, 'detail': 'no grid path'}
+{'index': 11, 'net': 'Net-(IC1-VCP)', 'ok': False, 'detail': 'no grid path'}
+{'index': 12, 'net': '/GATE_DRV/GHA', 'ok': False, 'detail': 'no grid path'}
+{'index': 13, 'net': '/GATE_DRV/GLA', 'ok': False, 'detail': 'no grid path'}
+{'index': 14, 'net': '/GATE_DRV/CSA_SPB', 'ok': False, 'detail': 'no grid path'}
+{'index': 15, 'net': '/GATE_DRV/GLB', 'ok': False, 'detail': 'no grid path'}
+{'index': 16, 'net': '/GATE_DRV/SHB', 'ok': False, 'detail': 'no grid path'}
+{'index': 17, 'net': '/GATE_DRV/GLC', 'ok': False, 'detail': 'no grid path'}
+{'index': 18, 'net': '/GATE_DRV/ISENSE1_C', 'ok': False, 'detail': 'no grid path'}
+{'index': 19, 'net': '/GATE_DRV/SPI1_MISO', 'ok': False, 'detail': 'no grid path'}
+{'index': 20, 'net': '/GATE_DRV/SPI1_MOSI', 'ok': True, 'detail': '18 grid points', 'vertices': 7}
+{'index': 21, 'net': '/GATE_DRV/SPI1_SS0', 'ok': False, 'detail': 'no grid path'}
+{'index': 22, 'net': '/GATE_DRV/EN_GATE1', 'ok': False, 'detail': 'no grid path'}
+{'index': 23, 'net': 'DVDD', 'ok': False, 'detail': 'no grid path'}
+{'index': 24, 'net': '/GATE_DRV/PWM1_BN', 'ok': False, 'detail': 'no grid path'}
+{'index': 25, 'net': '/GATE_DRV/PWM1_C', 'ok': False, 'detail': 'no grid path'}
+{'index': 26, 'net': '/MCU/OSC_IN', 'ok': False, 'detail': 'no grid path'}
+{'index': 27, 'net': '/MCU/OSC_OUT', 'ok': False, 'detail': 'no grid path'}
+{'index': 28, 'net': '/HALL/HALL_MISO', 'ok': False, 'detail': 'no grid path'}
+{'index': 29, 'net': '/HALL/HALL_MOSI', 'ok': False, 'detail': 'no grid path'}
+{'index': 30, 'net': '/COMMUNICATION/CAN_RX', 'ok': False, 'detail': 'no grid path'}

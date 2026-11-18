@@ -1,0 +1,451 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-14T00:42:09",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "foc_v2.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "4142722d-aeb8-470a-827d-716e65e6c7e1"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "4142722d-aeb8-470a-827d-716e65e6c7e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "4142722d-aeb8-470a-827d-716e65e6c7e1"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                },
+                {
+                    "description": "Zone 'Ground return and shielding' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 100.0
+                    },
+                    "uuid": "f9d861de-5685-400e-a1be-3dbe1e6b0e70"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [VS] of C18 on F.Cu",
+                    "pos": {
+                        "x": 94.8625,
+                        "y": 95.0
+                    },
+                    "uuid": "ff9def7c-6bf7-4432-b877-5ac64f302f86"
+                },
+                {
+                    "description": "Track [VS] on F.Cu, length 0.5000 mm",
+                    "pos": {
+                        "x": 96.5625,
+                        "y": 92.75
+                    },
+                    "uuid": "04aab491-2ac8-4441-88bc-28117b331e58"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 9 [/GATE_DRV/SHA] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 96.5625,
+                        "y": 93.75
+                    },
+                    "uuid": "28030fd0-8d7f-4bdf-9376-437a53bd89e7"
+                },
+                {
+                    "description": "Track [/GATE_DRV/SHA] on F.Cu, length 1.8031 mm",
+                    "pos": {
+                        "x": 84.55,
+                        "y": 100.075
+                    },
+                    "uuid": "80038cee-798b-4136-8666-e16bd2e2b239"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(IC1-VCP)] of C18 on F.Cu",
+                    "pos": {
+                        "x": 93.1375,
+                        "y": 95.0
+                    },
+                    "uuid": "c07e0212-1c58-4bbf-97fd-9bd98e5ed94a"
+                },
+                {
+                    "description": "Pad 5 [Net-(IC1-VCP)] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 96.5625,
+                        "y": 91.75
+                    },
+                    "uuid": "56414eca-3302-49e6-89c3-0c4ee179bd48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/GATE_DRV/SPI1_MISO] on In2.Cu, length 1.5831 mm",
+                    "pos": {
+                        "x": 105.3035,
+                        "y": 97.06
+                    },
+                    "uuid": "496311b4-8776-412d-be3a-d8afe332b7e7"
+                },
+                {
+                    "description": "Pad 29 [/GATE_DRV/SPI1_MISO] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 103.4375,
+                        "y": 93.25
+                    },
+                    "uuid": "3cd23ad9-cf9f-4b18-88c0-f0f21fdb7db2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 21 [/GATE_DRV/SPI1_SCK] of U1 on F.Cu",
+                    "pos": {
+                        "x": 98.25,
+                        "y": 123.475
+                    },
+                    "uuid": "9ebf0ef8-2f3c-4341-b13b-99f9a69528a3"
+                },
+                {
+                    "description": "Pad 31 [/GATE_DRV/SPI1_SCK] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 103.4375,
+                        "y": 92.25
+                    },
+                    "uuid": "c27de9e0-682c-45b3-8ad3-0150f00dd0ae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/GATE_DRV/EN_GATE1] on In2.Cu, length 1.0040 mm",
+                    "pos": {
+                        "x": 105.4714,
+                        "y": 106.3037
+                    },
+                    "uuid": "22715c59-f441-4c11-b597-d0ae6a96bab5"
+                },
+                {
+                    "description": "Pad 33 [/GATE_DRV/EN_GATE1] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 103.4375,
+                        "y": 91.25
+                    },
+                    "uuid": "f09848a6-76a4-4269-b7bd-49c27a6c9615"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 42 [/GATE_DRV/PWM1_CN] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 89.0625
+                    },
+                    "uuid": "986d7fff-9c39-46aa-b86d-2177a8ebce9e"
+                },
+                {
+                    "description": "Pad 36 [/GATE_DRV/PWM1_CN] of U1 on F.Cu",
+                    "pos": {
+                        "x": 105.675,
+                        "y": 120.05
+                    },
+                    "uuid": "e6d8461e-e265-4802-9ce6-8e4cab6e2530"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

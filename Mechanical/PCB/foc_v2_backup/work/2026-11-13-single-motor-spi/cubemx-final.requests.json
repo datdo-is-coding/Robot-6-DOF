@@ -1,0 +1,8 @@
+[
+  {
+    "name": "cubemx_inspect_ioc",
+    "arguments": {
+      "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc"
+    }
+  }
+]

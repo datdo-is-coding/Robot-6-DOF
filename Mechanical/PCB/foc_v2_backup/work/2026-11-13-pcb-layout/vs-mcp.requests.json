@@ -1,0 +1,158 @@
+[
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C12",
+      "pad_a": "1",
+      "ref_b": "IC1",
+      "pad_b": "6",
+      "net": "VS",
+      "width": 0.4,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C13",
+      "pad_a": "1",
+      "ref_b": "C12",
+      "pad_b": "1",
+      "net": "VS",
+      "width": 0.4,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C17",
+      "pad_a": "2",
+      "ref_b": "C12",
+      "pad_b": "1",
+      "net": "VS",
+      "width": 0.4,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C18",
+      "pad_a": "2",
+      "ref_b": "IC1",
+      "pad_b": "6",
+      "net": "VS",
+      "width": 0.4,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "IC1",
+      "pad_a": "7",
+      "ref_b": "IC1",
+      "pad_b": "6",
+      "net": "VS",
+      "width": 0.3,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "IC1",
+      "pad_a": "48",
+      "ref_b": "IC1",
+      "pad_b": "47",
+      "net": "VS",
+      "width": 0.3,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "IC1",
+      "pad_a": "47",
+      "ref_b": "C12",
+      "pad_b": "1",
+      "net": "VS",
+      "width": 0.4,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "R53",
+      "pad_a": "1",
+      "ref_b": "C12",
+      "pad_b": "1",
+      "net": "VS",
+      "width": 0.2,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C12",
+      "pad_a": "1",
+      "ref_b": "Q1",
+      "pad_b": "5",
+      "net": "VS",
+      "width": 0.3,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C_BUS1",
+      "pad_a": "1",
+      "ref_b": "Q1",
+      "pad_b": "5",
+      "net": "VS",
+      "width": 0.8,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C_BUS2",
+      "pad_a": "1",
+      "ref_b": "Q3",
+      "pad_b": "5",
+      "net": "VS",
+      "width": 0.8,
+      "algorithm": "pns"
+    }
+  },
+  {
+    "name": "pcb_route_pad_to_pad",
+    "arguments": {
+      "pcb_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-pcb-layout/candidate/foc_v2.kicad_pcb",
+      "ref_a": "C_BUS3",
+      "pad_a": "1",
+      "ref_b": "Q5",
+      "pad_b": "5",
+      "net": "VS",
+      "width": 0.8,
+      "algorithm": "pns"
+    }
+  }
+]

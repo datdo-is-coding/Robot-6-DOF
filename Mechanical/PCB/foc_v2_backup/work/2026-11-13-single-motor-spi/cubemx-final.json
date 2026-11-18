@@ -1,0 +1,285 @@
+[
+  {
+    "request": {
+      "name": "cubemx_inspect_ioc",
+      "arguments": {
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"summary\": {\n    \"path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc\",\n    \"source_sha256\": \"6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d\",\n    \"size_bytes\": 14298,\n    \"mcu_name\": \"STM32F405RGTx\",\n    \"mcu_part_number\": \"STM32F405RGT6\",\n    \"mcu_family\": \"STM32F4\",\n    \"mcu_package\": \"LQFP64\",\n    \"board\": \"custom\",\n    \"project_name\": \"src\",\n    \"toolchain\": \"EWARM V8.50\",\n    \"cubemx_version\": \"6.17.0\",\n    \"database_version\": \"DB.6.0.170\",\n    \"peripherals\": [\n      \"ADC1\",\n      \"CAN1\",\n      \"DMA\",\n      \"NVIC\",\n      \"RCC\",\n      \"SPI1\",\n      \"SYS\",\n      \"TIM1\",\n      \"USB_DEVICE\",\n      \"USB_OTG_FS\",\n      \"SPI3\"\n    ],\n    \"pins\": [\n      {\n        \"pin\": \"PC13-ANTI_TAMP\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"LED_R\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC14-OSC32_IN\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"LED_G\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB11\",\n        \"signal\": \"GPIO_Input\",\n        \"label\": \"NFAULT1\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB13\",\n        \"signal\": \"TIM1_CH1N\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB14\",\n        \"signal\": \"TIM1_CH2N\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB15\",\n        \"signal\": \"TIM1_CH3N\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC9\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"EN_GATE1\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA8\",\n        \"signal\": \"S_TIM1_CH1\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA9\",\n        \"signal\": \"S_TIM1_CH2\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA10\",\n        \"signal\": \"S_TIM1_CH3\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA11\",\n        \"signal\": \"USB_OTG_FS_DM\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA12\",\n        \"signal\": \"USB_OTG_FS_DP\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PH0-OSC_IN\",\n        \"signal\": \"RCC_OSC_IN\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA13\",\n        \"signal\": \"SYS_JTMS-SWDIO\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA14\",\n        \"signal\": \"SYS_JTCK-SWCLK\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC10\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"SPI_CS\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB4\",\n        \"signal\": \"SPI1_MISO\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB5\",\n        \"signal\": \"SPI1_MOSI\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB8\",\n        \"signal\": \"CAN1_RX\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB9\",\n        \"signal\": \"CAN1_TX\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"VP_SYS_VS_Systick\",\n        \"signal\": \"SYS_VS_Systick\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"VP_TIM1_VS_ClockSourceINT\",\n        \"signal\": \"TIM1_VS_ClockSourceINT\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"VP_TIM1_VS_no_output4\",\n        \"signal\": \"TIM1_VS_no_output4\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"PH1-OSC_OUT\",\n        \"signal\": \"RCC_OSC_OUT\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS\",\n        \"signal\": \"USB_DEVICE_VS_USB_DEVICE_CDC_FS\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"PC3\",\n        \"signal\": \"ADCx_IN13\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA3\",\n        \"signal\": \"ADCx_IN3\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA4\",\n        \"signal\": \"ADCx_IN4\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA5\",\n        \"signal\": \"SPI1_SCK\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA6\",\n        \"signal\": \"ADCx_IN6\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC4\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"CSA_CAL1\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB3\",\n        \"signal\": \"SPI3_SCK\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC11\",\n        \"signal\": \"SPI3_MISO\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC12\",\n        \"signal\": \"SPI3_MOSI\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA15\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"HALL_CS\",\n        \"locked\": true\n      }\n    ],\n    \"clock_values_hz\": {\n      \"RCC.48MHZClocksFreq_Value\": 48000000,\n      \"RCC.AHBFreq_Value\": 168000000,\n      \"RCC.APB1Freq_Value\": 42000000,\n      \"RCC.APB1TimFreq_Value\": 84000000,\n      \"RCC.APB2Freq_Value\": 84000000,\n      \"RCC.APB2TimFreq_Value\": 168000000,\n      \"RCC.CortexFreq_Value\": 168000000,\n      \"RCC.EthernetFreq_Value\": 168000000,\n      \"RCC.FCLKCortexFreq_Value\": 168000000,\n      \"RCC.HCLKFreq_Value\": 168000000,\n      \"RCC.I2SClocksFreq_Value\": 192000000,\n      \"RCC.MCO2PinFreq_Value\": 168000000,\n      \"RCC.PLLCLKFreq_Value\": 168000000,\n      \"RCC.PLLQCLKFreq_Value\": 48000000,\n      \"RCC.RTCFreq_Value\": 32000,\n      \"RCC.RTCHSEDivFreq_Value\": 6000000,\n      \"RCC.SYSCLKFreq_VALUE\": 168000000,\n      \"RCC.VCOI2SOutputFreq_Value\": 384000000,\n      \"RCC.VCOInputFreq_Value\": 2000000,\n      \"RCC.VCOOutputFreq_Value\": 336000000\n    },\n    \"entry_count\": 376\n  },\n  \"diagnostics\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "summary": {
+          "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc",
+          "source_sha256": "6761fedf8267de83ba4e6c43cc769a5d780ac280dd87aede07d9401de54e024d",
+          "size_bytes": 14298,
+          "mcu_name": "STM32F405RGTx",
+          "mcu_part_number": "STM32F405RGT6",
+          "mcu_family": "STM32F4",
+          "mcu_package": "LQFP64",
+          "board": "custom",
+          "project_name": "src",
+          "toolchain": "EWARM V8.50",
+          "cubemx_version": "6.17.0",
+          "database_version": "DB.6.0.170",
+          "peripherals": [
+            "ADC1",
+            "CAN1",
+            "DMA",
+            "NVIC",
+            "RCC",
+            "SPI1",
+            "SYS",
+            "TIM1",
+            "USB_DEVICE",
+            "USB_OTG_FS",
+            "SPI3"
+          ],
+          "pins": [
+            {
+              "pin": "PC13-ANTI_TAMP",
+              "signal": "GPIO_Output",
+              "label": "LED_R",
+              "locked": true
+            },
+            {
+              "pin": "PC14-OSC32_IN",
+              "signal": "GPIO_Output",
+              "label": "LED_G",
+              "locked": true
+            },
+            {
+              "pin": "PB11",
+              "signal": "GPIO_Input",
+              "label": "NFAULT1",
+              "locked": true
+            },
+            {
+              "pin": "PB13",
+              "signal": "TIM1_CH1N",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB14",
+              "signal": "TIM1_CH2N",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB15",
+              "signal": "TIM1_CH3N",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC9",
+              "signal": "GPIO_Output",
+              "label": "EN_GATE1",
+              "locked": true
+            },
+            {
+              "pin": "PA8",
+              "signal": "S_TIM1_CH1",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA9",
+              "signal": "S_TIM1_CH2",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA10",
+              "signal": "S_TIM1_CH3",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA11",
+              "signal": "USB_OTG_FS_DM",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA12",
+              "signal": "USB_OTG_FS_DP",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PH0-OSC_IN",
+              "signal": "RCC_OSC_IN",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA13",
+              "signal": "SYS_JTMS-SWDIO",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA14",
+              "signal": "SYS_JTCK-SWCLK",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC10",
+              "signal": "GPIO_Output",
+              "label": "SPI_CS",
+              "locked": true
+            },
+            {
+              "pin": "PB4",
+              "signal": "SPI1_MISO",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB5",
+              "signal": "SPI1_MOSI",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB8",
+              "signal": "CAN1_RX",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB9",
+              "signal": "CAN1_TX",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "VP_SYS_VS_Systick",
+              "signal": "SYS_VS_Systick",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "VP_TIM1_VS_ClockSourceINT",
+              "signal": "TIM1_VS_ClockSourceINT",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "VP_TIM1_VS_no_output4",
+              "signal": "TIM1_VS_no_output4",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "PH1-OSC_OUT",
+              "signal": "RCC_OSC_OUT",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS",
+              "signal": "USB_DEVICE_VS_USB_DEVICE_CDC_FS",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "PC3",
+              "signal": "ADCx_IN13",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA3",
+              "signal": "ADCx_IN3",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA4",
+              "signal": "ADCx_IN4",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA5",
+              "signal": "SPI1_SCK",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA6",
+              "signal": "ADCx_IN6",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC4",
+              "signal": "GPIO_Output",
+              "label": "CSA_CAL1",
+              "locked": true
+            },
+            {
+              "pin": "PB3",
+              "signal": "SPI3_SCK",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC11",
+              "signal": "SPI3_MISO",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC12",
+              "signal": "SPI3_MOSI",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA15",
+              "signal": "GPIO_Output",
+              "label": "HALL_CS",
+              "locked": true
+            }
+          ],
+          "clock_values_hz": {
+            "RCC.48MHZClocksFreq_Value": 48000000,
+            "RCC.AHBFreq_Value": 168000000,
+            "RCC.APB1Freq_Value": 42000000,
+            "RCC.APB1TimFreq_Value": 84000000,
+            "RCC.APB2Freq_Value": 84000000,
+            "RCC.APB2TimFreq_Value": 168000000,
+            "RCC.CortexFreq_Value": 168000000,
+            "RCC.EthernetFreq_Value": 168000000,
+            "RCC.FCLKCortexFreq_Value": 168000000,
+            "RCC.HCLKFreq_Value": 168000000,
+            "RCC.I2SClocksFreq_Value": 192000000,
+            "RCC.MCO2PinFreq_Value": 168000000,
+            "RCC.PLLCLKFreq_Value": 168000000,
+            "RCC.PLLQCLKFreq_Value": 48000000,
+            "RCC.RTCFreq_Value": 32000,
+            "RCC.RTCHSEDivFreq_Value": 6000000,
+            "RCC.SYSCLKFreq_VALUE": 168000000,
+            "RCC.VCOI2SOutputFreq_Value": 384000000,
+            "RCC.VCOInputFreq_Value": 2000000,
+            "RCC.VCOOutputFreq_Value": 336000000
+          },
+          "entry_count": 376
+        },
+        "diagnostics": []
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  }
+]

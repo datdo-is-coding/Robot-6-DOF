@@ -1,0 +1,551 @@
+[
+  {
+    "request": {
+      "name": "cubemx_inspect_ioc",
+      "arguments": {
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"summary\": {\n    \"path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc\",\n    \"source_sha256\": \"f1e80cb89bb6c6e6efb042f20f52d3f0340651fcad005464513bd35c27438f68\",\n    \"size_bytes\": 13403,\n    \"mcu_name\": \"STM32F405RGTx\",\n    \"mcu_part_number\": \"STM32F405RGT6\",\n    \"mcu_family\": \"STM32F4\",\n    \"mcu_package\": \"LQFP64\",\n    \"board\": \"custom\",\n    \"project_name\": \"src\",\n    \"toolchain\": \"EWARM V8.50\",\n    \"cubemx_version\": \"6.17.0\",\n    \"database_version\": \"DB.6.0.170\",\n    \"peripherals\": [\n      \"ADC1\",\n      \"CAN1\",\n      \"DMA\",\n      \"NVIC\",\n      \"RCC\",\n      \"SPI1\",\n      \"SYS\",\n      \"TIM1\",\n      \"USB_DEVICE\",\n      \"USB_OTG_FS\"\n    ],\n    \"pins\": [\n      {\n        \"pin\": \"PC13-ANTI_TAMP\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"LED_R\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC14-OSC32_IN\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"LED_G\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB11\",\n        \"signal\": \"GPIO_Input\",\n        \"label\": \"NFAULT1\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB13\",\n        \"signal\": \"TIM1_CH1N\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB14\",\n        \"signal\": \"TIM1_CH2N\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB15\",\n        \"signal\": \"TIM1_CH3N\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC9\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"EN_GATE1\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA8\",\n        \"signal\": \"S_TIM1_CH1\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA9\",\n        \"signal\": \"S_TIM1_CH2\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA10\",\n        \"signal\": \"S_TIM1_CH3\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA11\",\n        \"signal\": \"USB_OTG_FS_DM\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA12\",\n        \"signal\": \"USB_OTG_FS_DP\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PH0-OSC_IN\",\n        \"signal\": \"RCC_OSC_IN\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA13\",\n        \"signal\": \"SYS_JTMS-SWDIO\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA14\",\n        \"signal\": \"SYS_JTCK-SWCLK\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC10\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"SPI_CS\",\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB4\",\n        \"signal\": \"SPI1_MISO\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB5\",\n        \"signal\": \"SPI1_MOSI\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB8\",\n        \"signal\": \"CAN1_RX\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PB9\",\n        \"signal\": \"CAN1_TX\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"VP_SYS_VS_Systick\",\n        \"signal\": \"SYS_VS_Systick\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"VP_TIM1_VS_ClockSourceINT\",\n        \"signal\": \"TIM1_VS_ClockSourceINT\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"VP_TIM1_VS_no_output4\",\n        \"signal\": \"TIM1_VS_no_output4\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"PH1-OSC_OUT\",\n        \"signal\": \"RCC_OSC_OUT\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS\",\n        \"signal\": \"USB_DEVICE_VS_USB_DEVICE_CDC_FS\",\n        \"label\": null,\n        \"locked\": false\n      },\n      {\n        \"pin\": \"PC3\",\n        \"signal\": \"ADCx_IN13\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA3\",\n        \"signal\": \"ADCx_IN3\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA4\",\n        \"signal\": \"ADCx_IN4\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA5\",\n        \"signal\": \"SPI1_SCK\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PA6\",\n        \"signal\": \"ADCx_IN6\",\n        \"label\": null,\n        \"locked\": true\n      },\n      {\n        \"pin\": \"PC4\",\n        \"signal\": \"GPIO_Output\",\n        \"label\": \"CSA_CAL1\",\n        \"locked\": true\n      }\n    ],\n    \"clock_values_hz\": {\n      \"RCC.48MHZClocksFreq_Value\": 48000000,\n      \"RCC.AHBFreq_Value\": 168000000,\n      \"RCC.APB1Freq_Value\": 42000000,\n      \"RCC.APB1TimFreq_Value\": 84000000,\n      \"RCC.APB2Freq_Value\": 84000000,\n      \"RCC.APB2TimFreq_Value\": 168000000,\n      \"RCC.CortexFreq_Value\": 168000000,\n      \"RCC.EthernetFreq_Value\": 168000000,\n      \"RCC.FCLKCortexFreq_Value\": 168000000,\n      \"RCC.HCLKFreq_Value\": 168000000,\n      \"RCC.I2SClocksFreq_Value\": 192000000,\n      \"RCC.MCO2PinFreq_Value\": 168000000,\n      \"RCC.PLLCLKFreq_Value\": 168000000,\n      \"RCC.PLLQCLKFreq_Value\": 48000000,\n      \"RCC.RTCFreq_Value\": 32000,\n      \"RCC.RTCHSEDivFreq_Value\": 6000000,\n      \"RCC.SYSCLKFreq_VALUE\": 168000000,\n      \"RCC.VCOI2SOutputFreq_Value\": 384000000,\n      \"RCC.VCOInputFreq_Value\": 2000000,\n      \"RCC.VCOOutputFreq_Value\": 336000000\n    },\n    \"entry_count\": 346\n  },\n  \"diagnostics\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "summary": {
+          "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/src.ioc",
+          "source_sha256": "f1e80cb89bb6c6e6efb042f20f52d3f0340651fcad005464513bd35c27438f68",
+          "size_bytes": 13403,
+          "mcu_name": "STM32F405RGTx",
+          "mcu_part_number": "STM32F405RGT6",
+          "mcu_family": "STM32F4",
+          "mcu_package": "LQFP64",
+          "board": "custom",
+          "project_name": "src",
+          "toolchain": "EWARM V8.50",
+          "cubemx_version": "6.17.0",
+          "database_version": "DB.6.0.170",
+          "peripherals": [
+            "ADC1",
+            "CAN1",
+            "DMA",
+            "NVIC",
+            "RCC",
+            "SPI1",
+            "SYS",
+            "TIM1",
+            "USB_DEVICE",
+            "USB_OTG_FS"
+          ],
+          "pins": [
+            {
+              "pin": "PC13-ANTI_TAMP",
+              "signal": "GPIO_Output",
+              "label": "LED_R",
+              "locked": true
+            },
+            {
+              "pin": "PC14-OSC32_IN",
+              "signal": "GPIO_Output",
+              "label": "LED_G",
+              "locked": true
+            },
+            {
+              "pin": "PB11",
+              "signal": "GPIO_Input",
+              "label": "NFAULT1",
+              "locked": true
+            },
+            {
+              "pin": "PB13",
+              "signal": "TIM1_CH1N",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB14",
+              "signal": "TIM1_CH2N",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB15",
+              "signal": "TIM1_CH3N",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC9",
+              "signal": "GPIO_Output",
+              "label": "EN_GATE1",
+              "locked": true
+            },
+            {
+              "pin": "PA8",
+              "signal": "S_TIM1_CH1",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA9",
+              "signal": "S_TIM1_CH2",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA10",
+              "signal": "S_TIM1_CH3",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA11",
+              "signal": "USB_OTG_FS_DM",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA12",
+              "signal": "USB_OTG_FS_DP",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PH0-OSC_IN",
+              "signal": "RCC_OSC_IN",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA13",
+              "signal": "SYS_JTMS-SWDIO",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA14",
+              "signal": "SYS_JTCK-SWCLK",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC10",
+              "signal": "GPIO_Output",
+              "label": "SPI_CS",
+              "locked": true
+            },
+            {
+              "pin": "PB4",
+              "signal": "SPI1_MISO",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB5",
+              "signal": "SPI1_MOSI",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB8",
+              "signal": "CAN1_RX",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PB9",
+              "signal": "CAN1_TX",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "VP_SYS_VS_Systick",
+              "signal": "SYS_VS_Systick",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "VP_TIM1_VS_ClockSourceINT",
+              "signal": "TIM1_VS_ClockSourceINT",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "VP_TIM1_VS_no_output4",
+              "signal": "TIM1_VS_no_output4",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "PH1-OSC_OUT",
+              "signal": "RCC_OSC_OUT",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS",
+              "signal": "USB_DEVICE_VS_USB_DEVICE_CDC_FS",
+              "label": null,
+              "locked": false
+            },
+            {
+              "pin": "PC3",
+              "signal": "ADCx_IN13",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA3",
+              "signal": "ADCx_IN3",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA4",
+              "signal": "ADCx_IN4",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA5",
+              "signal": "SPI1_SCK",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PA6",
+              "signal": "ADCx_IN6",
+              "label": null,
+              "locked": true
+            },
+            {
+              "pin": "PC4",
+              "signal": "GPIO_Output",
+              "label": "CSA_CAL1",
+              "locked": true
+            }
+          ],
+          "clock_values_hz": {
+            "RCC.48MHZClocksFreq_Value": 48000000,
+            "RCC.AHBFreq_Value": 168000000,
+            "RCC.APB1Freq_Value": 42000000,
+            "RCC.APB1TimFreq_Value": 84000000,
+            "RCC.APB2Freq_Value": 84000000,
+            "RCC.APB2TimFreq_Value": 168000000,
+            "RCC.CortexFreq_Value": 168000000,
+            "RCC.EthernetFreq_Value": 168000000,
+            "RCC.FCLKCortexFreq_Value": 168000000,
+            "RCC.HCLKFreq_Value": 168000000,
+            "RCC.I2SClocksFreq_Value": 192000000,
+            "RCC.MCO2PinFreq_Value": 168000000,
+            "RCC.PLLCLKFreq_Value": 168000000,
+            "RCC.PLLQCLKFreq_Value": 48000000,
+            "RCC.RTCFreq_Value": 32000,
+            "RCC.RTCHSEDivFreq_Value": 6000000,
+            "RCC.SYSCLKFreq_VALUE": 168000000,
+            "RCC.VCOI2SOutputFreq_Value": 384000000,
+            "RCC.VCOInputFreq_Value": 2000000,
+            "RCC.VCOOutputFreq_Value": 336000000
+          },
+          "entry_count": 346
+        },
+        "diagnostics": []
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "request": {
+      "name": "cubemx_plan_ioc_changes",
+      "arguments": {
+        "request": {
+          "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+          "pin_assignments": [
+            {
+              "pin": "PB3",
+              "signal": "SPI3_SCK"
+            },
+            {
+              "pin": "PC11",
+              "signal": "SPI3_MISO"
+            },
+            {
+              "pin": "PC12",
+              "signal": "SPI3_MOSI"
+            },
+            {
+              "pin": "PA15",
+              "signal": "GPIO_Output",
+              "label": "HALL_CS"
+            }
+          ],
+          "enabled_peripherals": [
+            "SPI3"
+          ],
+          "parameter_updates": {
+            "PB3.Mode": "Full_Duplex_Master",
+            "PA15.GPIOParameters": "GPIO_Label,PinState,GPIO_PuPd",
+            "PA15.PinState": "GPIO_PIN_SET",
+            "PA15.GPIO_PuPd": "GPIO_PULLUP",
+            "PC10.GPIOParameters": "GPIO_Label,PinState",
+            "PC10.PinState": "GPIO_PIN_SET",
+            "SPI3.VirtualType": "VM_MASTER",
+            "SPI3.Mode": "SPI_MODE_MASTER",
+            "SPI3.Direction": "SPI_DIRECTION_2LINES",
+            "SPI3.CLKPolarity": "SPI_POLARITY_HIGH",
+            "SPI3.CLKPhase": "SPI_PHASE_2EDGE",
+            "SPI3.BaudRatePrescaler": "SPI_BAUDRATEPRESCALER_8",
+            "SPI3.DataSize": "SPI_DATASIZE_16BIT",
+            "SPI3.NSS": "SPI_NSS_SOFT",
+            "SPI3.FirstBit": "SPI_FIRSTBIT_MSB",
+            "SPI3.CalculateBaudRate": "5.25 MBits/s",
+            "SPI3.IPParameters": "VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit",
+            "SPI1.BaudRatePrescaler": "SPI_BAUDRATEPRESCALER_16",
+            "SPI1.CalculateBaudRate": "5.25 MBits/s"
+          }
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"plan_id\": \"539b9c98ebf0eb003c5d\",\n  \"path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\",\n  \"source_sha256\": \"f1e80cb89bb6c6e6efb042f20f52d3f0340651fcad005464513bd35c27438f68\",\n  \"planned_sha256\": \"aa4ee8591726a30c30c72e5a8d054e14cbd4b4c6b38a9ba9eb2e9a1201bcffb9\",\n  \"changes\": [\n    {\n      \"key\": \"Mcu.IP10\",\n      \"before\": null,\n      \"after\": \"SPI3\",\n      \"reason\": \"Enable peripheral SPI3.\"\n    },\n    {\n      \"key\": \"Mcu.IPNb\",\n      \"before\": \"10\",\n      \"after\": \"11\",\n      \"reason\": \"Update the peripheral count.\"\n    },\n    {\n      \"key\": \"Mcu.Pin31\",\n      \"before\": null,\n      \"after\": \"PB3\",\n      \"reason\": \"Add pin PB3 to the configured pin list.\"\n    },\n    {\n      \"key\": \"PB3.Signal\",\n      \"before\": null,\n      \"after\": \"SPI3_SCK\",\n      \"reason\": \"Assign signal SPI3_SCK to pin PB3.\"\n    },\n    {\n      \"key\": \"PB3.Locked\",\n      \"before\": null,\n      \"after\": \"true\",\n      \"reason\": \"Set the lock state for pin PB3.\"\n    },\n    {\n      \"key\": \"Mcu.Pin32\",\n      \"before\": null,\n      \"after\": \"PC11\",\n      \"reason\": \"Add pin PC11 to the configured pin list.\"\n    },\n    {\n      \"key\": \"PC11.Signal\",\n      \"before\": null,\n      \"after\": \"SPI3_MISO\",\n      \"reason\": \"Assign signal SPI3_MISO to pin PC11.\"\n    },\n    {\n      \"key\": \"PC11.Locked\",\n      \"before\": null,\n      \"after\": \"true\",\n      \"reason\": \"Set the lock state for pin PC11.\"\n    },\n    {\n      \"key\": \"Mcu.Pin33\",\n      \"before\": null,\n      \"after\": \"PC12\",\n      \"reason\": \"Add pin PC12 to the configured pin list.\"\n    },\n    {\n      \"key\": \"PC12.Signal\",\n      \"before\": null,\n      \"after\": \"SPI3_MOSI\",\n      \"reason\": \"Assign signal SPI3_MOSI to pin PC12.\"\n    },\n    {\n      \"key\": \"PC12.Locked\",\n      \"before\": null,\n      \"after\": \"true\",\n      \"reason\": \"Set the lock state for pin PC12.\"\n    },\n    {\n      \"key\": \"Mcu.Pin34\",\n      \"before\": null,\n      \"after\": \"PA15\",\n      \"reason\": \"Add pin PA15 to the configured pin list.\"\n    },\n    {\n      \"key\": \"PA15.Signal\",\n      \"before\": null,\n      \"after\": \"GPIO_Output\",\n      \"reason\": \"Assign signal GPIO_Output to pin PA15.\"\n    },\n    {\n      \"key\": \"PA15.GPIO_Label\",\n      \"before\": null,\n      \"after\": \"HALL_CS\",\n      \"reason\": \"Set the label for pin PA15.\"\n    },\n    {\n      \"key\": \"PA15.Locked\",\n      \"before\": null,\n      \"after\": \"true\",\n      \"reason\": \"Set the lock state for pin PA15.\"\n    },\n    {\n      \"key\": \"Mcu.PinsNb\",\n      \"before\": \"31\",\n      \"after\": \"35\",\n      \"reason\": \"Update the pin count.\"\n    },\n    {\n      \"key\": \"PB3.Mode\",\n      \"before\": null,\n      \"after\": \"Full_Duplex_Master\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"PA15.GPIOParameters\",\n      \"before\": null,\n      \"after\": \"GPIO_Label,PinState,GPIO_PuPd\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"PA15.PinState\",\n      \"before\": null,\n      \"after\": \"GPIO_PIN_SET\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"PA15.GPIO_PuPd\",\n      \"before\": null,\n      \"after\": \"GPIO_PULLUP\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"PC10.GPIOParameters\",\n      \"before\": \"GPIO_Label\",\n      \"after\": \"GPIO_Label,PinState\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"PC10.PinState\",\n      \"before\": null,\n      \"after\": \"GPIO_PIN_SET\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.VirtualType\",\n      \"before\": null,\n      \"after\": \"VM_MASTER\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.Mode\",\n      \"before\": null,\n      \"after\": \"SPI_MODE_MASTER\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.Direction\",\n      \"before\": null,\n      \"after\": \"SPI_DIRECTION_2LINES\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.CLKPolarity\",\n      \"before\": null,\n      \"after\": \"SPI_POLARITY_HIGH\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.CLKPhase\",\n      \"before\": null,\n      \"after\": \"SPI_PHASE_2EDGE\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.BaudRatePrescaler\",\n      \"before\": null,\n      \"after\": \"SPI_BAUDRATEPRESCALER_8\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.DataSize\",\n      \"before\": null,\n      \"after\": \"SPI_DATASIZE_16BIT\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.NSS\",\n      \"before\": null,\n      \"after\": \"SPI_NSS_SOFT\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.FirstBit\",\n      \"before\": null,\n      \"after\": \"SPI_FIRSTBIT_MSB\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.CalculateBaudRate\",\n      \"before\": null,\n      \"after\": \"5.25 MBits/s\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI3.IPParameters\",\n      \"before\": null,\n      \"after\": \"VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI1.BaudRatePrescaler\",\n      \"before\": \"SPI_BAUDRATEPRESCALER_4\",\n      \"after\": \"SPI_BAUDRATEPRESCALER_16\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    },\n    {\n      \"key\": \"SPI1.CalculateBaudRate\",\n      \"before\": \"21.0 MBits/s\",\n      \"after\": \"5.25 MBits/s\",\n      \"reason\": \"Set a requested IOC parameter.\"\n    }\n  ],\n  \"unified_diff\": \"--- /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\\n+++ /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc.planned\\n@@ -75,7 +75,7 @@\\n Mcu.IP7=TIM1\\n Mcu.IP8=USB_DEVICE\\n Mcu.IP9=USB_OTG_FS\\n-Mcu.IPNb=10\\n+Mcu.IPNb=11\\n Mcu.Name=STM32F405RGTx\\n Mcu.Package=LQFP64\\n Mcu.Pin0=PC13-ANTI_TAMP\\n@@ -109,7 +109,7 @@\\n Mcu.Pin7=PA5\\n Mcu.Pin8=PA6\\n Mcu.Pin9=PC4\\n-Mcu.PinsNb=31\\n+Mcu.PinsNb=35\\n Mcu.ThirdPartyNb=0\\n Mcu.UserConstants=\\n Mcu.UserName=STM32F405RGTx\\n@@ -187,7 +187,7 @@\\n PB9.Locked=true\\n PB9.Mode=CAN_Activate\\n PB9.Signal=CAN1_TX\\n-PC10.GPIOParameters=GPIO_Label\\n+PC10.GPIOParameters=GPIO_Label,PinState\\n PC10.GPIO_Label=SPI_CS\\n PC10.Locked=true\\n PC10.Signal=GPIO_Output\\n@@ -307,9 +307,9 @@\\n SH.S_TIM1_CH2.ConfNb=1\\n SH.S_TIM1_CH3.0=TIM1_CH3,PWM Generation3 CH3 CH3N\\n SH.S_TIM1_CH3.ConfNb=1\\n-SPI1.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_4\\n+SPI1.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_16\\n SPI1.CLKPhase=SPI_PHASE_2EDGE\\n-SPI1.CalculateBaudRate=21.0 MBits/s\\n+SPI1.CalculateBaudRate=5.25 MBits/s\\n SPI1.Direction=SPI_DIRECTION_2LINES\\n SPI1.IPParameters=VirtualType,Mode,Direction,CalculateBaudRate,CLKPhase,BaudRatePrescaler\\n SPI1.Mode=SPI_MODE_MASTER\\n@@ -345,3 +345,33 @@\\n VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS.Mode=CDC_FS\\n VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS.Signal=USB_DEVICE_VS_USB_DEVICE_CDC_FS\\n board=custom\\n+Mcu.IP10=SPI3\\n+Mcu.Pin31=PB3\\n+PB3.Signal=SPI3_SCK\\n+PB3.Locked=true\\n+Mcu.Pin32=PC11\\n+PC11.Signal=SPI3_MISO\\n+PC11.Locked=true\\n+Mcu.Pin33=PC12\\n+PC12.Signal=SPI3_MOSI\\n+PC12.Locked=true\\n+Mcu.Pin34=PA15\\n+PA15.Signal=GPIO_Output\\n+PA15.GPIO_Label=HALL_CS\\n+PA15.Locked=true\\n+PB3.Mode=Full_Duplex_Master\\n+PA15.GPIOParameters=GPIO_Label,PinState,GPIO_PuPd\\n+PA15.PinState=GPIO_PIN_SET\\n+PA15.GPIO_PuPd=GPIO_PULLUP\\n+PC10.PinState=GPIO_PIN_SET\\n+SPI3.VirtualType=VM_MASTER\\n+SPI3.Mode=SPI_MODE_MASTER\\n+SPI3.Direction=SPI_DIRECTION_2LINES\\n+SPI3.CLKPolarity=SPI_POLARITY_HIGH\\n+SPI3.CLKPhase=SPI_PHASE_2EDGE\\n+SPI3.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_8\\n+SPI3.DataSize=SPI_DATASIZE_16BIT\\n+SPI3.NSS=SPI_NSS_SOFT\\n+SPI3.FirstBit=SPI_FIRSTBIT_MSB\\n+SPI3.CalculateBaudRate=5.25 MBits/s\\n+SPI3.IPParameters=VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit\",\n  \"validation_status\": \"not_run\",\n  \"diagnostics\": [\n    {\n      \"severity\": \"info\",\n      \"code\": \"ioc.validation_required\",\n      \"message\": \"CubeMX did not validate this plan. Validate the staged IOC.\",\n      \"line\": null\n    }\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "plan_id": "539b9c98ebf0eb003c5d",
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+        "source_sha256": "f1e80cb89bb6c6e6efb042f20f52d3f0340651fcad005464513bd35c27438f68",
+        "planned_sha256": "aa4ee8591726a30c30c72e5a8d054e14cbd4b4c6b38a9ba9eb2e9a1201bcffb9",
+        "changes": [
+          {
+            "key": "Mcu.IP10",
+            "before": null,
+            "after": "SPI3",
+            "reason": "Enable peripheral SPI3."
+          },
+          {
+            "key": "Mcu.IPNb",
+            "before": "10",
+            "after": "11",
+            "reason": "Update the peripheral count."
+          },
+          {
+            "key": "Mcu.Pin31",
+            "before": null,
+            "after": "PB3",
+            "reason": "Add pin PB3 to the configured pin list."
+          },
+          {
+            "key": "PB3.Signal",
+            "before": null,
+            "after": "SPI3_SCK",
+            "reason": "Assign signal SPI3_SCK to pin PB3."
+          },
+          {
+            "key": "PB3.Locked",
+            "before": null,
+            "after": "true",
+            "reason": "Set the lock state for pin PB3."
+          },
+          {
+            "key": "Mcu.Pin32",
+            "before": null,
+            "after": "PC11",
+            "reason": "Add pin PC11 to the configured pin list."
+          },
+          {
+            "key": "PC11.Signal",
+            "before": null,
+            "after": "SPI3_MISO",
+            "reason": "Assign signal SPI3_MISO to pin PC11."
+          },
+          {
+            "key": "PC11.Locked",
+            "before": null,
+            "after": "true",
+            "reason": "Set the lock state for pin PC11."
+          },
+          {
+            "key": "Mcu.Pin33",
+            "before": null,
+            "after": "PC12",
+            "reason": "Add pin PC12 to the configured pin list."
+          },
+          {
+            "key": "PC12.Signal",
+            "before": null,
+            "after": "SPI3_MOSI",
+            "reason": "Assign signal SPI3_MOSI to pin PC12."
+          },
+          {
+            "key": "PC12.Locked",
+            "before": null,
+            "after": "true",
+            "reason": "Set the lock state for pin PC12."
+          },
+          {
+            "key": "Mcu.Pin34",
+            "before": null,
+            "after": "PA15",
+            "reason": "Add pin PA15 to the configured pin list."
+          },
+          {
+            "key": "PA15.Signal",
+            "before": null,
+            "after": "GPIO_Output",
+            "reason": "Assign signal GPIO_Output to pin PA15."
+          },
+          {
+            "key": "PA15.GPIO_Label",
+            "before": null,
+            "after": "HALL_CS",
+            "reason": "Set the label for pin PA15."
+          },
+          {
+            "key": "PA15.Locked",
+            "before": null,
+            "after": "true",
+            "reason": "Set the lock state for pin PA15."
+          },
+          {
+            "key": "Mcu.PinsNb",
+            "before": "31",
+            "after": "35",
+            "reason": "Update the pin count."
+          },
+          {
+            "key": "PB3.Mode",
+            "before": null,
+            "after": "Full_Duplex_Master",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "PA15.GPIOParameters",
+            "before": null,
+            "after": "GPIO_Label,PinState,GPIO_PuPd",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "PA15.PinState",
+            "before": null,
+            "after": "GPIO_PIN_SET",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "PA15.GPIO_PuPd",
+            "before": null,
+            "after": "GPIO_PULLUP",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "PC10.GPIOParameters",
+            "before": "GPIO_Label",
+            "after": "GPIO_Label,PinState",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "PC10.PinState",
+            "before": null,
+            "after": "GPIO_PIN_SET",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.VirtualType",
+            "before": null,
+            "after": "VM_MASTER",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.Mode",
+            "before": null,
+            "after": "SPI_MODE_MASTER",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.Direction",
+            "before": null,
+            "after": "SPI_DIRECTION_2LINES",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.CLKPolarity",
+            "before": null,
+            "after": "SPI_POLARITY_HIGH",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.CLKPhase",
+            "before": null,
+            "after": "SPI_PHASE_2EDGE",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.BaudRatePrescaler",
+            "before": null,
+            "after": "SPI_BAUDRATEPRESCALER_8",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.DataSize",
+            "before": null,
+            "after": "SPI_DATASIZE_16BIT",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.NSS",
+            "before": null,
+            "after": "SPI_NSS_SOFT",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.FirstBit",
+            "before": null,
+            "after": "SPI_FIRSTBIT_MSB",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.CalculateBaudRate",
+            "before": null,
+            "after": "5.25 MBits/s",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI3.IPParameters",
+            "before": null,
+            "after": "VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI1.BaudRatePrescaler",
+            "before": "SPI_BAUDRATEPRESCALER_4",
+            "after": "SPI_BAUDRATEPRESCALER_16",
+            "reason": "Set a requested IOC parameter."
+          },
+          {
+            "key": "SPI1.CalculateBaudRate",
+            "before": "21.0 MBits/s",
+            "after": "5.25 MBits/s",
+            "reason": "Set a requested IOC parameter."
+          }
+        ],
+        "unified_diff": "--- /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc\n+++ /home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc.planned\n@@ -75,7 +75,7 @@\n Mcu.IP7=TIM1\n Mcu.IP8=USB_DEVICE\n Mcu.IP9=USB_OTG_FS\n-Mcu.IPNb=10\n+Mcu.IPNb=11\n Mcu.Name=STM32F405RGTx\n Mcu.Package=LQFP64\n Mcu.Pin0=PC13-ANTI_TAMP\n@@ -109,7 +109,7 @@\n Mcu.Pin7=PA5\n Mcu.Pin8=PA6\n Mcu.Pin9=PC4\n-Mcu.PinsNb=31\n+Mcu.PinsNb=35\n Mcu.ThirdPartyNb=0\n Mcu.UserConstants=\n Mcu.UserName=STM32F405RGTx\n@@ -187,7 +187,7 @@\n PB9.Locked=true\n PB9.Mode=CAN_Activate\n PB9.Signal=CAN1_TX\n-PC10.GPIOParameters=GPIO_Label\n+PC10.GPIOParameters=GPIO_Label,PinState\n PC10.GPIO_Label=SPI_CS\n PC10.Locked=true\n PC10.Signal=GPIO_Output\n@@ -307,9 +307,9 @@\n SH.S_TIM1_CH2.ConfNb=1\n SH.S_TIM1_CH3.0=TIM1_CH3,PWM Generation3 CH3 CH3N\n SH.S_TIM1_CH3.ConfNb=1\n-SPI1.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_4\n+SPI1.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_16\n SPI1.CLKPhase=SPI_PHASE_2EDGE\n-SPI1.CalculateBaudRate=21.0 MBits/s\n+SPI1.CalculateBaudRate=5.25 MBits/s\n SPI1.Direction=SPI_DIRECTION_2LINES\n SPI1.IPParameters=VirtualType,Mode,Direction,CalculateBaudRate,CLKPhase,BaudRatePrescaler\n SPI1.Mode=SPI_MODE_MASTER\n@@ -345,3 +345,33 @@\n VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS.Mode=CDC_FS\n VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS.Signal=USB_DEVICE_VS_USB_DEVICE_CDC_FS\n board=custom\n+Mcu.IP10=SPI3\n+Mcu.Pin31=PB3\n+PB3.Signal=SPI3_SCK\n+PB3.Locked=true\n+Mcu.Pin32=PC11\n+PC11.Signal=SPI3_MISO\n+PC11.Locked=true\n+Mcu.Pin33=PC12\n+PC12.Signal=SPI3_MOSI\n+PC12.Locked=true\n+Mcu.Pin34=PA15\n+PA15.Signal=GPIO_Output\n+PA15.GPIO_Label=HALL_CS\n+PA15.Locked=true\n+PB3.Mode=Full_Duplex_Master\n+PA15.GPIOParameters=GPIO_Label,PinState,GPIO_PuPd\n+PA15.PinState=GPIO_PIN_SET\n+PA15.GPIO_PuPd=GPIO_PULLUP\n+PC10.PinState=GPIO_PIN_SET\n+SPI3.VirtualType=VM_MASTER\n+SPI3.Mode=SPI_MODE_MASTER\n+SPI3.Direction=SPI_DIRECTION_2LINES\n+SPI3.CLKPolarity=SPI_POLARITY_HIGH\n+SPI3.CLKPhase=SPI_PHASE_2EDGE\n+SPI3.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_8\n+SPI3.DataSize=SPI_DATASIZE_16BIT\n+SPI3.NSS=SPI_NSS_SOFT\n+SPI3.FirstBit=SPI_FIRSTBIT_MSB\n+SPI3.CalculateBaudRate=5.25 MBits/s\n+SPI3.IPParameters=VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit",
+        "validation_status": "not_run",
+        "diagnostics": [
+          {
+            "severity": "info",
+            "code": "ioc.validation_required",
+            "message": "CubeMX did not validate this plan. Validate the staged IOC.",
+            "line": null
+          }
+        ]
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  }
+]

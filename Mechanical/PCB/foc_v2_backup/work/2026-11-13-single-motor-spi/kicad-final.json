@@ -1,0 +1,743 @@
+[
+  {
+    "request": {
+      "name": "extract_schematic_netlist",
+      "arguments": {
+        "schematic_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch",
+        "include_wire_topology": false
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"success\":true,\"schematic_path\":\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch\",\"analysis\":{\"component_count\":4,\"net_count\":31,\"component_types\":{\"sheet\":4},\"components\":{\"MCU\":{\"value\":\"MCU.kicad_sch\",\"type\":\"sheet\",\"units\":{\"1\":{\"position\":{\"x\":110.49,\"y\":60.96},\"body_bbox\":{\"min_x\":110.49,\"min_y\":60.96,\"max_x\":158.75,\"max_y\":132.08},\"pins\":[{\"num\":\"EN_GATE1\",\"number\":\"EN_GATE1\",\"name\":\"EN_GATE1\",\"x\":158.75,\"y\":73.66,\"net\":\"EN_GATE1\"},{\"num\":\"NFAULT1\",\"number\":\"NFAULT1\",\"name\":\"NFAULT1\",\"x\":158.75,\"y\":76.2,\"net\":\"NFAULT1\"},{\"num\":\"PWM1_A\",\"number\":\"PWM1_A\",\"name\":\"PWM1_A\",\"x\":158.75,\"y\":78.74,\"net\":\"PWM1_A\"},{\"num\":\"PWM1_AN\",\"number\":\"PWM1_AN\",\"name\":\"PWM1_AN\",\"x\":158.75,\"y\":81.28,\"net\":\"PWM1_AN\"},{\"num\":\"PWM1_B\",\"number\":\"PWM1_B\",\"name\":\"PWM1_B\",\"x\":158.75,\"y\":83.82,\"net\":\"PWM1_B\"},{\"num\":\"PWM1_BN\",\"number\":\"PWM1_BN\",\"name\":\"PWM1_BN\",\"x\":158.75,\"y\":86.36,\"net\":\"PWM1_BN\"},{\"num\":\"PWM1_C\",\"number\":\"PWM1_C\",\"name\":\"PWM1_C\",\"x\":158.75,\"y\":88.9,\"net\":\"PWM1_C\"},{\"num\":\"PWM1_CN\",\"number\":\"PWM1_CN\",\"name\":\"PWM1_CN\",\"x\":158.75,\"y\":91.44,\"net\":\"PWM1_CN\"},{\"num\":\"SPI1_MOSI\",\"number\":\"SPI1_MOSI\",\"name\":\"SPI1_MOSI\",\"x\":158.75,\"y\":99.06,\"net\":\"SPI1_MOSI\"},{\"num\":\"SPI1_MISO\",\"number\":\"SPI1_MISO\",\"name\":\"SPI1_MISO\",\"x\":158.75,\"y\":101.6,\"net\":\"SPI1_MISO\"},{\"num\":\"SPI1_SCK\",\"number\":\"SPI1_SCK\",\"name\":\"SPI1_SCK\",\"x\":158.75,\"y\":104.14,\"net\":\"SPI1_SCK\"},{\"num\":\"SPI1_SS0\",\"number\":\"SPI1_SS0\",\"name\":\"SPI1_SS0\",\"x\":158.75,\"y\":106.68,\"net\":\"SPI1_SS0\"},{\"num\":\"ISENSE1_A\",\"number\":\"ISENSE1_A\",\"name\":\"ISENSE1_A\",\"x\":158.75,\"y\":114.3,\"net\":\"ISENSE1_A\"},{\"num\":\"ISENSE1_B\",\"number\":\"ISENSE1_B\",\"name\":\"ISENSE1_B\",\"x\":158.75,\"y\":116.84,\"net\":\"ISENSE1_B\"},{\"num\":\"ISENSE1_C\",\"number\":\"ISENSE1_C\",\"name\":\"ISENSE1_C\",\"x\":158.75,\"y\":119.38,\"net\":\"ISENSE1_C\"},{\"num\":\"HALL_CS\",\"number\":\"HALL_CS\",\"name\":\"HALL_CS\",\"x\":110.49,\"y\":73.66,\"net\":\"HALL_CS\"},{\"num\":\"SPI3_SCK\",\"number\":\"SPI3_SCK\",\"name\":\"SPI3_SCK\",\"x\":110.49,\"y\":76.2,\"net\":\"SPI3_SCK\"},{\"num\":\"SPI3_MOSI\",\"number\":\"SPI3_MOSI\",\"name\":\"SPI3_MOSI\",\"x\":110.49,\"y\":78.74,\"net\":\"SPI3_MOSI\"},{\"num\":\"SPI3_MISO\",\"number\":\"SPI3_MISO\",\"name\":\"SPI3_MISO\",\"x\":110.49,\"y\":81.28,\"net\":\"SPI3_MISO\"},{\"num\":\"IO_PB2\",\"number\":\"IO_PB2\",\"name\":\"IO_PB2\",\"x\":110.49,\"y\":96.52,\"net\":\"IO_PB2\"},{\"num\":\"IO_PC4\",\"number\":\"IO_PC4\",\"name\":\"IO_PC4\",\"x\":110.49,\"y\":99.06,\"net\":\"IO_PC4\"},{\"num\":\"IO_PC5\",\"number\":\"IO_PC5\",\"name\":\"IO_PC5\",\"x\":110.49,\"y\":101.6,\"net\":\"IO_PC5\"},{\"num\":\"IO_PC15\",\"number\":\"IO_PC15\",\"name\":\"IO_PC15\",\"x\":110.49,\"y\":104.14,\"net\":\"IO_PC15\"},{\"num\":\"IO_PD2\",\"number\":\"IO_PD2\",\"name\":\"IO_PD2\",\"x\":110.49,\"y\":106.68,\"net\":\"IO_PD2\"},{\"num\":\"PV_SENSE\",\"number\":\"PV_SENSE\",\"name\":\"PV_SENSE\",\"x\":110.49,\"y\":114.3,\"net\":\"PV_SENSE\"},{\"num\":\"UART1_TX\",\"number\":\"UART1_TX\",\"name\":\"UART1_TX\",\"x\":110.49,\"y\":121.92,\"net\":\"UART1_TX\"},{\"num\":\"UART1_RX\",\"number\":\"UART1_RX\",\"name\":\"UART1_RX\",\"x\":110.49,\"y\":124.46,\"net\":\"UART1_RX\"},{\"num\":\"USB_N\",\"number\":\"USB_N\",\"name\":\"USB_N\",\"x\":118.11,\"y\":60.96,\"net\":\"USB_N\"},{\"num\":\"USB_P\",\"number\":\"USB_P\",\"name\":\"USB_P\",\"x\":129.54,\"y\":60.96,\"net\":\"USB_P\"},{\"num\":\"CAN1_RX\",\"number\":\"CAN1_RX\",\"name\":\"CAN1_RX\",\"x\":140.97,\"y\":60.96,\"net\":\"CAN1_RX\"},{\"num\":\"CAN1_TX\",\"number\":\"CAN1_TX\",\"name\":\"CAN1_TX\",\"x\":152.4,\"y\":60.96,\"net\":\"CAN1_TX\"}]}}},\"GATE_DRV\":{\"value\":\"gatedrv.kicad_sch\",\"type\":\"sheet\",\"units\":{\"1\":{\"position\":{\"x\":187.96,\"y\":66.04},\"body_bbox\":{\"min_x\":187.96,\"min_y\":66.04,\"max_x\":236.22,\"max_y\":124.46000000000001},\"pins\":[{\"num\":\"EN_GATE1\",\"number\":\"EN_GATE1\",\"name\":\"EN_GATE1\",\"x\":187.96,\"y\":73.66,\"net\":\"EN_GATE1\"},{\"num\":\"NFAULT1\",\"number\":\"NFAULT1\",\"name\":\"NFAULT1\",\"x\":187.96,\"y\":76.2,\"net\":\"NFAULT1\"},{\"num\":\"PWM1_A\",\"number\":\"PWM1_A\",\"name\":\"PWM1_A\",\"x\":187.96,\"y\":78.74,\"net\":\"PWM1_A\"},{\"num\":\"PWM1_AN\",\"number\":\"PWM1_AN\",\"name\":\"PWM1_AN\",\"x\":187.96,\"y\":81.28,\"net\":\"PWM1_AN\"},{\"num\":\"PWM1_B\",\"number\":\"PWM1_B\",\"name\":\"PWM1_B\",\"x\":187.96,\"y\":83.82,\"net\":\"PWM1_B\"},{\"num\":\"PWM1_BN\",\"number\":\"PWM1_BN\",\"name\":\"PWM1_BN\",\"x\":187.96,\"y\":86.36,\"net\":\"PWM1_BN\"},{\"num\":\"PWM1_C\",\"number\":\"PWM1_C\",\"name\":\"PWM1_C\",\"x\":187.96,\"y\":88.9,\"net\":\"PWM1_C\"},{\"num\":\"PWM1_CN\",\"number\":\"PWM1_CN\",\"name\":\"PWM1_CN\",\"x\":187.96,\"y\":91.44,\"net\":\"PWM1_CN\"},{\"num\":\"SPI1_MOSI\",\"number\":\"SPI1_MOSI\",\"name\":\"SPI1_MOSI\",\"x\":187.96,\"y\":99.06,\"net\":\"SPI1_MOSI\"},{\"num\":\"SPI1_MISO\",\"number\":\"SPI1_MISO\",\"name\":\"SPI1_MISO\",\"x\":187.96,\"y\":101.6,\"net\":\"SPI1_MISO\"},{\"num\":\"SPI1_SCK\",\"number\":\"SPI1_SCK\",\"name\":\"SPI1_SCK\",\"x\":187.96,\"y\":104.14,\"net\":\"SPI1_SCK\"},{\"num\":\"SPI1_SS0\",\"number\":\"SPI1_SS0\",\"name\":\"SPI1_SS0\",\"x\":187.96,\"y\":106.68,\"net\":\"SPI1_SS0\"},{\"num\":\"ISENSE1_A\",\"number\":\"ISENSE1_A\",\"name\":\"ISENSE1_A\",\"x\":187.96,\"y\":114.3,\"net\":\"ISENSE1_A\"},{\"num\":\"ISENSE1_B\",\"number\":\"ISENSE1_B\",\"name\":\"ISENSE1_B\",\"x\":187.96,\"y\":116.84,\"net\":\"ISENSE1_B\"},{\"num\":\"ISENSE1_C\",\"number\":\"ISENSE1_C\",\"name\":\"ISENSE1_C\",\"x\":187.96,\"y\":119.38,\"net\":\"ISENSE1_C\"}]}}},\"HALL\":{\"value\":\"hall.kicad_sch\",\"type\":\"sheet\",\"units\":{\"1\":{\"position\":{\"x\":40.64,\"y\":68.58},\"body_bbox\":{\"min_x\":40.64,\"min_y\":68.58,\"max_x\":81.28,\"max_y\":93.97999999999999},\"pins\":[{\"num\":\"HALL_CS\",\"number\":\"HALL_CS\",\"name\":\"HALL_CS\",\"x\":81.28,\"y\":73.66,\"net\":\"HALL_CS\"},{\"num\":\"HALL_SCLK\",\"number\":\"HALL_SCLK\",\"name\":\"HALL_SCLK\",\"x\":81.28,\"y\":76.2,\"net\":\"SPI3_SCK\"},{\"num\":\"HALL_MOSI\",\"number\":\"HALL_MOSI\",\"name\":\"HALL_MOSI\",\"x\":81.28,\"y\":78.74,\"net\":\"SPI3_MOSI\"},{\"num\":\"HALL_MISO\",\"number\":\"HALL_MISO\",\"name\":\"HALL_MISO\",\"x\":81.28,\"y\":81.28,\"net\":\"SPI3_MISO\"}]}}},\"COMMUNICATION\":{\"value\":\"communication.kicad_sch\",\"type\":\"sheet\",\"units\":{\"1\":{\"position\":{\"x\":110.49,\"y\":25.4},\"body_bbox\":{\"min_x\":110.49,\"min_y\":25.4,\"max_x\":158.75,\"max_y\":50.8},\"pins\":[{\"num\":\"USB_N\",\"number\":\"USB_N\",\"name\":\"USB_N\",\"x\":118.11,\"y\":50.8,\"net\":\"USB_N\"},{\"num\":\"USB_P\",\"number\":\"USB_P\",\"name\":\"USB_P\",\"x\":129.54,\"y\":50.8,\"net\":\"USB_P\"},{\"num\":\"CAN_RX\",\"number\":\"CAN_RX\",\"name\":\"CAN_RX\",\"x\":140.97,\"y\":50.8,\"net\":\"CAN1_RX\"},{\"num\":\"CAN_TX\",\"number\":\"CAN_TX\",\"name\":\"CAN_TX\",\"x\":152.4,\"y\":50.8,\"net\":\"CAN1_TX\"}]}}}},\"power_nets\":[],\"signal_nets\":[{\"name\":\"EN_GATE1\",\"pin_count\":2},{\"name\":\"NFAULT1\",\"pin_count\":2},{\"name\":\"PWM1_A\",\"pin_count\":2},{\"name\":\"PWM1_AN\",\"pin_count\":2},{\"name\":\"PWM1_B\",\"pin_count\":2},{\"name\":\"PWM1_BN\",\"pin_count\":2},{\"name\":\"PWM1_C\",\"pin_count\":2},{\"name\":\"PWM1_CN\",\"pin_count\":2},{\"name\":\"SPI1_MOSI\",\"pin_count\":2},{\"name\":\"SPI1_MISO\",\"pin_count\":2},{\"name\":\"SPI1_SCK\",\"pin_count\":2},{\"name\":\"SPI1_SS0\",\"pin_count\":2},{\"name\":\"ISENSE1_A\",\"pin_count\":2},{\"name\":\"ISENSE1_B\",\"pin_count\":2},{\"name\":\"ISENSE1_C\",\"pin_count\":2},{\"name\":\"HALL_CS\",\"pin_count\":2},{\"name\":\"SPI3_SCK\",\"pin_count\":2},{\"name\":\"SPI3_MOSI\",\"pin_count\":2},{\"name\":\"SPI3_MISO\",\"pin_count\":2},{\"name\":\"IO_PB2\",\"pin_count\":1},{\"name\":\"IO_PC4\",\"pin_count\":1},{\"name\":\"IO_PC5\",\"pin_count\":1},{\"name\":\"IO_PC15\",\"pin_count\":1},{\"name\":\"IO_PD2\",\"pin_count\":1},{\"name\":\"PV_SENSE\",\"pin_count\":1},{\"name\":\"UART1_TX\",\"pin_count\":1},{\"name\":\"UART1_RX\",\"pin_count\":1},{\"name\":\"USB_N\",\"pin_count\":2},{\"name\":\"USB_P\",\"pin_count\":2},{\"name\":\"CAN1_RX\",\"pin_count\":2},{\"name\":\"CAN1_TX\",\"pin_count\":2}],\"floating_nets\":[{\"net\":\"IO_PB2\",\"description\":\"Net 'IO_PB2' appears to be floating (only has 1 connection)\"},{\"net\":\"IO_PC4\",\"description\":\"Net 'IO_PC4' appears to be floating (only has 1 connection)\"},{\"net\":\"IO_PC5\",\"description\":\"Net 'IO_PC5' appears to be floating (only has 1 connection)\"},{\"net\":\"IO_PC15\",\"description\":\"Net 'IO_PC15' appears to be floating (only has 1 connection)\"},{\"net\":\"IO_PD2\",\"description\":\"Net 'IO_PD2' appears to be floating (only has 1 connection)\"},{\"net\":\"PV_SENSE\",\"description\":\"Net 'PV_SENSE' appears to be floating (only has 1 connection)\"},{\"net\":\"UART1_TX\",\"description\":\"Net 'UART1_TX' appears to be floating (only has 1 connection)\"},{\"net\":\"UART1_RX\",\"description\":\"Net 'UART1_RX' appears to be floating (only has 1 connection)\"}]}}"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "schematic_path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch",
+        "analysis": {
+          "component_count": 4,
+          "net_count": 31,
+          "component_types": {
+            "sheet": 4
+          },
+          "components": {
+            "MCU": {
+              "value": "MCU.kicad_sch",
+              "type": "sheet",
+              "units": {
+                "1": {
+                  "position": {
+                    "x": 110.49,
+                    "y": 60.96
+                  },
+                  "body_bbox": {
+                    "min_x": 110.49,
+                    "min_y": 60.96,
+                    "max_x": 158.75,
+                    "max_y": 132.08
+                  },
+                  "pins": [
+                    {
+                      "num": "EN_GATE1",
+                      "number": "EN_GATE1",
+                      "name": "EN_GATE1",
+                      "x": 158.75,
+                      "y": 73.66,
+                      "net": "EN_GATE1"
+                    },
+                    {
+                      "num": "NFAULT1",
+                      "number": "NFAULT1",
+                      "name": "NFAULT1",
+                      "x": 158.75,
+                      "y": 76.2,
+                      "net": "NFAULT1"
+                    },
+                    {
+                      "num": "PWM1_A",
+                      "number": "PWM1_A",
+                      "name": "PWM1_A",
+                      "x": 158.75,
+                      "y": 78.74,
+                      "net": "PWM1_A"
+                    },
+                    {
+                      "num": "PWM1_AN",
+                      "number": "PWM1_AN",
+                      "name": "PWM1_AN",
+                      "x": 158.75,
+                      "y": 81.28,
+                      "net": "PWM1_AN"
+                    },
+                    {
+                      "num": "PWM1_B",
+                      "number": "PWM1_B",
+                      "name": "PWM1_B",
+                      "x": 158.75,
+                      "y": 83.82,
+                      "net": "PWM1_B"
+                    },
+                    {
+                      "num": "PWM1_BN",
+                      "number": "PWM1_BN",
+                      "name": "PWM1_BN",
+                      "x": 158.75,
+                      "y": 86.36,
+                      "net": "PWM1_BN"
+                    },
+                    {
+                      "num": "PWM1_C",
+                      "number": "PWM1_C",
+                      "name": "PWM1_C",
+                      "x": 158.75,
+                      "y": 88.9,
+                      "net": "PWM1_C"
+                    },
+                    {
+                      "num": "PWM1_CN",
+                      "number": "PWM1_CN",
+                      "name": "PWM1_CN",
+                      "x": 158.75,
+                      "y": 91.44,
+                      "net": "PWM1_CN"
+                    },
+                    {
+                      "num": "SPI1_MOSI",
+                      "number": "SPI1_MOSI",
+                      "name": "SPI1_MOSI",
+                      "x": 158.75,
+                      "y": 99.06,
+                      "net": "SPI1_MOSI"
+                    },
+                    {
+                      "num": "SPI1_MISO",
+                      "number": "SPI1_MISO",
+                      "name": "SPI1_MISO",
+                      "x": 158.75,
+                      "y": 101.6,
+                      "net": "SPI1_MISO"
+                    },
+                    {
+                      "num": "SPI1_SCK",
+                      "number": "SPI1_SCK",
+                      "name": "SPI1_SCK",
+                      "x": 158.75,
+                      "y": 104.14,
+                      "net": "SPI1_SCK"
+                    },
+                    {
+                      "num": "SPI1_SS0",
+                      "number": "SPI1_SS0",
+                      "name": "SPI1_SS0",
+                      "x": 158.75,
+                      "y": 106.68,
+                      "net": "SPI1_SS0"
+                    },
+                    {
+                      "num": "ISENSE1_A",
+                      "number": "ISENSE1_A",
+                      "name": "ISENSE1_A",
+                      "x": 158.75,
+                      "y": 114.3,
+                      "net": "ISENSE1_A"
+                    },
+                    {
+                      "num": "ISENSE1_B",
+                      "number": "ISENSE1_B",
+                      "name": "ISENSE1_B",
+                      "x": 158.75,
+                      "y": 116.84,
+                      "net": "ISENSE1_B"
+                    },
+                    {
+                      "num": "ISENSE1_C",
+                      "number": "ISENSE1_C",
+                      "name": "ISENSE1_C",
+                      "x": 158.75,
+                      "y": 119.38,
+                      "net": "ISENSE1_C"
+                    },
+                    {
+                      "num": "HALL_CS",
+                      "number": "HALL_CS",
+                      "name": "HALL_CS",
+                      "x": 110.49,
+                      "y": 73.66,
+                      "net": "HALL_CS"
+                    },
+                    {
+                      "num": "SPI3_SCK",
+                      "number": "SPI3_SCK",
+                      "name": "SPI3_SCK",
+                      "x": 110.49,
+                      "y": 76.2,
+                      "net": "SPI3_SCK"
+                    },
+                    {
+                      "num": "SPI3_MOSI",
+                      "number": "SPI3_MOSI",
+                      "name": "SPI3_MOSI",
+                      "x": 110.49,
+                      "y": 78.74,
+                      "net": "SPI3_MOSI"
+                    },
+                    {
+                      "num": "SPI3_MISO",
+                      "number": "SPI3_MISO",
+                      "name": "SPI3_MISO",
+                      "x": 110.49,
+                      "y": 81.28,
+                      "net": "SPI3_MISO"
+                    },
+                    {
+                      "num": "IO_PB2",
+                      "number": "IO_PB2",
+                      "name": "IO_PB2",
+                      "x": 110.49,
+                      "y": 96.52,
+                      "net": "IO_PB2"
+                    },
+                    {
+                      "num": "IO_PC4",
+                      "number": "IO_PC4",
+                      "name": "IO_PC4",
+                      "x": 110.49,
+                      "y": 99.06,
+                      "net": "IO_PC4"
+                    },
+                    {
+                      "num": "IO_PC5",
+                      "number": "IO_PC5",
+                      "name": "IO_PC5",
+                      "x": 110.49,
+                      "y": 101.6,
+                      "net": "IO_PC5"
+                    },
+                    {
+                      "num": "IO_PC15",
+                      "number": "IO_PC15",
+                      "name": "IO_PC15",
+                      "x": 110.49,
+                      "y": 104.14,
+                      "net": "IO_PC15"
+                    },
+                    {
+                      "num": "IO_PD2",
+                      "number": "IO_PD2",
+                      "name": "IO_PD2",
+                      "x": 110.49,
+                      "y": 106.68,
+                      "net": "IO_PD2"
+                    },
+                    {
+                      "num": "PV_SENSE",
+                      "number": "PV_SENSE",
+                      "name": "PV_SENSE",
+                      "x": 110.49,
+                      "y": 114.3,
+                      "net": "PV_SENSE"
+                    },
+                    {
+                      "num": "UART1_TX",
+                      "number": "UART1_TX",
+                      "name": "UART1_TX",
+                      "x": 110.49,
+                      "y": 121.92,
+                      "net": "UART1_TX"
+                    },
+                    {
+                      "num": "UART1_RX",
+                      "number": "UART1_RX",
+                      "name": "UART1_RX",
+                      "x": 110.49,
+                      "y": 124.46,
+                      "net": "UART1_RX"
+                    },
+                    {
+                      "num": "USB_N",
+                      "number": "USB_N",
+                      "name": "USB_N",
+                      "x": 118.11,
+                      "y": 60.96,
+                      "net": "USB_N"
+                    },
+                    {
+                      "num": "USB_P",
+                      "number": "USB_P",
+                      "name": "USB_P",
+                      "x": 129.54,
+                      "y": 60.96,
+                      "net": "USB_P"
+                    },
+                    {
+                      "num": "CAN1_RX",
+                      "number": "CAN1_RX",
+                      "name": "CAN1_RX",
+                      "x": 140.97,
+                      "y": 60.96,
+                      "net": "CAN1_RX"
+                    },
+                    {
+                      "num": "CAN1_TX",
+                      "number": "CAN1_TX",
+                      "name": "CAN1_TX",
+                      "x": 152.4,
+                      "y": 60.96,
+                      "net": "CAN1_TX"
+                    }
+                  ]
+                }
+              }
+            },
+            "GATE_DRV": {
+              "value": "gatedrv.kicad_sch",
+              "type": "sheet",
+              "units": {
+                "1": {
+                  "position": {
+                    "x": 187.96,
+                    "y": 66.04
+                  },
+                  "body_bbox": {
+                    "min_x": 187.96,
+                    "min_y": 66.04,
+                    "max_x": 236.22,
+                    "max_y": 124.46000000000001
+                  },
+                  "pins": [
+                    {
+                      "num": "EN_GATE1",
+                      "number": "EN_GATE1",
+                      "name": "EN_GATE1",
+                      "x": 187.96,
+                      "y": 73.66,
+                      "net": "EN_GATE1"
+                    },
+                    {
+                      "num": "NFAULT1",
+                      "number": "NFAULT1",
+                      "name": "NFAULT1",
+                      "x": 187.96,
+                      "y": 76.2,
+                      "net": "NFAULT1"
+                    },
+                    {
+                      "num": "PWM1_A",
+                      "number": "PWM1_A",
+                      "name": "PWM1_A",
+                      "x": 187.96,
+                      "y": 78.74,
+                      "net": "PWM1_A"
+                    },
+                    {
+                      "num": "PWM1_AN",
+                      "number": "PWM1_AN",
+                      "name": "PWM1_AN",
+                      "x": 187.96,
+                      "y": 81.28,
+                      "net": "PWM1_AN"
+                    },
+                    {
+                      "num": "PWM1_B",
+                      "number": "PWM1_B",
+                      "name": "PWM1_B",
+                      "x": 187.96,
+                      "y": 83.82,
+                      "net": "PWM1_B"
+                    },
+                    {
+                      "num": "PWM1_BN",
+                      "number": "PWM1_BN",
+                      "name": "PWM1_BN",
+                      "x": 187.96,
+                      "y": 86.36,
+                      "net": "PWM1_BN"
+                    },
+                    {
+                      "num": "PWM1_C",
+                      "number": "PWM1_C",
+                      "name": "PWM1_C",
+                      "x": 187.96,
+                      "y": 88.9,
+                      "net": "PWM1_C"
+                    },
+                    {
+                      "num": "PWM1_CN",
+                      "number": "PWM1_CN",
+                      "name": "PWM1_CN",
+                      "x": 187.96,
+                      "y": 91.44,
+                      "net": "PWM1_CN"
+                    },
+                    {
+                      "num": "SPI1_MOSI",
+                      "number": "SPI1_MOSI",
+                      "name": "SPI1_MOSI",
+                      "x": 187.96,
+                      "y": 99.06,
+                      "net": "SPI1_MOSI"
+                    },
+                    {
+                      "num": "SPI1_MISO",
+                      "number": "SPI1_MISO",
+                      "name": "SPI1_MISO",
+                      "x": 187.96,
+                      "y": 101.6,
+                      "net": "SPI1_MISO"
+                    },
+                    {
+                      "num": "SPI1_SCK",
+                      "number": "SPI1_SCK",
+                      "name": "SPI1_SCK",
+                      "x": 187.96,
+                      "y": 104.14,
+                      "net": "SPI1_SCK"
+                    },
+                    {
+                      "num": "SPI1_SS0",
+                      "number": "SPI1_SS0",
+                      "name": "SPI1_SS0",
+                      "x": 187.96,
+                      "y": 106.68,
+                      "net": "SPI1_SS0"
+                    },
+                    {
+                      "num": "ISENSE1_A",
+                      "number": "ISENSE1_A",
+                      "name": "ISENSE1_A",
+                      "x": 187.96,
+                      "y": 114.3,
+                      "net": "ISENSE1_A"
+                    },
+                    {
+                      "num": "ISENSE1_B",
+                      "number": "ISENSE1_B",
+                      "name": "ISENSE1_B",
+                      "x": 187.96,
+                      "y": 116.84,
+                      "net": "ISENSE1_B"
+                    },
+                    {
+                      "num": "ISENSE1_C",
+                      "number": "ISENSE1_C",
+                      "name": "ISENSE1_C",
+                      "x": 187.96,
+                      "y": 119.38,
+                      "net": "ISENSE1_C"
+                    }
+                  ]
+                }
+              }
+            },
+            "HALL": {
+              "value": "hall.kicad_sch",
+              "type": "sheet",
+              "units": {
+                "1": {
+                  "position": {
+                    "x": 40.64,
+                    "y": 68.58
+                  },
+                  "body_bbox": {
+                    "min_x": 40.64,
+                    "min_y": 68.58,
+                    "max_x": 81.28,
+                    "max_y": 93.97999999999999
+                  },
+                  "pins": [
+                    {
+                      "num": "HALL_CS",
+                      "number": "HALL_CS",
+                      "name": "HALL_CS",
+                      "x": 81.28,
+                      "y": 73.66,
+                      "net": "HALL_CS"
+                    },
+                    {
+                      "num": "HALL_SCLK",
+                      "number": "HALL_SCLK",
+                      "name": "HALL_SCLK",
+                      "x": 81.28,
+                      "y": 76.2,
+                      "net": "SPI3_SCK"
+                    },
+                    {
+                      "num": "HALL_MOSI",
+                      "number": "HALL_MOSI",
+                      "name": "HALL_MOSI",
+                      "x": 81.28,
+                      "y": 78.74,
+                      "net": "SPI3_MOSI"
+                    },
+                    {
+                      "num": "HALL_MISO",
+                      "number": "HALL_MISO",
+                      "name": "HALL_MISO",
+                      "x": 81.28,
+                      "y": 81.28,
+                      "net": "SPI3_MISO"
+                    }
+                  ]
+                }
+              }
+            },
+            "COMMUNICATION": {
+              "value": "communication.kicad_sch",
+              "type": "sheet",
+              "units": {
+                "1": {
+                  "position": {
+                    "x": 110.49,
+                    "y": 25.4
+                  },
+                  "body_bbox": {
+                    "min_x": 110.49,
+                    "min_y": 25.4,
+                    "max_x": 158.75,
+                    "max_y": 50.8
+                  },
+                  "pins": [
+                    {
+                      "num": "USB_N",
+                      "number": "USB_N",
+                      "name": "USB_N",
+                      "x": 118.11,
+                      "y": 50.8,
+                      "net": "USB_N"
+                    },
+                    {
+                      "num": "USB_P",
+                      "number": "USB_P",
+                      "name": "USB_P",
+                      "x": 129.54,
+                      "y": 50.8,
+                      "net": "USB_P"
+                    },
+                    {
+                      "num": "CAN_RX",
+                      "number": "CAN_RX",
+                      "name": "CAN_RX",
+                      "x": 140.97,
+                      "y": 50.8,
+                      "net": "CAN1_RX"
+                    },
+                    {
+                      "num": "CAN_TX",
+                      "number": "CAN_TX",
+                      "name": "CAN_TX",
+                      "x": 152.4,
+                      "y": 50.8,
+                      "net": "CAN1_TX"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "power_nets": [],
+          "signal_nets": [
+            {
+              "name": "EN_GATE1",
+              "pin_count": 2
+            },
+            {
+              "name": "NFAULT1",
+              "pin_count": 2
+            },
+            {
+              "name": "PWM1_A",
+              "pin_count": 2
+            },
+            {
+              "name": "PWM1_AN",
+              "pin_count": 2
+            },
+            {
+              "name": "PWM1_B",
+              "pin_count": 2
+            },
+            {
+              "name": "PWM1_BN",
+              "pin_count": 2
+            },
+            {
+              "name": "PWM1_C",
+              "pin_count": 2
+            },
+            {
+              "name": "PWM1_CN",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI1_MOSI",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI1_MISO",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI1_SCK",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI1_SS0",
+              "pin_count": 2
+            },
+            {
+              "name": "ISENSE1_A",
+              "pin_count": 2
+            },
+            {
+              "name": "ISENSE1_B",
+              "pin_count": 2
+            },
+            {
+              "name": "ISENSE1_C",
+              "pin_count": 2
+            },
+            {
+              "name": "HALL_CS",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI3_SCK",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI3_MOSI",
+              "pin_count": 2
+            },
+            {
+              "name": "SPI3_MISO",
+              "pin_count": 2
+            },
+            {
+              "name": "IO_PB2",
+              "pin_count": 1
+            },
+            {
+              "name": "IO_PC4",
+              "pin_count": 1
+            },
+            {
+              "name": "IO_PC5",
+              "pin_count": 1
+            },
+            {
+              "name": "IO_PC15",
+              "pin_count": 1
+            },
+            {
+              "name": "IO_PD2",
+              "pin_count": 1
+            },
+            {
+              "name": "PV_SENSE",
+              "pin_count": 1
+            },
+            {
+              "name": "UART1_TX",
+              "pin_count": 1
+            },
+            {
+              "name": "UART1_RX",
+              "pin_count": 1
+            },
+            {
+              "name": "USB_N",
+              "pin_count": 2
+            },
+            {
+              "name": "USB_P",
+              "pin_count": 2
+            },
+            {
+              "name": "CAN1_RX",
+              "pin_count": 2
+            },
+            {
+              "name": "CAN1_TX",
+              "pin_count": 2
+            }
+          ],
+          "floating_nets": [
+            {
+              "net": "IO_PB2",
+              "description": "Net 'IO_PB2' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "IO_PC4",
+              "description": "Net 'IO_PC4' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "IO_PC5",
+              "description": "Net 'IO_PC5' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "IO_PC15",
+              "description": "Net 'IO_PC15' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "IO_PD2",
+              "description": "Net 'IO_PD2' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "PV_SENSE",
+              "description": "Net 'PV_SENSE' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "UART1_TX",
+              "description": "Net 'UART1_TX' appears to be floating (only has 1 connection)"
+            },
+            {
+              "net": "UART1_RX",
+              "description": "Net 'UART1_RX' appears to be floating (only has 1 connection)"
+            }
+          ]
+        }
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "request": {
+      "name": "reload_kicad",
+      "arguments": {
+        "paths": [
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch",
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/MCU.kicad_sch",
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/hall.kicad_sch"
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"success\":false,\"reloaded\":[],\"failed\":[\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch\",\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/MCU.kicad_sch\",\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/hall.kicad_sch\"],\"errors\":{\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch\":\"Schematic reload is not yet supported in KiCad 10 due to breaking API changes. Use File → Revert in the KiCad Schematic Editor instead.\",\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/MCU.kicad_sch\":\"Schematic reload is not yet supported in KiCad 10 due to breaking API changes. Use File → Revert in the KiCad Schematic Editor instead.\",\"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/hall.kicad_sch\":\"Schematic reload is not yet supported in KiCad 10 due to breaking API changes. Use File → Revert in the KiCad Schematic Editor instead.\"}}"
+        }
+      ],
+      "structuredContent": {
+        "success": false,
+        "reloaded": [],
+        "failed": [
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch",
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/MCU.kicad_sch",
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/hall.kicad_sch"
+        ],
+        "errors": {
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/foc_v2.kicad_sch": "Schematic reload is not yet supported in KiCad 10 due to breaking API changes. Use File → Revert in the KiCad Schematic Editor instead.",
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/MCU.kicad_sch": "Schematic reload is not yet supported in KiCad 10 due to breaking API changes. Use File → Revert in the KiCad Schematic Editor instead.",
+          "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/hall.kicad_sch": "Schematic reload is not yet supported in KiCad 10 due to breaking API changes. Use File → Revert in the KiCad Schematic Editor instead."
+        }
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  }
+]

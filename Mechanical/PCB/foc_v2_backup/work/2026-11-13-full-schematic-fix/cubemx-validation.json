@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "name": "cubemx_validate_ioc",
+      "arguments": {
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-full-schematic-fix/candidate/src.ioc"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"path\": \"/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-full-schematic-fix/candidate/src.ioc\",\n  \"valid\": true,\n  \"source_sha256\": \"d2b1f9727924c0cc0f0f7e0f8d3e10a564d00b875726f0d77c67e799964835a8\",\n  \"roundtrip_sha256\": \"08fe846af5115dccf87e33dc03fb7f49f67494e5f48e1a51ff45d5eadf3e53fd\",\n  \"cubemx\": {\n    \"succeeded\": true,\n    \"exit_code\": 0,\n    \"timed_out\": false,\n    \"duration_seconds\": 12.316331635999632,\n    \"stdout\": \"[Earlier successful output removed: 18847 characters.]\\nmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\\n2026-11-13 02:14:15,437 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 294194344 Bytes (754974720)\\n2026-11-13 02:14:15,456 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\\nOK\\nconfig saveas \\\"/tmp/src-cubemx-bdl5ljdd/roundtrip.ioc\\\"\\n2026-11-13 02:14:15,502 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\\n2026-11-13 02:14:15,522 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\\n2026-11-13 02:14:15,532 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 329845928 Bytes (754974720)\\n2026-11-13 02:14:15,549 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\\n2026-11-13 02:14:15,582 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 350817448 Bytes (754974720)\\n2026-11-13 02:14:15,602 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\\nOK\\nexit\\nBye bye\\n\",\n    \"stderr\": \"\"\n  },\n  \"diagnostics\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-full-schematic-fix/candidate/src.ioc",
+        "valid": true,
+        "source_sha256": "d2b1f9727924c0cc0f0f7e0f8d3e10a564d00b875726f0d77c67e799964835a8",
+        "roundtrip_sha256": "08fe846af5115dccf87e33dc03fb7f49f67494e5f48e1a51ff45d5eadf3e53fd",
+        "cubemx": {
+          "succeeded": true,
+          "exit_code": 0,
+          "timed_out": false,
+          "duration_seconds": 12.316331635999632,
+          "stdout": "[Earlier successful output removed: 18847 characters.]\nmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\n2026-11-13 02:14:15,437 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 294194344 Bytes (754974720)\n2026-11-13 02:14:15,456 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\nOK\nconfig saveas \"/tmp/src-cubemx-bdl5ljdd/roundtrip.ioc\"\n2026-11-13 02:14:15,502 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\n2026-11-13 02:14:15,522 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\n2026-11-13 02:14:15,532 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 329845928 Bytes (754974720)\n2026-11-13 02:14:15,549 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\n2026-11-13 02:14:15,582 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 350817448 Bytes (754974720)\n2026-11-13 02:14:15,602 [INFO] ProjectChoiceTab:3888 - New firmware version: STM32Cube FW_F4 V1.28.3 Old firmware version: STM32Cube FW_F4 V1.28.3\nOK\nexit\nBye bye\n",
+          "stderr": ""
+        },
+        "diagnostics": []
+      },
+      "isError": false,
+      "resultType": "complete"
+    }
+  }
+]

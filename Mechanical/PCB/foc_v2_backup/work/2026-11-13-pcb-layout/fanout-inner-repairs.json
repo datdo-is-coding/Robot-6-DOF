@@ -1,0 +1,21 @@
+{
+  "new_escapes": [
+    {
+      "pad": "U10.2",
+      "net": "GND",
+      "x_mm": 113.535,
+      "y_mm": 112.2,
+      "filled_and_copper_capped": false
+    },
+    {
+      "pad": "U1.18",
+      "net": "GND",
+      "x_mm": 96.75,
+      "y_mm": 123.675,
+      "filled_and_copper_capped": true
+    }
+  ],
+  "inner_tracks_removed": [
+    "27570e72-0383-46ef-a59d-bde6f028d83d"
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "cubemx_plan_ioc_changes",
+    "arguments": {
+      "request": {
+        "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+        "parameter_updates": {
+          "ProjectManager.functionlistsort": "1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true"
+        }
+      }
+    }
+  },
+  {
+    "name": "cubemx_apply_ioc_changes",
+    "arguments": {
+      "request": {
+        "plan_request": {
+          "path": "/home/tuan/Robot-6-DOF/Mechanical/PCB/foc_v2/work/2026-11-13-single-motor-spi/candidate/src.ioc",
+          "parameter_updates": {
+            "ProjectManager.functionlistsort": "1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_DMA_Init-DMA-false-HAL-true,4-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,5-MX_TIM1_Init-TIM1-false-HAL-true,6-MX_ADC1_Init-ADC1-false-HAL-true,7-MX_SPI1_Init-SPI1-false-HAL-true,8-MX_CAN1_Init-CAN1-false-HAL-true,9-MX_SPI3_Init-SPI3-false-HAL-true"
+          }
+        },
+        "expected_source_sha256": "e625dd8322647bb41906c1c50532b25c2cec5f9459a028f9b769d4ca9f302f71"
+      }
+    }
+  }
+]

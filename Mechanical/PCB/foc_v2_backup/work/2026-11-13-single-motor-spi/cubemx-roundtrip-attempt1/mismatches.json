@@ -1,0 +1,97 @@
+[
+  {
+    "key": "Mcu.IP10",
+    "expected": "SPI3",
+    "actual": null
+  },
+  {
+    "key": "Mcu.IPNb",
+    "expected": "11",
+    "actual": "10"
+  },
+  {
+    "key": "Mcu.Pin31",
+    "expected": "PB3",
+    "actual": "VP_SYS_VS_Systick"
+  },
+  {
+    "key": "Mcu.Pin32",
+    "expected": "PC11",
+    "actual": "VP_TIM1_VS_ClockSourceINT"
+  },
+  {
+    "key": "Mcu.Pin33",
+    "expected": "PC12",
+    "actual": "VP_TIM1_VS_no_output4"
+  },
+  {
+    "key": "Mcu.Pin34",
+    "expected": "PA15",
+    "actual": "VP_USB_DEVICE_VS_USB_DEVICE_CDC_FS"
+  },
+  {
+    "key": "PA15.GPIOParameters",
+    "expected": "GPIO_Label,PinState,GPIO_PuPd",
+    "actual": "PinState,GPIO_PuPd,GPIO_Label"
+  },
+  {
+    "key": "PC10.GPIOParameters",
+    "expected": "GPIO_Label,PinState",
+    "actual": "PinState,GPIO_Label"
+  },
+  {
+    "key": "SPI3.VirtualType",
+    "expected": "VM_MASTER",
+    "actual": null
+  },
+  {
+    "key": "SPI3.Mode",
+    "expected": "SPI_MODE_MASTER",
+    "actual": null
+  },
+  {
+    "key": "SPI3.Direction",
+    "expected": "SPI_DIRECTION_2LINES",
+    "actual": null
+  },
+  {
+    "key": "SPI3.CLKPolarity",
+    "expected": "SPI_POLARITY_HIGH",
+    "actual": null
+  },
+  {
+    "key": "SPI3.CLKPhase",
+    "expected": "SPI_PHASE_2EDGE",
+    "actual": null
+  },
+  {
+    "key": "SPI3.BaudRatePrescaler",
+    "expected": "SPI_BAUDRATEPRESCALER_8",
+    "actual": null
+  },
+  {
+    "key": "SPI3.DataSize",
+    "expected": "SPI_DATASIZE_16BIT",
+    "actual": null
+  },
+  {
+    "key": "SPI3.NSS",
+    "expected": "SPI_NSS_SOFT",
+    "actual": null
+  },
+  {
+    "key": "SPI3.FirstBit",
+    "expected": "SPI_FIRSTBIT_MSB",
+    "actual": null
+  },
+  {
+    "key": "SPI3.CalculateBaudRate",
+    "expected": "5.25 MBits/s",
+    "actual": null
+  },
+  {
+    "key": "SPI3.IPParameters",
+    "expected": "VirtualType,Mode,Direction,CalculateBaudRate,CLKPolarity,CLKPhase,BaudRatePrescaler,DataSize,NSS,FirstBit",
+    "actual": null
+  }
+]
