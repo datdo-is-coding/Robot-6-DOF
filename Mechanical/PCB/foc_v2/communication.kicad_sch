@@ -718,6 +718,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -2855,7 +3042,7 @@
 	)
 	(text "PA0 USB_VBUS: LOW when cable VBUS is present."
 		(exclude_from_sim no)
-		(at 155 76.2 0)
+		(at 182.372 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,9 +3051,9 @@
 		)
 		(uuid "2909c4d1-4a1a-4045-96c0-08cb88c123d1")
 	)
-	(text "JP1: bridge only at a CAN-bus end (120.8R total)."
+	(text "Bridge JP1 and JP2 together at a CAN bus end (120.8R).\nLeave both open at intermediate nodes."
 		(exclude_from_sim no)
-		(at 119.38 163.83 0)
+		(at 134.366 160.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,7 +3064,7 @@
 	)
 	(text "USB-C: self powered from 24V bus; no USB-to-5V back-feed."
 		(exclude_from_sim no)
-		(at 25.4 83.82 0)
+		(at 44.45 81.788 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2888,7 +3075,7 @@
 	)
 	(text "CC1/CC2: independent 5.1k Rd. Internal STM32 USB termination."
 		(exclude_from_sim no)
-		(at 25.4 88.9 0)
+		(at 44.704 86.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2910,16 +3097,8 @@
 		(uuid "edb337ab-42ad-4b32-9070-3f8f7c501c80")
 	)
 	(no_connect
-		(at 226.06 147.32)
-		(uuid "3ac5a795-dbde-4abd-8c78-84beafc1b30f")
-	)
-	(no_connect
 		(at 50.8 68.58)
 		(uuid "8c6f9e78-f6e9-4179-9e19-b0e929aea431")
-	)
-	(no_connect
-		(at 226.06 119.38)
-		(uuid "a5cff69f-bcfb-4625-853a-16298f5a6f7b")
 	)
 	(no_connect
 		(at 50.8 71.12)
@@ -2927,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 54.61) (xy 162.56 52.07)
+			(xy 217.17 45.72) (xy 217.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2947,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 147.32 110.49)
+			(xy 147.32 113.03) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 62.23) (xy 162.56 64.77)
+			(xy 217.17 53.34) (xy 217.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 38.1) (xy 213.36 38.1)
+			(xy 203.2 38.1) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 31.75) (xy 60.96 29.21)
+			(xy 66.04 31.75) (xy 66.04 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3157,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 45.72) (xy 195.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db9833b-7c38-43e7-8115-e367148ae1fb")
+	)
+	(wire
+		(pts
 			(xy 147.32 120.65) (xy 147.32 128.27)
 		)
 		(stroke
@@ -3167,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 45.72) (xy 190.5 38.1)
+			(xy 203.2 40.64) (xy 203.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3247,16 +3436,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 50.8) (xy 177.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b08d78fa-e9b4-42b9-8291-de9f064e1275")
-	)
-	(wire
-		(pts
 			(xy 86.36 60.96) (xy 78.74 60.96)
 		)
 		(stroke
@@ -3317,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 39.37) (xy 158.75 39.37)
+			(xy 172.72 35.56) (xy 176.53 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 39.37) (xy 175.26 39.37)
+			(xy 184.15 35.56) (xy 187.96 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3397,6 +3576,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 96.52) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7a2710-45fd-4779-8214-f343265a913e")
+	)
+	(wire
+		(pts
 			(xy 35.56 78.74) (xy 35.56 83.82)
 		)
 		(stroke
@@ -3407,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 60.96 41.91)
+			(xy 66.04 39.37) (xy 66.04 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3437,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 55.88) (xy 190.5 60.96)
+			(xy 203.2 50.8) (xy 203.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3725,7 @@
 		(uuid "08292aab-2671-4b84-8480-9b8059b19b52")
 	)
 	(label "VBUS_GATE"
-		(at 177.8 50.8 180)
+		(at 182.88 45.72 180)
 		(effects
 			(font
 				(size 1 1)
@@ -3556,7 +3745,7 @@
 		(uuid "282a0ada-d421-4c74-8099-a0988e821278")
 	)
 	(label "VBUS_GATE"
-		(at 175.26 39.37 0)
+		(at 187.96 35.56 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3566,7 +3755,7 @@
 		(uuid "35396a82-a3db-4d4d-af7c-26a6f7a2a377")
 	)
 	(label "CAN_H"
-		(at 147.32 110.49 0)
+		(at 147.32 93.98 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3676,7 +3865,7 @@
 		(uuid "8885a082-d108-44ab-9015-149cbfca715c")
 	)
 	(label "VBUS_GATE"
-		(at 162.56 52.07 0)
+		(at 217.17 43.18 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3686,7 +3875,7 @@
 		(uuid "9c9bf77c-918b-4806-9730-1805c2eae41a")
 	)
 	(label "VBUS"
-		(at 152.4 39.37 180)
+		(at 172.72 35.56 180)
 		(effects
 			(font
 				(size 1 1)
@@ -3776,7 +3965,7 @@
 		(uuid "d2be2818-cf6a-42b2-9d8d-42b2432598c9")
 	)
 	(label "CC1"
-		(at 60.96 29.21 0)
+		(at 66.04 29.21 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4247,7 +4436,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 35.56 0)
+		(at 66.04 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4257,7 +4446,7 @@
 		(dnp no)
 		(uuid "2eace95b-6891-4178-9db1-0364e4551a30")
 		(property "Reference" "R40"
-			(at 63.5 34.29 0)
+			(at 68.58 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4268,7 +4457,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 63.5 36.83 0)
+			(at 68.58 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4278,8 +4467,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 35.56 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 35.56 0)
+			(at 66.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4303,12 +4492,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 35.56 0)
+			(at 66.04 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-075K1L"
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -4566,7 +4777,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 187.96 50.8 0)
+		(at 200.66 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4576,7 +4787,7 @@
 		(dnp no)
 		(uuid "446b673e-1afa-4551-bca0-c1aa79cded4f")
 		(property "Reference" "Q7"
-			(at 193.04 48.895 0)
+			(at 205.74 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4587,7 +4798,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 193.04 50.8 0)
+			(at 205.74 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4598,7 +4809,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 187.96 50.8 0)
+			(at 200.66 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,7 +4821,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 187.96 50.8 0)
+			(at 200.66 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4833,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 50.8 0)
+			(at 200.66 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4730,7 +4941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 64.77 0)
+		(at 217.17 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4740,7 +4951,7 @@
 		(dnp no)
 		(uuid "4cb76acf-43a2-4a9c-a169-5712bbcef046")
 		(property "Reference" "#PWR074"
-			(at 162.56 71.12 0)
+			(at 217.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 68.58 0)
+			(at 217.17 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4762,7 +4973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 64.77 0)
+			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 64.77 0)
+			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 64.77 0)
+			(at 217.17 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4840,7 +5051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4871,6 +5082,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 203.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 203.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C60490"
+			(at 203.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -5167,7 +5411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5198,6 +5442,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1005X7R1E104K050BB"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -5218,7 +5495,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 58.42 0)
+		(at 217.17 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5228,7 +5505,7 @@
 		(dnp no)
 		(uuid "6888d8b4-24d6-4e14-8e94-8ff9e181f5cf")
 		(property "Reference" "R44"
-			(at 165.1 57.15 0)
+			(at 219.71 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5239,7 +5516,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 165.1 59.69 0)
+			(at 219.71 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5249,8 +5526,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.17 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +5539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 58.42 0)
+			(at 217.17 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,12 +5551,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 58.42 0)
+			(at 217.17 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-071ML"
+			(at 217.17 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 217.17 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -5378,7 +5677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 226.06 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -5390,7 +5689,7 @@
 		(fields_autoplaced yes)
 		(uuid "76631f46-810c-4f88-99e6-e9e6bbe901b0")
 		(property "Reference" "J8"
-			(at 228.6 110.8455 0)
+			(at 228.6 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5400,8 +5699,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 228.6 113.3855 0)
+		(property "Value" "CAN1"
+			(at 228.6 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5411,7 +5710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 226.06 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5516,9 +5815,6 @@
 		(pin "1"
 			(uuid "d944d683-3fa7-4668-8f8a-7d5278c3e1b1")
 		)
-		(pin "MP"
-			(uuid "e001bb9f-9bd1-410c-bd18-d15c4d66e6df")
-		)
 		(pin "3"
 			(uuid "d360c53e-1c50-4778-afba-21dd97f1102a")
 		)
@@ -5532,8 +5828,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 60.96 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 147.32 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5541,10 +5837,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "80973a70-eea4-4758-b819-bb9072be27d7")
-		(property "Reference" "#PWR072"
-			(at 190.5 67.31 0)
-			(hide yes)
+		(uuid "7f01f755-2f95-4eb6-b7fa-50a9b946c295")
+		(property "Reference" "JP2"
+			(at 154.94 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5554,18 +5849,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 190.5 64.77 0)
+		(property "Value" "TERM_H"
+			(at 154.94 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 190.5 60.96 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5577,7 +5873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 60.96 0)
+			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5885,89 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 60.96 0)
+			(at 147.32 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6d99907-201b-4562-8a85-2a3e01249e0f")
+		)
+		(pin "2"
+			(uuid "37416fce-91c9-4ebe-a544-05615ccd8e26")
+		)
+		(instances
+			(project "foc_v2"
+				(path "/b5c0d4be-7ad7-4dae-8125-334a612efd8d/c41a4043-0de8-4c55-a88b-648ceae017c3"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80973a70-eea4-4758-b819-bb9072be27d7")
+		(property "Reference" "#PWR072"
+			(at 203.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5701,7 +6079,7 @@
 		(dnp no)
 		(uuid "85080014-1dce-46a5-8cda-cb5651ef3887")
 		(property "Reference" "JP1"
-			(at 149.86 146.05 90)
+			(at 154.94 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5711,8 +6089,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TERM_ENABLE"
-			(at 149.86 148.59 90)
+		(property "Value" "TERM_L"
+			(at 154.94 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5930,7 +6308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 226.06 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -5942,7 +6320,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ba114b8-86cd-4514-8dd7-644af4102cf4")
 		(property "Reference" "J9"
-			(at 228.6 138.7855 0)
+			(at 228.6 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5952,8 +6330,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 228.6 141.3255 0)
+		(property "Value" "CAN2"
+			(at 228.6 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5963,7 +6341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 226.06 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6067,9 +6445,6 @@
 		)
 		(pin "1"
 			(uuid "af331a73-54f0-49b4-b47d-f070e39c319f")
-		)
-		(pin "MP"
-			(uuid "9e41771f-b58e-4006-851c-c7d51eb39b1f")
 		)
 		(pin "3"
 			(uuid "6646cb61-b217-4f88-85dc-e1c2f3a7719e")
@@ -6768,7 +7143,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 39.37 90)
+		(at 180.34 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6778,7 +7153,7 @@
 		(dnp no)
 		(uuid "cb54bad9-df96-40c9-b9cd-d976db64e475")
 		(property "Reference" "R43"
-			(at 162.56 34.29 90)
+			(at 180.34 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6788,7 +7163,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 162.56 36.83 90)
+			(at 180.34 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6797,8 +7172,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 39.37 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.34 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 39.37 0)
+			(at 180.34 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,12 +7197,45 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 39.37 0)
+			(at 180.34 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 180.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 180.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C60490"
+			(at 180.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -6879,7 +7287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 73.66 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6910,6 +7318,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-075K1L"
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -7119,7 +7549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7150,6 +7580,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1005X7R1E104K050BB"
+			(at 40.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 40.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 40.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -7201,7 +7664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.76 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7235,7 +7698,29 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
+			(at 111.76 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1005X7R1E104K050BB"
+			(at 111.76 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 111.76 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +7748,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 41.91 0)
+		(at 66.04 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7273,7 +7758,7 @@
 		(dnp no)
 		(uuid "fefa6444-afff-491d-999e-7add736aa124")
 		(property "Reference" "#PWR070"
-			(at 60.96 48.26 0)
+			(at 66.04 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,7 +7770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 45.72 0)
+			(at 66.04 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7295,7 +7780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 41.91 0)
+			(at 66.04 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 41.91 0)
+			(at 66.04 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7319,7 +7804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 41.91 0)
+			(at 66.04 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

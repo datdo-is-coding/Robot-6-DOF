@@ -1,0 +1,58 @@
+(version 1)
+
+# Routing presets for standard JLCPCB FR-4 manufacture, in mm.
+# https://jlcpcb.com/capabilities/pcb-capabilities/
+# https://jlcpcb.com/help/article/in-what-cases-will-there-be-charged-extra
+# Trace presets: 0.20 signal, 0.30 gate/aux/buck, 2.00 high-current.
+# Through via presets (pad/finished drill): 0.60/0.30 and 0.80/0.40 for power.
+# The global PCB settings keep 0.20 mm trace/space and the existing hole/pad floor.
+# IC1 footprint drills are outside the routing-via rule. Existing footprints and stackup stay as drawn.
+# Power uses pours and adequate copper area, plus parallel vias where needed for ampacity.
+# USB pair dimensions are starting presets pending impedance confirmation for the ordered stackup.
+
+(rule "JLCPCB standard through via"
+    (condition "A.Type == 'Via'")
+    (constraint via_diameter (min 0.60mm))
+    (constraint hole_size (min 0.30mm))
+    (constraint annular_width (min 0.15mm)))
+
+(rule "24V power copper track"
+    (condition "A.hasNetclass('PWR_24V') && (A.intersectsCourtyard('J11') || A.intersectsCourtyard('Q1') || A.intersectsCourtyard('Q3') || A.intersectsCourtyard('Q5') || A.intersectsCourtyard('C_BUS1') || A.intersectsCourtyard('C_BUS2') || A.intersectsCourtyard('C_BUS3') || A.intersectsCourtyard('C66') || A.intersectsCourtyard('C67') || A.intersectsCourtyard('C68') || A.intersectsCourtyard('C69') || A.intersectsCourtyard('C70') || A.intersectsCourtyard('C71'))")
+    (constraint track_width (min 1mm) (opt 2mm)))
+
+(rule "24V power copper via"
+    (condition "A.Type == 'Via' && A.hasNetclass('PWR_24V') && (A.intersectsCourtyard('J11') || A.intersectsCourtyard('Q1') || A.intersectsCourtyard('Q3') || A.intersectsCourtyard('Q5') || A.intersectsCourtyard('C_BUS1') || A.intersectsCourtyard('C_BUS2') || A.intersectsCourtyard('C_BUS3') || A.intersectsCourtyard('C66') || A.intersectsCourtyard('C67') || A.intersectsCourtyard('C68') || A.intersectsCourtyard('C69') || A.intersectsCourtyard('C70') || A.intersectsCourtyard('C71'))")
+    (constraint via_diameter (min 0.8mm) (opt 0.8mm))
+    (constraint hole_size (min 0.4mm) (opt 0.4mm)))
+
+(rule "Motor phase copper track"
+    (condition "A.hasNetclass('MOTOR_PHASE') && (A.intersectsCourtyard('J1') || A.intersectsCourtyard('J2') || A.intersectsCourtyard('J3') || A.intersectsCourtyard('Q1') || A.intersectsCourtyard('Q2') || A.intersectsCourtyard('Q3') || A.intersectsCourtyard('Q4') || A.intersectsCourtyard('Q5') || A.intersectsCourtyard('Q6'))")
+    (constraint track_width (min 0.8mm) (opt 2.0mm)))
+
+(rule "Motor phase copper via"
+    (condition "A.Type == 'Via' && A.hasNetclass('MOTOR_PHASE') && (A.intersectsCourtyard('J1') || A.intersectsCourtyard('J2') || A.intersectsCourtyard('J3') || A.intersectsCourtyard('Q1') || A.intersectsCourtyard('Q2') || A.intersectsCourtyard('Q3') || A.intersectsCourtyard('Q4') || A.intersectsCourtyard('Q5') || A.intersectsCourtyard('Q6'))")
+    (constraint via_diameter (min 0.8mm) (opt 0.8mm))
+    (constraint hole_size (min 0.4mm) (opt 0.4mm)))
+
+(rule "Low-side power to shunt track"
+    (condition "A.hasNetclass('SHUNT_POWER') && (A.intersectsCourtyard('Q2') || A.intersectsCourtyard('Q4') || A.intersectsCourtyard('Q6') || A.intersectsCourtyard('R47') || A.intersectsCourtyard('R48') || A.intersectsCourtyard('R49'))")
+    (constraint track_width (min 0.6mm) (opt 2.0mm)))
+
+(rule "Low-side power to shunt via"
+    (condition "A.Type == 'Via' && A.hasNetclass('SHUNT_POWER') && (A.intersectsCourtyard('Q2') || A.intersectsCourtyard('Q4') || A.intersectsCourtyard('Q6') || A.intersectsCourtyard('R47') || A.intersectsCourtyard('R48') || A.intersectsCourtyard('R49'))")
+    (constraint via_diameter (min 0.8mm) (opt 0.8mm))
+    (constraint hole_size (min 0.4mm) (opt 0.4mm)))
+
+(rule "Buck diode and inductor"
+    (condition "A.hasNetclass('BUCK_SW') && (A.intersectsCourtyard('D4') || A.intersectsCourtyard('L1'))")
+    (constraint track_width (min 0.30mm) (opt 0.30mm)))
+
+(rule "Keep analog and Kelvin away from switching traces"
+    (condition "A.Type != 'Pad' && B.Type != 'Pad' && (((A.hasNetclass('ADC_ANALOG') || A.hasNetclass('KELVIN')) && (B.hasNetclass('MOTOR_PHASE') || B.hasNetclass('BUCK_SW'))) || ((B.hasNetclass('ADC_ANALOG') || B.hasNetclass('KELVIN')) && (A.hasNetclass('MOTOR_PHASE') || A.hasNetclass('BUCK_SW'))))")
+    (constraint clearance (min 0.35mm)))
+
+# The DRV8323 VM/VDRAIN pads pass next to FB at the corner of its QFN.
+# Maintain 0.20 mm between those existing lands. The 24V routing clearance is unchanged.
+(rule "DRV8323 VS and FB pad clearance"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('IC1') && B.memberOfFootprint('IC1') && ((A.NetName == 'VS' && B.NetName == 'Net-(IC1-FB)') || (B.NetName == 'VS' && A.NetName == 'Net-(IC1-FB)'))")
+    (constraint clearance (min 0.20mm)))
